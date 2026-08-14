@@ -49,17 +49,9 @@ ACTION_MAP = {
 
 
 def is_pet_running() -> bool:
-    """Checks if UDP port 18999 is actively listening."""
-    import socket
-    test_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    try:
-        # On Windows, trying to bind to the same port will fail if already listening
-        test_sock.bind(("127.0.0.1", PORT))
-        test_sock.close()
-        return False  # Bind succeeded -> Port was free -> Pet is NOT running
-    except OSError:
-        test_sock.close()
-        return True   # Bind failed -> Port in use -> Pet IS running
+    """Checks if active pet instance is running via system-wide Named Mutex."""
+    from antigravity_pet.utils.single_instance import is_pet_instance_running
+    return is_pet_instance_running()
 
 
 def spawn_pet_daemon():

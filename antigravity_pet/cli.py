@@ -37,6 +37,13 @@ from antigravity_pet.utils.hooks_installer import (
 
 def cmd_start(args: argparse.Namespace) -> None:
     """Launches the desktop pet window."""
+    from antigravity_pet.utils.single_instance import SingleInstanceGuard
+    
+    # 系统级全局互斥单例锁：若已有宠物运行，直接退出，严格保证桌面仅有 1 只宠物
+    guard = SingleInstanceGuard()
+    if guard.is_already_running():
+        return
+
     from antigravity_pet.ui.window import MainWindow
 
     config = ConfigManager()
