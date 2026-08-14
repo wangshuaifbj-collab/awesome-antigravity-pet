@@ -21,18 +21,12 @@ English | [简体中文](./docs/zh-CN/README.md)
 
 ---
 
-## 📑 Table of Contents
+## 📸 Live Showcase
 
-- [✨ Highlights](#-highlights)
-- [🏗️ System Architecture](#️-system-architecture)
-- [⚡ Quick Start & Installation](#-quick-start--installation)
-- [🎯 Three Ways to Launch](#-three-ways-to-launch)
-- [⏸️ Pausing & Resuming (Do Not Disturb)](#️-pausing--resuming-do-not-disturb)
-- [🌟 Top Characters Quick-Switch Table](#-top-characters-quick-switch-table)
-- [🎮 Mouse & Context Menu Interactions](#-mouse--context-menu-interactions)
-- [⚙️ Configuration & Customization](#️-configuration--customization)
-- [💖 Acknowledgments & Credits](#-acknowledgments--credits)
-- [📄 License](#-license)
+<div align="center">
+  <img src="./assets/screenshots/antigravity-pet-in-action.png" alt="Awesome Antigravity Pet In Action" width="92%">
+  <p><em>✨ Firefly companion floating gracefully in Google Antigravity IDE, reacting in real-time to your coding flow.</em></p>
+</div>
 
 ---
 
