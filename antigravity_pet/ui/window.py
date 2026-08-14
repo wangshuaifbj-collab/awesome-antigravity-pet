@@ -90,8 +90,8 @@ class MainWindow(QWidget):
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground, True)
         self.setAttribute(Qt.WidgetAttribute.WA_NoSystemBackground, True)
 
-        width = 170
-        height = 210
+        width = 220
+        height = 215
         self.resize(width, height)
 
         screen = QApplication.primaryScreen().geometry()

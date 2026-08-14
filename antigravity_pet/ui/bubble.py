@@ -66,14 +66,18 @@ class SpeechBubble:
         box_w = max(60.0, text_w + padding_x * 2.0)
         box_h = text_h + padding_y * 2.0
 
-        bx = target_x - box_w / 2.0
+        # 获取可用画布宽度，严格约束气泡在窗口可视安全区内
+        max_w = float(painter.device().width()) if painter.device() else 220.0
+        box_w = min(box_w, max_w - 12.0)
+        bx = max(6.0, min(max_w - box_w - 6.0, target_x - box_w / 2.0))
         by = target_y - box_h - 6.0
 
         # Bubble shape with downward pointing tail
         path = QPainterPath()
         path.addRoundedRect(QRectF(bx, by, box_w, box_h), 10.0, 10.0)
 
-        tail_cx = target_x
+        # 小尾巴始终对准角色头顶并保持在气泡框底边安全范围内
+        tail_cx = max(bx + 12.0, min(bx + box_w - 12.0, target_x))
         tail = QPainterPath()
         tail.moveTo(tail_cx - 5.0, by + box_h)
         tail.lineTo(tail_cx, by + box_h + 6.0)
