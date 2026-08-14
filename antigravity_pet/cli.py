@@ -7,6 +7,7 @@ Entry point for CLI commands: start, list, switch, install-hooks, send-signal.
 import os
 import sys
 import argparse
+from typing import Optional
 from pathlib import Path
 
 # Safe stdout/stderr for pythonw (headless/detached background execution)
@@ -232,7 +233,59 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def find_matching_pet(query: str) -> Optional[str]:
+    """Finds the best matching pet ID for a given query (ID, slug, English or Chinese name)."""
+    catalog = PetCatalog()
+    q = query.strip().lower()
+    
+    # 1. Exact ID
+    if catalog.get(query):
+        return query
+    
+    # 2. Slug match (e.g. 'acheron' -> 'acheron--lingxiaotian')
+    for pid in catalog.pets:
+        slug = pid.split("--")[0].lower()
+        if slug == q or pid.lower() == q:
+            return pid
+
+    # 3. Exact name match (e.g. '黄泉', '流萤', 'Furina')
+    for pid, p in catalog.pets.items():
+        if (p.name_zh and p.name_zh.lower() == q) or (p.name_en and p.name_en.lower() == q) or p.display_name.lower() == q:
+            return pid
+
+    # 4. Substring match
+    for pid, p in catalog.pets.items():
+        if q in pid.lower() or (p.name_zh and q in p.name_zh.lower()) or (p.name_en and q in p.name_en.lower()):
+            return pid
+
+    return None
+
+
 def main() -> None:
+    # 智能快捷角色直启/热切换支持 (例如: pet acheron, pet furina, pet 黄泉)
+    if len(sys.argv) == 2 and not sys.argv[1].startswith("-"):
+        candidate = sys.argv[1].lower()
+        known_subcommands = {"start", "list", "switch", "enable", "disable", "autostart", "install-hooks", "send-signal"}
+        if candidate not in known_subcommands:
+            matched_id = find_matching_pet(candidate)
+            if matched_id:
+                from antigravity_pet.utils.single_instance import is_pet_instance_running
+                config = ConfigManager()
+                config.set("pet_id", matched_id)
+                config.set("enabled", True)
+                
+                if is_pet_instance_running():
+                    # 宠物已在运行 -> 实时热换装
+                    catalog = PetCatalog()
+                    pname = catalog.get_display_name(matched_id)
+                    send_ipc_message("IDLE", f"已换装为: {pname} 💖", duration_ms=2200, port=config.port)
+                    print(f"✨ 已为运行中的桌面宠物实时换装: {pname} ({matched_id})")
+                    return
+                else:
+                    # 宠物未运行 -> 直接以该角色启动
+                    cmd_start(argparse.Namespace(pet=matched_id, port=None, size=None))
+                    return
+
     parser = build_parser()
     args = parser.parse_args()
 

@@ -20,5 +20,7 @@ antigravity_pet/ui/__init__.py
 antigravity_pet/ui/bubble.py
 antigravity_pet/ui/window.py
 antigravity_pet/utils/hooks_installer.py
+antigravity_pet/utils/host_watcher.py
 antigravity_pet/utils/notify.py
+antigravity_pet/utils/single_instance.py
 tests/test_engine.py
