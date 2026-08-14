@@ -153,25 +153,28 @@ class MainWindow(QWidget):
         """Receives Agent events from Antigravity."""
         st = status.upper()
         if st == "CELEBRATE" or st == "DONE":
+            # 任务交付：欢跃跳跃 3 秒后自动回到待机
             self.set_action(
                 PetAction.JUMPING,
                 msg=msg or self.i18n.t("task_completed"),
-                duration_ms=duration_ms,
+                duration_ms=max(2500, duration_ms),
                 auto_decay=True
             )
         elif st == "THINKING":
+            # 思考中：持续保持思考动作，直到收到下一步指令或完成
             self.set_action(
                 PetAction.WAITING,
                 msg=msg or self.i18n.t("thinking"),
-                duration_ms=duration_ms,
-                auto_decay=True
+                duration_ms=2500,
+                auto_decay=False
             )
         elif st == "CODING":
+            # 编写代码中：持续保持专注打字审查动作
             self.set_action(
                 PetAction.REVIEW,
                 msg=msg or self.i18n.t("coding"),
-                duration_ms=duration_ms,
-                auto_decay=True
+                duration_ms=2500,
+                auto_decay=False
             )
         elif st == "FAILED":
             self.set_action(
