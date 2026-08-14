@@ -120,6 +120,39 @@ def cmd_send_signal(args: argparse.Namespace) -> None:
         print(f"❌ Failed to send signal")
 
 
+def cmd_autostart(args: argparse.Namespace) -> None:
+    """Configures Windows autostart at user login."""
+    if sys.platform != "win32":
+        print("Autostart is currently only supported on Windows.")
+        return
+    import winreg
+    key_path = r"Software\Microsoft\Windows\CurrentVersion\Run"
+    app_name = "AntigravityPet"
+    vbs_path = Path(__file__).resolve().parent.parent / "双击启动宠物.vbs"
+    cmd_str = f'wscript.exe "{vbs_path}"'
+
+    try:
+        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, key_path, 0, winreg.KEY_ALL_ACCESS)
+        if args.action == "enable":
+            winreg.SetValueEx(key, app_name, 0, winreg.REG_SZ, cmd_str)
+            print("✅ 成功开启开机自启！每次开机后小宠物将自动常驻桌面。")
+        elif args.action == "disable":
+            try:
+                winreg.DeleteValue(key, app_name)
+                print("❌ 已关闭开机自启。")
+            except FileNotFoundError:
+                print("ℹ️ 当前未开启开机自启。")
+        elif args.action == "status":
+            try:
+                val, _ = winreg.QueryValueEx(key, app_name)
+                print(f"✅ 当前已开启开机自启: {val}")
+            except FileNotFoundError:
+                print("ℹ️ 当前未开启开机自启。")
+        winreg.CloseKey(key)
+    except Exception as e:
+        print(f"[Error configuring autostart]: {e}")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="antigravity-pet",
@@ -144,6 +177,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_switch = subparsers.add_parser("switch", help="Switch pet character")
     p_switch.add_argument("pet_id", help="Target pet ID")
     p_switch.set_defaults(func=cmd_switch)
+
+    # autostart
+    p_auto = subparsers.add_parser("autostart", help="Configure Windows startup launch")
+    p_auto.add_argument("action", choices=["enable", "disable", "status"], default="status", nargs="?", help="Action: enable, disable, status")
+    p_auto.set_defaults(func=cmd_autostart)
 
     # install-hooks
     p_hooks = subparsers.add_parser("install-hooks", help="Install Antigravity lifecycle hooks")

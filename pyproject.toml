@@ -18,6 +18,8 @@ dependencies = [
 
 [project.scripts]
 antigravity-pet = "antigravity_pet.cli:main"
+apet = "antigravity_pet.cli:main"
+pet = "antigravity_pet.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

@@ -5,6 +5,7 @@ antigravity_pet/__init__.py
 antigravity_pet/__main__.py
 antigravity_pet/cli.py
 antigravity_pet/config.py
+antigravity_pet/i18n.py
 antigravity_pet.egg-info/PKG-INFO
 antigravity_pet.egg-info/SOURCES.txt
 antigravity_pet.egg-info/dependency_links.txt
