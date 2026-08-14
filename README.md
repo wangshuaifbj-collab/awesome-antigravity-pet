@@ -105,7 +105,9 @@ pip install -e .
 pet install-hooks
 ```
 
-> ✨ **Done!** Once dependencies and hooks are installed, **restart Antigravity IDE (or send any chat message to trigger reasoning), and your desktop companion will wake up automatically!**
+> ✨ **Done!** Once dependencies and hooks are installed, please **restart Antigravity IDE**.
+> 
+> 📌 **Special Note (Auto-Wake Mechanism)**: After opening Antigravity, your desktop companion will **automatically wake up upon your first conversation/prompt trigger** and stay resident on your desktop. Afterwards, it seamlessly syncs in real-time without needing any manual management!
 
 ---
 

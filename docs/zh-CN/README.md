@@ -106,7 +106,9 @@ pip install -e . -i https://pypi.tuna.tsinghua.edu.cn/simple
 pet install-hooks
 ```
 
-> ✨ **配置完成**：依赖与钩子安装成功后，**重启 Antigravity IDE（或在聊天中发送任意消息触发交互），桌宠就会自动唤起并实时联动！**
+> ✨ **配置完成**：依赖与钩子安装成功后，请**重启 Antigravity IDE**。
+> 
+> 📌 **特别注意（自动唤醒机制）**：打开 Antigravity 后，小宠物**只会在你首次发送消息/发起对话时自动唤起**并常驻桌面。之后全程实时联动，你无需做任何手动管理！
 
 ---
 
