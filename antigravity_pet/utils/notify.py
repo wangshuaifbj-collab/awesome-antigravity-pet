@@ -38,7 +38,7 @@ ACTION_MAP = {
     "failed": {
         "status": "FAILED",
         "message": "",
-        "duration_ms": 5000,
+        "duration_ms": 3000,
     },
     "idle": {
         "status": "IDLE",
@@ -103,7 +103,7 @@ def main():
             payload_info = {
                 "status": "FAILED",
                 "message": "执行遇到异常报错了... ❌",
-                "duration_ms": 3500,
+                "duration_ms": 3000,
             }
         else:
             # 正常工具执行完成，保持当前状态，输出空 JSON 满足钩子协议
@@ -114,7 +114,7 @@ def main():
         payload_info = {
             "status": "FAILED",
             "message": "任务遇到异常中断 ⚠️",
-            "duration_ms": 3500,
+            "duration_ms": 3000,
         }
     else:
         payload_info = ACTION_MAP.get(target, ACTION_MAP["done"]).copy()

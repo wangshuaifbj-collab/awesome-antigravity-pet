@@ -209,7 +209,7 @@ class MainWindow(QWidget):
                 auto_decay=False
             )
         elif st == "FAILED":
-            dur = max(6000, duration_ms)
+            dur = max(3000, duration_ms)
             self.error_lock_until = time.time() + (dur / 1000.0)
             final_msg = self.i18n.t("failed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
@@ -354,7 +354,7 @@ class MainWindow(QWidget):
             ]
             for dname, act_type, demo_msg in demos:
                 act = QAction(dname, demo_menu)
-                act.triggered.connect(lambda checked=False, at=act_type, dm=demo_msg: self.set_action(at, msg=dm, duration_ms=5000, auto_decay=True))
+                act.triggered.connect(lambda checked=False, at=act_type, dm=demo_msg: self.set_action(at, msg=dm, duration_ms=3000, auto_decay=True))
                 demo_menu.addAction(act)
 
             # 4. 语言切换
