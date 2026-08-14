@@ -226,8 +226,8 @@ class MainWindow(QWidget):
             actual_y = self.height() - scaled_pm.height() - 10.0
             painter.drawPixmap(int(actual_x), int(actual_y), scaled_pm)
 
-            # 3. 对话气泡 (贴合角色头顶上方，间距自然适中)
-            self.bubble.draw(painter=painter, target_x=cx, target_y=actual_y + 14.0)
+            # 3. 对话气泡 (向上抬高适度间距，不遮挡发箍与头饰)
+            self.bubble.draw(painter=painter, target_x=cx, target_y=actual_y - 2.0)
 
     # ---------------- Mouse Events ----------------
     def enterEvent(self, event) -> None:
