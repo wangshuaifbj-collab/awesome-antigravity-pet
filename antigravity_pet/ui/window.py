@@ -24,14 +24,16 @@ from antigravity_pet.engine.fsm import PetAction, PetState, STATE_TO_ACTION
 from antigravity_pet.engine.spritesheet import SpriteSheet, SpritePlayer
 from antigravity_pet.ipc.server import IPCServer
 from antigravity_pet.ui.bubble import SpeechBubble
+from antigravity_pet.i18n import I18n
 
 
 class MainWindow(QWidget):
-    """Transparent frameless desktop pet window."""
+    """Transparent frameless desktop pet window with full i18n localization."""
 
     def __init__(self, config: Optional[ConfigManager] = None):
         super().__init__()
         self.config = config or ConfigManager()
+        self.i18n = I18n(self.config.get("language", "auto"))
         self.catalog = PetCatalog()
 
         # 1. Window setup
@@ -68,10 +70,10 @@ class MainWindow(QWidget):
         self.decay_timer.timeout.connect(self._on_decay_timeout)
 
         # Welcome greeting
-        pname = self.catalog.get_display_name(self.current_pet_id)
-        self.bubble.show(f"{pname} 已就绪！✨", duration_ms=2500)
+        pname = self.catalog.get_display_name(self.current_pet_id, self.i18n.lang)
+        self.bubble.show(self.i18n.t("ready", name=pname), duration_ms=2500)
 
-    def _init_window_flags(self) -> None:
+    def _init_window_flags() -> None:
         flags = (
             Qt.WindowType.FramelessWindowHint
             | Qt.WindowType.Tool
@@ -94,7 +96,6 @@ class MainWindow(QWidget):
         """Loads and switches to a specific pet package."""
         pinfo = self.catalog.get(pet_id)
         if not pinfo:
-            # Fallback to first available pet if not found
             all_pets = self.catalog.list_all()
             if not all_pets:
                 return False
@@ -118,9 +119,16 @@ class MainWindow(QWidget):
     def switch_pet(self, pet_id: str) -> None:
         """User action to switch pet."""
         if self._load_pet(pet_id):
-            pname = self.catalog.get_display_name(pet_id)
-            self.bubble.show(f"已切换: {pname} 💖", duration_ms=2200)
+            pname = self.catalog.get_display_name(pet_id, self.i18n.lang)
+            self.bubble.show(self.i18n.t("switched", name=pname), duration_ms=2200)
             self.update()
+
+    def set_language(self, lang_code: str) -> None:
+        self.i18n.set_language(lang_code)
+        self.config.set("language", lang_code)
+        pname = self.catalog.get_display_name(self.current_pet_id, self.i18n.lang)
+        self.bubble.show(self.i18n.t("ready", name=pname), duration_ms=2000)
+        self.update()
 
     def set_action(self, action: PetAction, msg: Optional[str] = None, duration_ms: int = 2500, auto_decay: bool = True) -> None:
         if self.player:
@@ -147,28 +155,28 @@ class MainWindow(QWidget):
         if st == "CELEBRATE" or st == "DONE":
             self.set_action(
                 PetAction.JUMPING,
-                msg=msg or "✨ 任务已完成！请查收~ 🚀",
+                msg=msg or self.i18n.t("task_completed"),
                 duration_ms=duration_ms,
                 auto_decay=True
             )
         elif st == "THINKING":
             self.set_action(
                 PetAction.WAITING,
-                msg=msg or "构思最优方案中... 💡",
+                msg=msg or self.i18n.t("thinking"),
                 duration_ms=duration_ms,
                 auto_decay=True
             )
         elif st == "CODING":
             self.set_action(
                 PetAction.REVIEW,
-                msg=msg or "代码编写中... 💻",
+                msg=msg or self.i18n.t("coding"),
                 duration_ms=duration_ms,
                 auto_decay=True
             )
         elif st == "FAILED":
             self.set_action(
                 PetAction.FAILED,
-                msg=msg or "遇到异常... ⚠️",
+                msg=msg or self.i18n.t("failed"),
                 duration_ms=duration_ms,
                 auto_decay=True
             )
@@ -181,7 +189,6 @@ class MainWindow(QWidget):
             changed = self.player.update(33, is_hovered=self.is_hovered)
             was_visible = self.bubble.is_visible
             self.bubble.update()
-            # 关键：当帧改变、气泡处于可见动画中，或气泡刚刚变为不可见时，强制触发最终擦除刷新
             if changed or self.bubble.is_visible or was_visible:
                 self.update()
 
@@ -195,7 +202,6 @@ class MainWindow(QWidget):
         painter.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
 
         cx = self.width() / 2.0
-        # Pet size on screen
         draw_w = 120
         draw_h = 130
         draw_x = cx - draw_w / 2.0
@@ -216,18 +222,17 @@ class MainWindow(QWidget):
                 Qt.AspectRatioMode.KeepAspectRatio,
                 Qt.TransformationMode.SmoothTransformation,
             )
-            # Center horizontally inside draw rect
             actual_x = cx - scaled_pm.width() / 2.0
             actual_y = self.height() - scaled_pm.height() - 10.0
             painter.drawPixmap(int(actual_x), int(actual_y), scaled_pm)
 
-        # 3. 对话气泡 (定位于角色头顶上方 30px，绝不遮挡角色面孔)
+        # 3. 对话气泡
         self.bubble.draw(painter=painter, target_x=cx, target_y=35.0)
 
     # ---------------- Mouse Events ----------------
     def enterEvent(self, event) -> None:
         self.is_hovered = True
-        self.set_action(PetAction.WAVING, msg="嗨~ ✨", duration_ms=1800, auto_decay=True)
+        self.set_action(PetAction.WAVING, msg=self.i18n.t("wave_greeting"), duration_ms=1800, auto_decay=True)
         self.update()
 
     def leaveEvent(self, event) -> None:
@@ -239,7 +244,7 @@ class MainWindow(QWidget):
         if event.button() == Qt.MouseButton.LeftButton:
             self.is_dragging = True
             self.drag_start_pos = event.globalPosition().toPoint() - self.frameGeometry().topLeft()
-            self.set_action(PetAction.RUNNING, msg="起飞咯~ 🐾", duration_ms=2000, auto_decay=False)
+            self.set_action(PetAction.RUNNING, msg=self.i18n.t("drag_start"), duration_ms=2000, auto_decay=False)
             event.accept()
 
     def mouseMoveEvent(self, event: QMouseEvent) -> None:
@@ -251,7 +256,7 @@ class MainWindow(QWidget):
     def mouseReleaseEvent(self, event: QMouseEvent) -> None:
         if event.button() == Qt.MouseButton.LeftButton:
             self.is_dragging = False
-            self.set_action(PetAction.IDLE, msg="安全着陆！🚀", duration_ms=1800, auto_decay=True)
+            self.set_action(PetAction.IDLE, msg=self.i18n.t("drag_end"), duration_ms=1800, auto_decay=True)
             event.accept()
 
     def mouseDoubleClickEvent(self, event: QMouseEvent) -> None:
@@ -268,61 +273,76 @@ class MainWindow(QWidget):
             menu = QMenu(self)
 
             # 1. 热门精选角色
-            feat_menu = menu.addMenu("🌟 精选热门角色")
+            feat_menu = menu.addMenu(self.i18n.t("menu_featured"))
             for p in self.catalog.get_featured():
-                act = QAction(f"{p.display_name} ({p.id.split('--')[0]})", feat_menu)
+                pname = p.get_name(self.i18n.lang)
+                act = QAction(f"{pname} ({p.id.split('--')[0]})", feat_menu)
                 act.triggered.connect(lambda checked=False, pid=p.id: self.switch_pet(pid))
                 feat_menu.addAction(act)
 
             # 2. 全量 193 款宠物库 (按首字母分组)
-            all_menu = menu.addMenu("📚 全量宠物图鉴 (193款)")
+            all_menu = menu.addMenu(self.i18n.t("menu_all"))
             all_pets = sorted(self.catalog.list_all(), key=lambda x: x.id)
             
-            # 分组 A-E, F-J, K-O, P-T, U-Z
             groups = {
-                "A - E 角色": [p for p in all_pets if p.id[0].upper() in "ABCDE"],
-                "F - J 角色": [p for p in all_pets if p.id[0].upper() in "FGHIJ"],
-                "K - O 角色": [p for p in all_pets if p.id[0].upper() in "KLMNO"],
-                "P - T 角色": [p for p in all_pets if p.id[0].upper() in "PQRST"],
-                "U - Z 角色": [p for p in all_pets if p.id[0].upper() in "UVWXYZ"],
+                "A - E": [p for p in all_pets if p.id[0].upper() in "ABCDE"],
+                "F - J": [p for p in all_pets if p.id[0].upper() in "FGHIJ"],
+                "K - O": [p for p in all_pets if p.id[0].upper() in "KLMNO"],
+                "P - T": [p for p in all_pets if p.id[0].upper() in "PQRST"],
+                "U - Z": [p for p in all_pets if p.id[0].upper() in "UVWXYZ"],
             }
             for gname, plist in groups.items():
                 if plist:
                     gmenu = all_menu.addMenu(f"{gname} ({len(plist)})")
                     for p in plist:
-                        act = QAction(f"{p.display_name} ({p.id.split('--')[0]})", gmenu)
+                        pname = p.get_name(self.i18n.lang)
+                        act = QAction(f"{pname} ({p.id.split('--')[0]})", gmenu)
                         act.triggered.connect(lambda checked=False, pid=p.id: self.switch_pet(pid))
                         gmenu.addAction(act)
 
             menu.addSeparator()
 
             # 3. 动作演示
-            demo_menu = menu.addMenu("🎬 动作演示")
+            demo_menu = menu.addMenu(self.i18n.t("menu_demos"))
             demos = [
-                ("👋 招手打招呼 (Waving)", PetAction.WAVING, "嗨嗨！我是你的桌面伴侣~ ✨"),
-                ("🎉 跳跃欢庆 (Jumping)", PetAction.JUMPING, "太棒了！任务圆满交付！🎊"),
-                ("🧠 思考构思 (Waiting)", PetAction.WAITING, "正在探索最优架构... 💡"),
-                ("💻 专注审查 (Review)", PetAction.REVIEW, "键盘敲烂，代码飞速成型！💻"),
-                ("🏃 奔跑移动 (Running)", PetAction.RUNNING, "快马加鞭赶工中~ 💨"),
-                ("⚠️ 异常报错 (Failed)", PetAction.FAILED, "咦？遇到了一点小 Bug 🔧"),
+                (self.i18n.t("demo_waving"), PetAction.WAVING, self.i18n.t("demo_msg_waving")),
+                (self.i18n.t("demo_jumping"), PetAction.JUMPING, self.i18n.t("demo_msg_jumping")),
+                (self.i18n.t("demo_waiting"), PetAction.WAITING, self.i18n.t("demo_msg_waiting")),
+                (self.i18n.t("demo_review"), PetAction.REVIEW, self.i18n.t("demo_msg_review")),
+                (self.i18n.t("demo_running"), PetAction.RUNNING, self.i18n.t("demo_msg_running")),
+                (self.i18n.t("demo_failed"), PetAction.FAILED, self.i18n.t("demo_msg_failed")),
             ]
             for dname, act_type, demo_msg in demos:
                 act = QAction(dname, demo_menu)
                 act.triggered.connect(lambda checked=False, at=act_type, dm=demo_msg: self.set_action(at, msg=dm, duration_ms=2500, auto_decay=True))
                 demo_menu.addAction(act)
 
+            # 4. 语言切换
+            lang_menu = menu.addMenu(self.i18n.t("menu_lang"))
+            act_zh = QAction("🇨🇳 简体中文", lang_menu)
+            act_zh.triggered.connect(lambda: self.set_language("zh"))
+            lang_menu.addAction(act_zh)
+
+            act_en = QAction("🇺🇸 English", lang_menu)
+            act_en.triggered.connect(lambda: self.set_language("en"))
+            lang_menu.addAction(act_en)
+
+            act_auto = QAction("⚙️ 自动检测 (Auto)", lang_menu)
+            act_auto.triggered.connect(lambda: self.set_language("auto"))
+            lang_menu.addAction(act_auto)
+
             menu.addSeparator()
 
-            # 4. 专注静止开关
-            toggle_text = "✨ 切换为动态呼吸待机" if self.config.static_idle else "🤫 切换为专注绝对静止"
+            # 5. 专注静止开关
+            toggle_text = self.i18n.t("menu_static_toggle_off") if self.config.static_idle else self.i18n.t("menu_static_toggle_on")
             static_act = QAction(toggle_text, menu)
             static_act.triggered.connect(self._toggle_static_mode)
             menu.addAction(static_act)
 
             menu.addSeparator()
 
-            # 5. 退出
-            exit_act = QAction("❌ 退出伴侣", menu)
+            # 6. 退出
+            exit_act = QAction(self.i18n.t("menu_exit"), menu)
             exit_act.triggered.connect(QApplication.instance().quit)
             menu.addAction(exit_act)
 
@@ -335,5 +355,5 @@ class MainWindow(QWidget):
         self.config.set("static_idle", new_val)
         if self.player:
             self.player.is_static_mode = new_val
-        msg = "已开启专注静止模式 🤫" if new_val else "已恢复生动微呼吸 ✨"
+        msg = self.i18n.t("static_on") if new_val else self.i18n.t("static_off")
         self.bubble.show(msg, duration_ms=2000)
