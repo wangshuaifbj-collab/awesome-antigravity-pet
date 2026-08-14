@@ -155,7 +155,7 @@ def cmd_autostart(args: argparse.Namespace) -> None:
     import winreg
     key_path = r"Software\Microsoft\Windows\CurrentVersion\Run"
     app_name = "AntigravityPet"
-    vbs_path = Path(__file__).resolve().parent.parent / "双击启动宠物.vbs"
+    vbs_path = Path(__file__).resolve().parent.parent / "start-pet.vbs"
     cmd_str = f'wscript.exe "{vbs_path}"'
 
     try:
