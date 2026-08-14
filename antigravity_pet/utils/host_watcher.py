@@ -7,13 +7,18 @@ If Antigravity exits, automatically triggers pet graceful shutdown.
 
 import sys
 import ctypes
+import subprocess
 from ctypes import wintypes
 
 
 def is_antigravity_active() -> bool:
     """Returns True if at least one Antigravity process is running."""
     if sys.platform != "win32":
-        return True
+        try:
+            res = subprocess.run(["pgrep", "-i", "antigravity"], capture_output=True)
+            return res.returncode == 0
+        except Exception:
+            return True
 
     TH32CS_SNAPPROCESS = 0x00000002
 

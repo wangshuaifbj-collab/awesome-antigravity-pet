@@ -144,6 +144,9 @@ def cmd_disable(args: argparse.Namespace) -> None:
     if sys.platform == "win32":
         import subprocess
         subprocess.run(["powershell", "-Command", "Stop-Process -Name pythonw -Force -ErrorAction SilentlyContinue"], capture_output=True)
+    else:
+        import subprocess
+        subprocess.run(["pkill", "-f", "antigravity_pet"], capture_output=True)
     print("❌ 桌面宠物已停用并退出。后续在 Antigravity 交互时将不会自动拉起，直到再次运行 'pet enable' 或双击启动。")
 
 
