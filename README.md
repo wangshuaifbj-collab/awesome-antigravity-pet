@@ -40,7 +40,6 @@ English | [简体中文](./docs/zh-CN/README.md)
   - **Idle**: Elegant static standing to keep your workspace distraction-free.
 - 🪟 **Pixel-Perfect Windows Transparency**: Hardware-accelerated PyQt6 layered rendering, zero black borders, zero ghosting artifacts, DirectWrite color Emoji support, and dynamic head-anchored speech bubbles.
 - ⚡ **Zero-Touch Auto-Wake & Auto-Exit**: Automatically wakes up when you talk to Antigravity; automatically bids farewell and exits when you close the IDE.
-- 🛡️ **System-Wide Single Instance Mutex**: Windows Named Mutex lock guarantees strictly **one** companion instance on your screen with zero duplicate race conditions.
 - 🌐 **Full Bilingual Localization (i18n)**: Automatically detects system locale (Chinese/English) with instant right-click language switching.
 
 ---
@@ -80,6 +79,18 @@ flowchart TD
 
 ---
 
+## 📋 Prerequisites
+
+- **Python**: `>= 3.9` (Python 3.11 or 3.12 recommended, **Node.js is NOT required for running pets**)
+- If Python is not installed yet on your machine, install it quickly:
+  ```powershell
+  # Windows users can install via winget
+  winget install Python.Python.3.12
+  ```
+  Or download the installer from [python.org](https://www.python.org/downloads/) (*be sure to check `Add python.exe to PATH` during setup*).
+
+---
+
 ## ⚡ Quick Start & Installation
 
 ```bash
@@ -87,14 +98,14 @@ flowchart TD
 git clone https://github.com/wangshuaifbj-collab/awesome-antigravity-pet.git
 cd awesome-antigravity-pet
 
-# 2. Install in editable mode
+# 2. Install project dependencies and CLI tools
 pip install -e .
 
 # 3. Auto-register Antigravity lifecycle hooks (One-time setup)
 pet install-hooks
 ```
 
-That's it! Everything is configured.
+> ✨ **Done!** Once dependencies and hooks are installed, **restart Antigravity IDE (or send any chat message to trigger reasoning), and your desktop companion will wake up automatically!**
 
 ---
 

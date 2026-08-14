@@ -41,7 +41,6 @@
 | 🪟 **原生 Windows 透明悬浮窗** | 硬件加速 PyQt6 分层绘制，0 黑色边框、0 脏矩形残影，支持 DirectWrite 彩色 Emoji 与贴头发顶气泡。 |
 | ⚡ **随 IDE 智能启闭与自愈拉起** | 打开 Antigravity 聊天自动唤醒；关闭 Antigravity 挥手告别并优雅退出，不占系统后台。 |
 | 🤫 **专注免打扰模式** | 平时待机保持绝对优雅静止，不分散开发心流；鼠标悬停时激活生动招手与微呼吸。 |
-| 🛡️ **全局互斥锁单例保障** | Windows Named Mutex 互斥锁，严格保障桌面有且仅有 1 个宠物实例，彻底杜绝并发重影。 |
 | 🌐 **全自动多语言中英自适应** | 自动检测系统语言，支持右键自由切换中英文界面。 |
 
 ---
@@ -81,6 +80,18 @@ flowchart TD
 
 ---
 
+## 📋 环境要求
+
+- **Python**: `>= 3.9`（推荐 Python 3.11 或 3.12，**运行桌宠无需 Node.js 环境**）
+- 若系统尚未安装 Python，可通过以下方式快速安装：
+  ```powershell
+  # Windows 用户可通过 winget 一键安装
+  winget install Python.Python.3.12
+  ```
+  或前往 [Python 官网](https://www.python.org/downloads/) 下载安装包（*安装时务必勾选 `Add python.exe to PATH`*）。
+
+---
+
 ## ⚡ 极速安装与配置
 
 ```bash
@@ -88,14 +99,14 @@ flowchart TD
 git clone https://github.com/wangshuaifbj-collab/awesome-antigravity-pet.git
 cd awesome-antigravity-pet
 
-# 2. 以可编辑模式安装环境与全局短别名
-pip install -e .
+# 2. 安装项目依赖与命令行工具（若网络较慢推荐使用国内镜像源加速）
+pip install -e . -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-# 3. 一键注入 Antigravity 全生命周期钩子（仅需执行一次）
+# 3. 注册 Antigravity 全生命周期钩子（仅需执行一次）
 pet install-hooks
 ```
 
-安装完成后即可正常使用！
+> ✨ **配置完成**：依赖与钩子安装成功后，**重启 Antigravity IDE（或在聊天中发送任意消息触发交互），桌宠就会自动唤起并实时联动！**
 
 ---
 
