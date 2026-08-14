@@ -38,7 +38,7 @@ ACTION_MAP = {
     "failed": {
         "status": "FAILED",
         "message": "",
-        "duration_ms": 2500,
+        "duration_ms": 5000,
     },
     "idle": {
         "status": "IDLE",
@@ -116,8 +116,20 @@ def main():
     else:
         payload_info = ACTION_MAP.get(target, ACTION_MAP["done"]).copy()
 
+    # 解析传入的自定义消息与时长
     if len(sys.argv) > 2:
-        payload_info["message"] = " ".join(sys.argv[2:])
+        args = sys.argv[2:]
+        duration = None
+        if len(args) > 1 and args[-1].isdigit():
+            duration = int(args[-1])
+            args = args[:-1]
+        elif len(args) == 1 and args[0].isdigit():
+            duration = int(args[0])
+            args = []
+        if args:
+            payload_info["message"] = " ".join(args)
+        if duration is not None:
+            payload_info["duration_ms"] = duration
 
     from antigravity_pet.config import ConfigManager
     config = ConfigManager()
