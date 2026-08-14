@@ -164,36 +164,44 @@ class MainWindow(QWidget):
             QTimer.singleShot(800, QApplication.instance().quit)
 
     def _handle_ipc_message(self, status: str, msg: str, duration_ms: int) -> None:
-        """Receives Agent events from Antigravity."""
+        """Receives Agent events from Antigravity and dynamically localizes bubble text."""
         st = status.upper()
-        if st == "CELEBRATE" or st == "DONE":
-            # 任务交付：欢跃跳跃 3 秒后自动回到待机
+        default_zh_messages = {
+            "构思最优方案中... 💡", "正在探索最优架构... 💡",
+            "代码编写中... 💻", "键盘敲烂，代码飞速成型！💻",
+            "✨ 任务已完成！请查收~ 🚀", "太棒了！交付完成！🎉", "太棒了！任务圆满交付！🎊",
+            "遇到一点小挫折... ⚠️", "遇到异常... ⚠️", "咦？遇到了一点小 Bug 🔧"
+        }
+
+        if st in ("CELEBRATE", "DONE"):
+            final_msg = self.i18n.t("task_completed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.JUMPING,
-                msg=msg or self.i18n.t("task_completed"),
+                msg=final_msg,
                 duration_ms=max(2500, duration_ms),
                 auto_decay=True
             )
         elif st == "THINKING":
-            # 思考中：持续保持思考动作，直到收到下一步指令或完成
+            final_msg = self.i18n.t("thinking") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.WAITING,
-                msg=msg or self.i18n.t("thinking"),
+                msg=final_msg,
                 duration_ms=2500,
                 auto_decay=False
             )
         elif st == "CODING":
-            # 编写代码中：持续保持专注打字审查动作
+            final_msg = self.i18n.t("coding") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.REVIEW,
-                msg=msg or self.i18n.t("coding"),
+                msg=final_msg,
                 duration_ms=2500,
                 auto_decay=False
             )
         elif st == "FAILED":
+            final_msg = self.i18n.t("failed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.FAILED,
-                msg=msg or self.i18n.t("failed"),
+                msg=final_msg,
                 duration_ms=duration_ms,
                 auto_decay=True
             )

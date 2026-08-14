@@ -17,27 +17,27 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ACTION_MAP = {
     "done": {
         "status": "CELEBRATE",
-        "message": "✨ 任务已完成！请查收~ 🚀",
+        "message": "",
         "duration_ms": 3000,
     },
     "celebrate": {
         "status": "CELEBRATE",
-        "message": "太棒了！交付完成！🎉",
+        "message": "",
         "duration_ms": 3000,
     },
     "think": {
         "status": "THINKING",
-        "message": "构思最优方案中... 💡",
+        "message": "",
         "duration_ms": 2500,
     },
     "code": {
         "status": "CODING",
-        "message": "代码编写中... 💻",
+        "message": "",
         "duration_ms": 2500,
     },
     "failed": {
         "status": "FAILED",
-        "message": "遇到一点小挫折... ⚠️",
+        "message": "",
         "duration_ms": 2500,
     },
     "idle": {
