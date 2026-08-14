@@ -92,7 +92,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
 def detect_system_language() -> str:
     """Detects system language, defaults to zh for Chinese environments and en for others."""
     try:
-        sys_lang = locale.getdefaultlocale()[0] or ""
+        sys_lang = locale.getlocale()[0] or ""
         if "zh" in sys_lang.lower() or "chinese" in sys_lang.lower():
             return "zh"
     except Exception:

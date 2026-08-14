@@ -69,6 +69,22 @@ class TestAntigravityPetEngine(unittest.TestCase):
         self.assertTrue(changed)
         self.assertEqual(player.current_frame_index, 1)
 
+    def test_main_window_instantiation(self):
+        from antigravity_pet.ui.window import MainWindow
+        from antigravity_pet.config import ConfigManager
+
+        config = ConfigManager()
+        window = MainWindow(config)
+        self.assertIsNotNone(window)
+        self.assertEqual(window.current_pet_id, config.pet_id)
+        
+        # Test switching languages
+        window.set_language("en")
+        self.assertEqual(window.i18n.lang, "en")
+        window.set_language("zh")
+        self.assertEqual(window.i18n.lang, "zh")
+        window.close()
+
 
 if __name__ == "__main__":
     unittest.main()

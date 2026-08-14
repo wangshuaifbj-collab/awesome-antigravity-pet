@@ -73,7 +73,7 @@ class MainWindow(QWidget):
         pname = self.catalog.get_display_name(self.current_pet_id, self.i18n.lang)
         self.bubble.show(self.i18n.t("ready", name=pname), duration_ms=2500)
 
-    def _init_window_flags() -> None:
+    def _init_window_flags(self) -> None:
         flags = (
             Qt.WindowType.FramelessWindowHint
             | Qt.WindowType.Tool
