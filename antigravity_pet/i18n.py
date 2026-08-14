@@ -47,7 +47,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "demo_msg_waiting": "正在探索最优架构... 💡",
         "demo_msg_review": "键盘敲烂，代码飞速成型！💻",
         "demo_msg_running": "快马加鞭赶工中~ 💨",
-        "demo_msg_failed": "咦？遇到了一点小 Bug 🔧",
+        "demo_msg_failed": "呜呜... 遇到Bug报错啦 ❌",
     },
     "en": {
         "app_title": "Antigravity Desktop Companion",

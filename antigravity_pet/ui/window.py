@@ -174,6 +174,9 @@ class MainWindow(QWidget):
         }
 
         if st in ("CELEBRATE", "DONE"):
+            # 如果当前正在播放报错动画且计时未结束，保护报错动作不被普通完成事件立刻覆盖
+            if self.player and self.player.current_action == PetAction.FAILED and self.decay_timer.isActive():
+                return
             final_msg = self.i18n.t("task_completed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.JUMPING,
@@ -202,7 +205,7 @@ class MainWindow(QWidget):
             self.set_action(
                 PetAction.FAILED,
                 msg=final_msg,
-                duration_ms=duration_ms,
+                duration_ms=max(4500, duration_ms),
                 auto_decay=True
             )
         else:
@@ -262,7 +265,9 @@ class MainWindow(QWidget):
 
     def leaveEvent(self, event) -> None:
         self.is_hovered = False
-        self.set_action(PetAction.IDLE, auto_decay=False)
+        # 仅在非主动动作时恢复待机，不打断正在播放的 FAILED / JUMPING
+        if not self.decay_timer.isActive() and self.player and self.player.current_action == PetAction.WAVING:
+            self.set_action(PetAction.IDLE, auto_decay=False)
         self.update()
 
     def mousePressEvent(self, event: QMouseEvent) -> None:
@@ -339,7 +344,7 @@ class MainWindow(QWidget):
             ]
             for dname, act_type, demo_msg in demos:
                 act = QAction(dname, demo_menu)
-                act.triggered.connect(lambda checked=False, at=act_type, dm=demo_msg: self.set_action(at, msg=dm, duration_ms=2500, auto_decay=True))
+                act.triggered.connect(lambda checked=False, at=act_type, dm=demo_msg: self.set_action(at, msg=dm, duration_ms=5000, auto_decay=True))
                 demo_menu.addAction(act)
 
             # 4. 语言切换
