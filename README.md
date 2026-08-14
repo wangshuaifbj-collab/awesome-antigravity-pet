@@ -34,26 +34,25 @@ English | [简体中文](#简体中文)
 
 ## 🚀 Quick Start
 
-### 1. Installation
+### 1. Installation & Hook Setup
 
 ```bash
 git clone https://github.com/wangshuaifbj-collab/awesome-antigravity-pet.git
 cd awesome-antigravity-pet
 pip install -e .
+pet install-hooks    # Auto-register Antigravity lifecycle hooks
 ```
 
-### 2. Launching
+### 2. How It Works (Zero-Touch Experience)
 
-You have 3 easy ways to launch:
-
-- **Method 1 (Zero-Touch)**: Start chatting with Antigravity! The pet wakes up automatically.
-- **Method 2 (Double-Click)**: Double-click `双击启动宠物.vbs` in the project root (no CMD popup window).
-- **Method 3 (CLI Command)**:
+- **Default (Automatic)**: You **don't need to run any startup command**! Whenever you send a message in Antigravity, the desktop pet automatically wakes up, enters thinking posing, codes alongside you, and celebrates on task completion.
+- **Quick Controls & Character Switching (Optional)**:
   ```bash
-  pet               # Start default companion (Firefly)
-  pet acheron       # Launch Acheron
-  pet furina        # Launch Furina
+  pet acheron       # Instantly hot-switch running pet to Acheron (黄泉)
+  pet furina        # Hot-switch to Furina (芙宁娜)
   pet list          # Browse all 193 characters
+  pet autostart enable   # Auto-start with Windows login
+  pet disable       # Exit & pause auto-wake (Do Not Disturb)
   ```
 
 ---
