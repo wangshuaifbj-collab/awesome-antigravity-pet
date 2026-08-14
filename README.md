@@ -104,10 +104,9 @@ That's it! Everything is configured.
 You **don't need to run any startup command**! 
 Just chat with Antigravity normally. As soon as the AI starts reasoning, your desktop pet will automatically wake up and think alongside you.
 
-### 🖱️ Mode 2: One-Click GUI Launcher (`start-pet.vbs`)
-- **Project Root**: Double-click [`start-pet.vbs`](./start-pet.vbs) in the project folder.
-- **Pure Silent Launch**: Launches `pythonw` directly in the background with **zero black CMD popups**!
-- **Desktop Shortcut**: Right-click `start-pet.vbs` -> *Send to* -> *Desktop (create shortcut)* to launch like a native desktop app.
+### 🖱️ Mode 2: One-Click GUI Launcher
+- **🪟 Windows**: Double-click [`start-pet.vbs`](./start-pet.vbs) in the project folder (or create a desktop shortcut). Launches silently with **zero CMD popup windows**!
+- **🍎 macOS & 🐧 Linux**: Run `./start-pet.sh` (or double-click [`start-pet.sh`](./start-pet.sh)). Launches smoothly in the background detached from terminal.
 
 ### ⚡ Mode 3: CLI Powerhouse
 ```bash
