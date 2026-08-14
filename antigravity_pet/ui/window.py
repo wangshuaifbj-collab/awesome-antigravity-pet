@@ -4,6 +4,7 @@ Main Transparent Floating Pet Window.
 High-DPI Sprite rendering, fluid physics, and rich context menus.
 """
 
+import time
 from pathlib import Path
 from typing import Optional, Dict
 from PyQt6.QtCore import Qt, QPoint, QTimer, QRectF
@@ -68,6 +69,9 @@ class MainWindow(QWidget):
         self.decay_timer = QTimer(self)
         self.decay_timer.setSingleShot(True)
         self.decay_timer.timeout.connect(self._on_decay_timeout)
+
+        # 错误状态硬锁定时间戳（防止被后续普通的 Stop / CELEBRATE 瞬间覆盖）
+        self.error_lock_until: float = 0.0
 
         # 7. Host IDE Lifecycle Watcher (每 2.5 秒检查一次宿主是否存活，宿主退出时宠物自动同步退出)
         self.host_watcher_timer = QTimer(self)
@@ -136,6 +140,8 @@ class MainWindow(QWidget):
         self.update()
 
     def set_action(self, action: PetAction, msg: Optional[str] = None, duration_ms: int = 2500, auto_decay: bool = True) -> None:
+        if action == PetAction.FAILED:
+            self.error_lock_until = time.time() + (duration_ms / 1000.0)
         if self.player:
             self.player.set_action(action)
         if msg:
@@ -170,13 +176,15 @@ class MainWindow(QWidget):
             "构思最优方案中... 💡", "正在探索最优架构... 💡",
             "代码编写中... 💻", "键盘敲烂，代码飞速成型！💻",
             "✨ 任务已完成！请查收~ 🚀", "太棒了！交付完成！🎉", "太棒了！任务圆满交付！🎊",
-            "遇到一点小挫折... ⚠️", "遇到异常... ⚠️", "咦？遇到了一点小 Bug 🔧"
+            "遇到一点小挫折... ⚠️", "遇到异常... ⚠️", "咦？遇到了一点小 Bug 🔧",
+            "呜呜... 遇到Bug报错啦 ❌"
         }
 
+        # 绝对保护：如果当前处于报错锁定期（报错动画与气泡正在展示），严禁被普通的完成/思考事件强行覆盖
+        if st != "FAILED" and time.time() < self.error_lock_until:
+            return
+
         if st in ("CELEBRATE", "DONE"):
-            # 如果当前正在播放报错动画且计时未结束，保护报错动作不被普通完成事件立刻覆盖
-            if self.player and self.player.current_action == PetAction.FAILED and self.decay_timer.isActive():
-                return
             final_msg = self.i18n.t("task_completed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.JUMPING,
@@ -201,11 +209,13 @@ class MainWindow(QWidget):
                 auto_decay=False
             )
         elif st == "FAILED":
+            dur = max(6000, duration_ms)
+            self.error_lock_until = time.time() + (dur / 1000.0)
             final_msg = self.i18n.t("failed") if (not msg or msg in default_zh_messages) else msg
             self.set_action(
                 PetAction.FAILED,
                 msg=final_msg,
-                duration_ms=max(4500, duration_ms),
+                duration_ms=dur,
                 auto_decay=True
             )
         else:
