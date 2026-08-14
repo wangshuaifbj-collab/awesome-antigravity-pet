@@ -39,7 +39,7 @@ def cmd_start(args: argparse.Namespace) -> None:
     """Launches the desktop pet window."""
     from antigravity_pet.utils.single_instance import SingleInstanceGuard
     
-    # 系统级全局互斥单例锁：若已有宠物运行，直接退出，严格保证桌面仅有 1 只宠物
+    # 系统级全局互斥单例锁：若已有宠物在运行，直接退出，绝不多开
     guard = SingleInstanceGuard()
     if guard.is_already_running():
         return
@@ -47,6 +47,7 @@ def cmd_start(args: argparse.Namespace) -> None:
     from antigravity_pet.ui.window import MainWindow
 
     config = ConfigManager()
+    config.set("enabled", True)  # 主动启动时自动重置为启用状态
     if getattr(args, "pet", None):
         config.set("pet_id", args.pet)
     if getattr(args, "port", None):
@@ -127,6 +128,24 @@ def cmd_send_signal(args: argparse.Namespace) -> None:
         print(f"❌ Failed to send signal")
 
 
+def cmd_enable(args: argparse.Namespace) -> None:
+    """Enables desktop pet companion and launches it."""
+    config = ConfigManager()
+    config.set("enabled", True)
+    print("✅ 桌面宠物已启用！正在唤醒伴侣...")
+    cmd_start(args)
+
+
+def cmd_disable(args: argparse.Namespace) -> None:
+    """Disables desktop pet companion and cleanly terminates running instance."""
+    config = ConfigManager()
+    config.set("enabled", False)
+    if sys.platform == "win32":
+        import subprocess
+        subprocess.run(["powershell", "-Command", "Stop-Process -Name pythonw -Force -ErrorAction SilentlyContinue"], capture_output=True)
+    print("❌ 桌面宠物已停用并退出。后续在 Antigravity 交互时将不会自动拉起，直到再次运行 'pet enable' 或双击启动。")
+
+
 def cmd_autostart(args: argparse.Namespace) -> None:
     """Configures Windows autostart at user login."""
     if sys.platform != "win32":
@@ -184,6 +203,15 @@ def build_parser() -> argparse.ArgumentParser:
     p_switch = subparsers.add_parser("switch", help="Switch pet character")
     p_switch.add_argument("pet_id", help="Target pet ID")
     p_switch.set_defaults(func=cmd_switch)
+
+    # enable
+    p_enable = subparsers.add_parser("enable", help="Enable pet auto-launch and start companion")
+    p_enable.add_argument("--pet", "-p", help="Pet ID to launch")
+    p_enable.set_defaults(func=cmd_enable)
+
+    # disable
+    p_disable = subparsers.add_parser("disable", help="Disable pet auto-launch and exit companion")
+    p_disable.set_defaults(func=cmd_disable)
 
     # autostart
     p_auto = subparsers.add_parser("autostart", help="Configure Windows startup launch")

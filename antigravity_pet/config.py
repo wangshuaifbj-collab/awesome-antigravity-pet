@@ -11,6 +11,7 @@ CONFIG_DIR = Path.home() / ".gemini"
 CONFIG_FILE = CONFIG_DIR / "antigravity_pet.json"
 
 DEFAULT_CONFIG: Dict[str, Any] = {
+    "enabled": True,      # 用户全局启用开关
     "pet_id": "firefly--lingxiaotian",
     "window_size": 160,
     "always_on_top": True,

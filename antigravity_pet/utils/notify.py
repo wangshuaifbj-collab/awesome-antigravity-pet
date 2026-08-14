@@ -75,7 +75,14 @@ def main():
     if len(sys.argv) > 2:
         payload_info["message"] = " ".join(sys.argv[2:])
 
-    # 智能自愈保活：如果宠物没启动，自动在后台静默拉起
+    from antigravity_pet.config import ConfigManager
+    config = ConfigManager()
+    
+    # 若用户主动点击了退出/停用，严格遵守用户意愿，不进行自拉起
+    if not config.get("enabled", True):
+        return
+
+    # 智能自愈保活：如果当前启用且未运行，自动在后台静默拉起
     if not is_pet_running():
         spawn_pet_daemon()
         import time

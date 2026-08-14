@@ -360,12 +360,17 @@ class MainWindow(QWidget):
 
             # 6. 退出
             exit_act = QAction(self.i18n.t("menu_exit"), menu)
-            exit_act.triggered.connect(QApplication.instance().quit)
+            exit_act.triggered.connect(self._exit_pet)
             menu.addAction(exit_act)
 
             menu.exec(event.globalPos())
         except Exception as e:
             print(f"[Error in ContextMenu]: {e}")
+
+    def _exit_pet(self) -> None:
+        """User explicitly requested to exit and disable pet until manually relaunched."""
+        self.config.set("enabled", False)
+        QApplication.instance().quit()
 
     def _toggle_static_mode(self) -> None:
         new_val = not self.config.static_idle
