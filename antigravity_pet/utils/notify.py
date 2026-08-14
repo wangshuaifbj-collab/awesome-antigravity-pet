@@ -68,10 +68,54 @@ def spawn_pet_daemon():
         pass
 
 
+def parse_stdin_context() -> dict:
+    """Reads and parses JSON payload sent by Antigravity on stdin."""
+    try:
+        if not sys.stdin.isatty():
+            raw = sys.stdin.read().strip()
+            if raw:
+                return json.loads(raw)
+    except Exception:
+        pass
+    return {}
+
+
 def main():
     target = sys.argv[1].lower() if len(sys.argv) > 1 else "done"
-    payload_info = ACTION_MAP.get(target, ACTION_MAP["done"])
-    
+    context = parse_stdin_context()
+
+    # 智能识别错误与中断状态
+    has_error = False
+    error_msg = ""
+    if context:
+        if context.get("error"):
+            has_error = True
+            error_msg = str(context.get("error"))
+        elif context.get("terminationReason") in ("error", "failed", "interrupted"):
+            has_error = True
+
+    if target == "post-tool":
+        if has_error:
+            target = "failed"
+            payload_info = {
+                "status": "FAILED",
+                "message": "执行遇到异常报错了... ❌",
+                "duration_ms": 3500,
+            }
+        else:
+            # 正常工具执行完成，保持当前状态，输出空 JSON 满足钩子协议
+            print("{}")
+            return
+    elif target in ("done", "celebrate") and has_error:
+        target = "failed"
+        payload_info = {
+            "status": "FAILED",
+            "message": "任务遇到异常中断 ⚠️",
+            "duration_ms": 3500,
+        }
+    else:
+        payload_info = ACTION_MAP.get(target, ACTION_MAP["done"]).copy()
+
     if len(sys.argv) > 2:
         payload_info["message"] = " ".join(sys.argv[2:])
 
@@ -80,6 +124,7 @@ def main():
     
     # 若用户主动点击了退出/停用，严格遵守用户意愿，不进行自拉起
     if not config.get("enabled", True):
+        print("{}")
         return
 
     # 智能自愈保活：如果当前启用且未运行，自动在后台静默拉起
@@ -96,6 +141,10 @@ def main():
     except Exception:
         pass
 
+    # 输出合法 JSON 响应
+    print("{}")
+
 
 if __name__ == "__main__":
     main()
+

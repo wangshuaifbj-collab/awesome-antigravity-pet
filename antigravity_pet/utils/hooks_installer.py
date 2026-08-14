@@ -36,10 +36,32 @@ def install_hooks(target_dir: Path) -> Tuple[bool, str]:
         if "hooks" not in existing_data:
             existing_data["hooks"] = {}
 
-        # 仅在 Stop（输出完成）时触发欢庆提示
+        existing_data["hooks"]["PreInvocation"] = [
+            {
+                "command": "python -m antigravity_pet.utils.notify think",
+                "description": "Notify Antigravity desktop pet when thinking begins"
+            }
+        ]
+        existing_data["hooks"]["PreToolUse"] = [
+            {
+                "command": "python -m antigravity_pet.utils.notify code",
+                "description": "Notify Antigravity desktop pet when executing tools"
+            }
+        ]
+        existing_data["hooks"]["PostToolUse"] = [
+            {
+                "matcher": "*",
+                "hooks": [
+                    {
+                        "command": "python -m antigravity_pet.utils.notify post-tool",
+                        "description": "Notify Antigravity desktop pet if tool execution failed"
+                    }
+                ]
+            }
+        ]
         existing_data["hooks"]["Stop"] = [
             {
-                "command": DEFAULT_HOOK_COMMAND,
+                "command": "python -m antigravity_pet.utils.notify done",
                 "description": "Notify Antigravity desktop pet when agent completes a turn"
             }
         ]
