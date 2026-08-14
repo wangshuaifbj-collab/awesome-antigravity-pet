@@ -37,13 +37,17 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         # Demos
         "demo_waving": "👋 招手打招呼 (Waving)",
         "demo_jumping": "🎉 跳跃欢庆 (Jumping)",
+        "demo_run_right": "➡️ 向右奔跑 (Run Right)",
+        "demo_run_left": "⬅️ 向左奔跑 (Run Left)",
         "demo_waiting": "🧠 思考构思 (Waiting)",
         "demo_review": "💻 专注审查 (Review)",
-        "demo_running": "🏃 奔跑移动 (Running)",
+        "demo_running": "🏃 原地奔跑 (Running)",
         "demo_failed": "⚠️ 异常报错 (Failed)",
         
         "demo_msg_waving": "嗨嗨！我是你的桌面伴侣~ ✨",
         "demo_msg_jumping": "太棒了！任务圆满交付！🎊",
+        "demo_msg_run_right": "向右冲刺跑跑跑~ 💨",
+        "demo_msg_run_left": "向左冲刺跑跑跑~ 💨",
         "demo_msg_waiting": "正在探索最优架构... 💡",
         "demo_msg_review": "键盘敲烂，代码飞速成型！💻",
         "demo_msg_running": "快马加鞭赶工中~ 💨",
@@ -76,6 +80,8 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         # Demos
         "demo_waving": "👋 Wave Greeting (Waving)",
         "demo_jumping": "🎉 Jump & Celebrate (Jumping)",
+        "demo_run_right": "➡️ Run Right",
+        "demo_run_left": "⬅️ Run Left",
         "demo_waiting": "🧠 Thinking / Waiting",
         "demo_review": "💻 Coding / Review",
         "demo_running": "🏃 Running / Locomotion",
@@ -83,6 +89,8 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         
         "demo_msg_waving": "Hello! I'm your desktop pet companion~ ✨",
         "demo_msg_jumping": "Awesome! Task successfully delivered! 🎊",
+        "demo_msg_run_right": "Dashing rightward~ 💨",
+        "demo_msg_run_left": "Dashing leftward~ 💨",
         "demo_msg_waiting": "Exploring the best architecture... 💡",
         "demo_msg_review": "Typing away, crafting code! 💻",
         "demo_msg_running": "On the move, rushing work~ 💨",

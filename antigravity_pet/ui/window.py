@@ -58,6 +58,7 @@ class MainWindow(QWidget):
         self.is_dragging = False
         self.is_hovered = False
         self.drag_start_pos = QPoint()
+        self.last_drag_global_x: int = 0
         self.setMouseTracking(True)
 
         # 6. Timers
@@ -283,13 +284,27 @@ class MainWindow(QWidget):
     def mousePressEvent(self, event: QMouseEvent) -> None:
         if event.button() == Qt.MouseButton.LeftButton:
             self.is_dragging = True
+            self.last_drag_global_x = event.globalPosition().toPoint().x()
             self.drag_start_pos = event.globalPosition().toPoint() - self.frameGeometry().topLeft()
             self.set_action(PetAction.RUNNING, msg=self.i18n.t("drag_start"), duration_ms=2000, auto_decay=False)
             event.accept()
 
     def mouseMoveEvent(self, event: QMouseEvent) -> None:
         if self.is_dragging and (event.buttons() & Qt.MouseButton.LeftButton):
-            new_pos = event.globalPosition().toPoint() - self.drag_start_pos
+            curr_pos = event.globalPosition().toPoint()
+            delta_x = curr_pos.x() - self.last_drag_global_x
+
+            # 动态感知左右拖动方向：向右拖动切换为向右跑，向左拖动切换为向左跑
+            if delta_x > 1:
+                if self.player and self.player.current_action != PetAction.RUNNING_RIGHT:
+                    self.set_action(PetAction.RUNNING_RIGHT, auto_decay=False)
+                self.last_drag_global_x = curr_pos.x()
+            elif delta_x < -1:
+                if self.player and self.player.current_action != PetAction.RUNNING_LEFT:
+                    self.set_action(PetAction.RUNNING_LEFT, auto_decay=False)
+                self.last_drag_global_x = curr_pos.x()
+
+            new_pos = curr_pos - self.drag_start_pos
             self.move(new_pos)
             event.accept()
 
@@ -347,6 +362,8 @@ class MainWindow(QWidget):
             demos = [
                 (self.i18n.t("demo_waving"), PetAction.WAVING, self.i18n.t("demo_msg_waving")),
                 (self.i18n.t("demo_jumping"), PetAction.JUMPING, self.i18n.t("demo_msg_jumping")),
+                (self.i18n.t("demo_run_right"), PetAction.RUNNING_RIGHT, self.i18n.t("demo_msg_run_right")),
+                (self.i18n.t("demo_run_left"), PetAction.RUNNING_LEFT, self.i18n.t("demo_msg_run_left")),
                 (self.i18n.t("demo_waiting"), PetAction.WAITING, self.i18n.t("demo_msg_waiting")),
                 (self.i18n.t("demo_review"), PetAction.REVIEW, self.i18n.t("demo_msg_review")),
                 (self.i18n.t("demo_running"), PetAction.RUNNING, self.i18n.t("demo_msg_running")),
