@@ -172,6 +172,23 @@ You can switch to any character instantly via CLI or right-click menu:
 
 ---
 
+## 🌐 Automatic Bilingual Localization (i18n)
+
+The companion automatically detects your operating system language and adapts all **character names**, **speech bubbles**, and **context menus** accordingly (or can be manually switched via right-click menu):
+
+| Scenario / Trigger | 🇨🇳 Chinese System (zh_CN) | 🇺🇸 English & Global Systems (en_US) |
+| :--- | :--- | :--- |
+| **Character Names** | 流萤 / 黄泉 / 芙宁娜 / 仆人 | Firefly / Acheron / Furina / Arlecchino |
+| **Agent Thinking** | `构思最优方案中... 💡` | `Thinking of optimal solutions... 💡` |
+| **Agent Coding** | `代码编写中... 💻` | `Writing code... 💻` |
+| **Task Delivered** | `✨ 任务已完成！请查收~ 🚀` | `✨ Task complete! Check it out~ 🚀` |
+| **Hover Greeting** | `嗨~ ✨` | `Hi there! ✨` |
+| **Drag & Flight** | `起飞咯~ 🐾` / `安全着陆！🚀` | `Taking off~ 🐾` / `Landed safely! 🚀` |
+| **Switch Character** | `已切换: 流萤 💖` | `Switched to: Firefly 💖` |
+| **IDE Closed (Farewell)** | `下次见咯~ 👋` | `See you next time! 👋` |
+
+---
+
 ## 🎮 Mouse & Context Menu Interactions
 
 - **Hover (Mouse In)**: Wave greeting (`WAVING` row) with custom toast.
