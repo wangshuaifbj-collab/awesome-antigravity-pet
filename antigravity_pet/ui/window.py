@@ -69,6 +69,11 @@ class MainWindow(QWidget):
         self.decay_timer.setSingleShot(True)
         self.decay_timer.timeout.connect(self._on_decay_timeout)
 
+        # 7. Host IDE Lifecycle Watcher (每 2.5 秒检查一次宿主是否存活，宿主退出时宠物自动同步退出)
+        self.host_watcher_timer = QTimer(self)
+        self.host_watcher_timer.timeout.connect(self._check_host_process)
+        self.host_watcher_timer.start(2500)
+
         # Welcome greeting
         pname = self.catalog.get_display_name(self.current_pet_id, self.i18n.lang)
         self.bubble.show(self.i18n.t("ready", name=pname), duration_ms=2500)
@@ -148,6 +153,15 @@ class MainWindow(QWidget):
             else:
                 self.set_action(PetAction.IDLE, auto_decay=False)
             self.update()
+
+    def _check_host_process(self) -> None:
+        """Checks if Antigravity host process is active. If not, cleanly exits."""
+        from antigravity_pet.utils.host_watcher import is_antigravity_active
+        if not is_antigravity_active():
+            self.host_watcher_timer.stop()
+            self.bubble.show(self.i18n.t("farewell"), duration_ms=1200)
+            # 800ms 后平滑退出 GUI
+            QTimer.singleShot(800, QApplication.instance().quit)
 
     def _handle_ipc_message(self, status: str, msg: str, duration_ms: int) -> None:
         """Receives Agent events from Antigravity."""

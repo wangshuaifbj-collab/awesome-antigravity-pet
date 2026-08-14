@@ -23,6 +23,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "drag_end": "安全着陆！🚀",
         "static_on": "已开启专注静止模式 🤫",
         "static_off": "已恢复生动微呼吸 ✨",
+        "farewell": "下次见咯~ 👋",
         
         # Menus
         "menu_featured": "🌟 精选热门角色",
@@ -61,6 +62,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "drag_end": "Landed safely! 🚀",
         "static_on": "Focused static mode ON 🤫",
         "static_off": "Lively breathing mode ON ✨",
+        "farewell": "See you next time! 👋",
         
         # Menus
         "menu_featured": "🌟 Featured Characters",
