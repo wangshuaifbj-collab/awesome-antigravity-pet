@@ -68,8 +68,11 @@ def spawn_pet_daemon():
         pass
 
 
-def parse_stdin_context() -> dict:
-    """Reads and parses JSON payload sent by Antigravity on stdin."""
+def parse_stdin_context(target: str) -> dict:
+    """Reads and parses JSON payload sent by Antigravity on stdin without blocking."""
+    # 显式调用的命令（如 failed, think, code, done 等）绝不阻塞读取 stdin
+    if target not in ("post-tool", "auto-stop"):
+        return {}
     try:
         if not sys.stdin.isatty():
             raw = sys.stdin.read().strip()
@@ -82,7 +85,7 @@ def parse_stdin_context() -> dict:
 
 def main():
     target = sys.argv[1].lower() if len(sys.argv) > 1 else "done"
-    context = parse_stdin_context()
+    context = parse_stdin_context(target)
 
     # 智能识别错误与中断状态
     has_error = False
