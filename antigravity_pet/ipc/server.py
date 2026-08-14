@@ -21,7 +21,8 @@ class IPCServer(QObject):
         self.socket = QUdpSocket(self)
 
     def start(self) -> bool:
-        if self.socket.bind(QHostAddress.SpecialAddress.LocalHost, self.port):
+        flags = QUdpSocket.BindFlag.ShareAddress | QUdpSocket.BindFlag.ReuseAddressHint
+        if self.socket.bind(QHostAddress.SpecialAddress.LocalHost, self.port, flags):
             self.socket.readyRead.connect(self._on_ready_read)
             print(f"[IPC] Listening on 127.0.0.1:{self.port}")
             return True
