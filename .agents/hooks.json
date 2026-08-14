@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PreInvocation": [
+      {
+        "command": "python -m antigravity_pet.utils.notify think",
+        "description": "Notify Antigravity desktop pet when thinking begins"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "command": "python -m antigravity_pet.utils.notify code",
+        "description": "Notify Antigravity desktop pet when executing tools"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "python -m antigravity_pet.utils.notify done",
+        "description": "Notify Antigravity desktop pet when agent completes a turn"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "command": "python -m antigravity_pet.utils.notify post-tool",
+            "description": "Notify Antigravity desktop pet if tool execution failed"
+          }
+        ]
+      }
+    ]
+  }
+}
