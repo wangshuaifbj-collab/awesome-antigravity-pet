@@ -1,0 +1,44 @@
+{
+  "slug": "guga--circus",
+  "pet_slug": "guga",
+  "author_slug": "circus",
+  "name": "咕嘎",
+  "author": "CIRCUS",
+  "author_handle": "circus",
+  "primary_category": "Human Avatars",
+  "tags": [
+    "anime",
+    "game",
+    "pixel",
+    "animated",
+    "celeb",
+    "cute",
+    "mascot",
+    "codex-pets",
+    "v1"
+  ],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/guga",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A rounder and cuter chibi penguin hoodie girl pet with a softer face and friendlier proportions.",
+  "platform_owner_id": "a181552b-b658-4eac-aeaa-afa44a138e95",
+  "platform_owner_handle": "circus",
+  "platform_uploaded_at": "2026-05-02T11:26:41.758654+00:00",
+  "platform_view_count": 6402,
+  "platform_like_count": 54,
+  "platform_tags": [
+    "anime",
+    "game",
+    "pixel",
+    "animated",
+    "celeb",
+    "cute",
+    "mascot"
+  ],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777721201758/guga/spritesheet.webp",
+  "spritesheet_sha256": "1b61ea2af98717b9ebe55beb4c6b820b89e9c42d4fdfeca21cf63ed3ad4e38da",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

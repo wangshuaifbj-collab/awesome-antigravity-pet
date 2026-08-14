@@ -1,0 +1,26 @@
+{
+  "slug": "twinkle-twinkle--twinkletwinkle",
+  "pet_slug": "twinkle-twinkle",
+  "author_slug": "twinkletwinkle",
+  "name": "Dashun's Twinkle Twinkle",
+  "author": "twinkletwinkle",
+  "author_handle": "twinkletwinkle",
+  "primary_category": "Mascots",
+  "tags": ["animated", "cute", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/twinkle-twinkle",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny star-hooded yellow plush companion with a pink freckled face, striped socks, and warm shining energy.",
+  "platform_owner_id": "11164aa2-acc1-4bb6-a02d-08ba050c610c",
+  "platform_owner_handle": "twinkletwinkle",
+  "platform_uploaded_at": "2026-05-08T09:05:42.860Z",
+  "platform_view_count": 182,
+  "platform_like_count": 10,
+  "platform_tags": ["animated", "cute"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1778231142860/twinkle-twinkle/spritesheet.webp",
+  "spritesheet_sha256": "dbb8ed60b4dbbb0da4e98f86ecd6ffa1e80cbdfe7476f09366b7a440e58ea7a8",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

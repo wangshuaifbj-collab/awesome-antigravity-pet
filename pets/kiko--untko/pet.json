@@ -1,0 +1,8 @@
+{
+  "id": "kiko--untko",
+  "displayName": "Kiko",
+  "description": "A cheerful color-changing gecko companion with expressive animations and curious eyes.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

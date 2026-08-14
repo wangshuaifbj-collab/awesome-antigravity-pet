@@ -1,0 +1,8 @@
+{
+  "id": "gpt-muse--opask",
+  "displayName": "GPT-muse",
+  "description": "A tiny aqua-white Codex companion with silver hair and teal accents.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "person"
+}

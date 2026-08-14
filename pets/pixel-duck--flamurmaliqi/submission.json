@@ -1,0 +1,22 @@
+{
+  "slug": "pixel-duck--flamurmaliqi",
+  "pet_slug": "pixel-duck",
+  "author_slug": "flamurmaliqi",
+  "name": "Pixel Duck",
+  "author": "Flamur Maliqi",
+  "author_handle": "FlamurMaliqi",
+  "author_url": "https://github.com/FlamurMaliqi",
+  "primary_category": "Animals",
+  "canonical_key": "original/flamurmaliqi/pixel-duck",
+  "tags": ["duck", "pixel-art", "spin", "codex-pets"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/FlamurMaliqi/codex-pixel-duck",
+  "license": "CC BY 4.0",
+  "description": "An original pixel duck that spins through the same eight-frame loop in every Codex state.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "88ca26717528fe1d01fcba2a649cc5633e40ea886e3b028ffab25654787a87da"
+}

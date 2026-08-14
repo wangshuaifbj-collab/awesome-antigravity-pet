@@ -1,0 +1,8 @@
+{
+  "id": "minty--somnusochi",
+  "displayName": "Minty",
+  "description": "A mint-haired animated companion with nine activity animations and sixteen v2 look directions.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "person"
+}

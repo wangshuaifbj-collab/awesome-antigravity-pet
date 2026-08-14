@@ -1,0 +1,38 @@
+{
+  "slug": "becky--natewanggg",
+  "pet_slug": "becky",
+  "author_slug": "natewanggg",
+  "name": "Becky",
+  "author": "NateWanggg",
+  "author_handle": "NateWanggg",
+  "author_url": "https://github.com/NateWanggg",
+  "primary_category": "Animals",
+  "tags": ["cat", "tabby", "becky", "original-pet", "dark-gray"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/becky--natewanggg/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/becky--natewanggg/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/becky--natewanggg/gifs"
+  },
+  "spritesheet_sha256": "8e76db46a3712cabf22e426202307d8467f925d3f40d9116070345095add04f6",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual per-frame removal of detached neighboring-cat crop fragments in rows 2, 3, and 5",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "ccd1be6f16703b204c8bb2dad60c1406da5fd5170fafb1301a9c9d00cb58b613",
+    "output_sha256": "8e76db46a3712cabf22e426202307d8467f925d3f40d9116070345095add04f6",
+    "visible_pixels_changed": 19412,
+    "artifact_pixels_removed": 19412,
+    "cells_with_visible_changes": 15,
+    "manual_qa": "All 9 rows reviewed on white, gray, and black backgrounds; only detached fragments from adjacent cat poses were removed, while the active cat, tabby markings, butterfly, whiskers, smoke puffs, and action silhouettes were preserved."
+  }
+}

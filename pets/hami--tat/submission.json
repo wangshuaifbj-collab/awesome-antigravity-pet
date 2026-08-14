@@ -1,0 +1,38 @@
+{
+  "slug": "hami--tat",
+  "pet_slug": "hami",
+  "author_slug": "tat",
+  "name": "Hami",
+  "localized_names": {
+    "en": "Hami",
+    "zh": "哈基米"
+  },
+  "author": "TAT",
+  "author_handle": "TATcc",
+  "author_url": "https://github.com/TATcc",
+  "primary_category": "Memes",
+  "canonical_key": "meme/hami-cat",
+  "tags": [
+    "meme",
+    "animal",
+    "cat",
+    "hakimi",
+    "hami",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "meme",
+  "source_notes": "TAT adapted contributor-provided Hami cat-head meme images into this Codex v2 pet. The original image author and source are unknown; no claim is made over the underlying meme material.",
+  "license": "Personal non-commercial use only; original meme author and source unknown",
+  "description": "A Hami cat-head meme companion with expressive reactions and a full set of Codex v2 look directions.",
+  "preview_image": "../../assets/previews/hami--tat/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/hami--tat/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/hami--tat/gifs"
+  },
+  "spritesheet_sha256": "95f9d38500fa87ecd4f3849803a335e7764bf393e3ffa1421f7b94dfb8f87b60"
+}

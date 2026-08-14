@@ -1,0 +1,73 @@
+{
+  "slug": "miyabi--eric-terminal",
+  "pet_slug": "miyabi",
+  "author_slug": "eric-terminal",
+  "name": "Miyabi",
+  "localized_names": {
+    "en": "Miyabi",
+    "zh": "星见雅"
+  },
+  "author": "Eric-Terminal",
+  "author_handle": "eric-terminal",
+  "author_url": "https://codex-pets.net/users/eric-terminal",
+  "primary_category": "Game Characters",
+  "canonical_key": "zenless-zone-zero/hoshimi-miyabi",
+  "tags": [
+    "game",
+    "anime",
+    "zenless-zone-zero",
+    "hoshimi-miyabi",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["zenless-zone-zero"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/miyabi",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A chibi Hoshimi Miyabi desktop pet from Zenless Zone Zero: a composed Section 6 swordswoman with long black hair, fox ears, and vivid red eyes.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "49c36240-97f5-44ad-b5ef-848eecf57ec7",
+  "platform_owner_handle": "eric-terminal",
+  "platform_uploaded_at": "2026-05-05T14:49:19.353943+00:00",
+  "platform_view_count": 255,
+  "platform_like_count": 14,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "anime", "pixel", "cute", "soft"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777992559353/miyabi/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "miyabi",
+    "manifestBytes": 273,
+    "statesDetected": 9,
+    "spritesheetBytes": 1806326
+  },
+  "spritesheet_sha256": "f0586568e35eb0dc1b675866e1835be3479fc2b1a917a1e2ece32ae2974804ac",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "020f4523f2c1cdfae2ebbd385a4d25e5a2a965e228915d3451db7dcbdda46083",
+    "output_sha256": "f0586568e35eb0dc1b675866e1835be3479fc2b1a917a1e2ece32ae2974804ac",
+    "visible_edge_pixels_changed": 63740,
+    "transparent_rgb_pixels_cleared": 880943,
+    "cells_with_visible_changes": 26,
+    "representative_cell": "r5c5"
+  }
+}

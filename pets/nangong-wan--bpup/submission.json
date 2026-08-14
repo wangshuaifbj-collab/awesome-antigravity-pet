@@ -1,0 +1,41 @@
+{
+  "slug": "nangong-wan--bpup",
+  "pet_slug": "nangong-wan",
+  "author_slug": "bpup",
+  "name": "南宫婉",
+  "localized_names": {
+    "en": "Nangong Wan",
+    "zh": "南宫婉"
+  },
+  "author": "Slpuer",
+  "author_handle": "bpup",
+  "author_url": "https://github.com/bpup",
+  "primary_category": "Anime Characters",
+  "canonical_key": "a-record-of-a-mortals-journey-to-immortality/nangong-wan",
+  "tags": [
+    "a-record-of-a-mortals-journey-to-immortality",
+    "nangong-wan",
+    "xianxia",
+    "cultivation",
+    "zhuque-ring",
+    "ai-generated",
+    "chibi",
+    "pixel-art"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_notes": "Slpuer independently generated this V2 pixel pet from public reference imagery of Nangong Wan's animated portrayal. The references are reference-only: no source image pixels or existing sprite assets were copied into this submission.",
+  "license": "Non-commercial use only. Independently AI-generated community fan art of Nangong Wan inspired by the animated A Record of a Mortal's Journey to Immortality; the submitter confirms permission to include this asset in this repository.",
+  "description": "独立 AI 生成的《凡人修仙传》动画版南宫婉像素 Q 版社区再创作：飞遁动作不采用地面跑步，左右飞遁逐帧严格镜像且双腿保持收拢；含修炼、突破与朱雀环施法，仅限非商业使用。",
+  "preview_image": "../../assets/previews/nangong-wan--bpup/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/nangong-wan--bpup/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/nangong-wan--bpup/gifs"
+  },
+  "spritesheet_sha256": "c3d23aa4c1897a051059718c0f76eb25ea6273dff9c1a926b5433c26f0effc8d"
+}

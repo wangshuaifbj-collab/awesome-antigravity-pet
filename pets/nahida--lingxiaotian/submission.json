@@ -1,0 +1,26 @@
+{
+  "slug": "nahida--lingxiaotian",
+  "pet_slug": "nahida",
+  "author_slug": "lingxiaotian",
+  "name": "Nahida",
+  "localized_names": { "en": "Nahida", "zh": "纳西妲" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "nahida", "dendro", "green"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Nahida-inspired fan-art Codex pet with a white-and-mint palette, leaf ornaments, and a gentle forest-archon chibi identity.",
+  "preview_image": "../../assets/previews/nahida--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/nahida--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/nahida--lingxiaotian/gifs"
+  }
+}

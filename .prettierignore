@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+.npm-cache
+
+# Build artifacts
+web/.next
+web/out
+web/.generated
+
+# Generated data
+web/public/assets
+web/public/categories.json
+web/public/collections.json
+web/public/llms.txt
+web/public/llms-full.txt
+web/public/pets.json
+web/public/requests.json
+
+# IDE
+.vscode
+
+# Local hatch-pet runs
+output
+pets/*/qa

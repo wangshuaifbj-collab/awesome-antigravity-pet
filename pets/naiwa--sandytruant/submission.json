@@ -1,0 +1,26 @@
+{
+  "slug": "naiwa--sandytruant",
+  "pet_slug": "naiwa",
+  "author_slug": "sandytruant",
+  "name": "奶蛙",
+  "author": "Yitian Sun",
+  "author_handle": "sandytruant",
+  "author_url": "https://github.com/sandytruant",
+  "primary_category": "Animals",
+  "tags": ["frog", "yellow", "pixel-art", "look-directions", "codex-v2"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/sandytruant/codex-pet-naiwa",
+  "license": "MIT License",
+  "description": "A yellow pear-shaped pixel companion that laughs when hovered.",
+  "preview_image": "../../assets/previews/naiwa--sandytruant/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/naiwa--sandytruant/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/naiwa--sandytruant/gifs"
+  },
+  "spritesheet_sha256": "5db71125ea2d30beb8507d7aae1e38521efa6db4f7cde6b1ced1a8b3a8d6439f"
+}

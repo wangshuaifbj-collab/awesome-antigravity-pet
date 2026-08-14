@@ -1,0 +1,26 @@
+{
+  "slug": "gpt-muse--opask",
+  "pet_slug": "gpt-muse",
+  "author_slug": "opask",
+  "name": "GPT-muse",
+  "author": "opask",
+  "author_handle": "opask",
+  "primary_category": "Mascots",
+  "tags": ["animated", "anime", "pixel", "cute", "mascot", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/gpt-muse",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny aqua-white Codex companion with silver hair and teal accents.",
+  "platform_owner_id": "b9554422-cd08-48e9-9595-9bab33bba5a0",
+  "platform_owner_handle": "opask",
+  "platform_uploaded_at": "2026-05-04T04:41:47.356621+00:00",
+  "platform_view_count": 175,
+  "platform_like_count": 9,
+  "platform_tags": ["animated", "anime", "pixel", "cute", "mascot"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777869707356/gpt-muse/spritesheet.webp",
+  "spritesheet_sha256": "1ba124cc9972b2fa14c272c02c7c5c81550fb06e5304a02b4c7209c7d44b5fc8",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

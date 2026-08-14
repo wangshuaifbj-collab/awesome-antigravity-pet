@@ -1,0 +1,2 @@
+[console_scripts]
+antigravity-pet = antigravity_pet.cli:main

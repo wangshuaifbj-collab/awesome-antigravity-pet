@@ -1,0 +1,21 @@
+{
+  "slug": "chotu--makriman",
+  "pet_slug": "chotu",
+  "author_slug": "makriman",
+  "name": "Chotu",
+  "author": "makriman",
+  "author_handle": "makriman",
+  "author_url": "https://github.com/makriman",
+  "primary_category": "Anime Characters",
+  "canonical_key": "fictional/chhota-bheem/chotu",
+  "variant_note": "Independent fan-made v2 interpretation of Chhota Bheem with an original spritesheet; not derived from official show assets.",
+  "tags": ["animation", "kids", "hero", "indian-animation", "fan-art", "v2"],
+  "source_type": "fan-art",
+  "source_url": "https://www.youtube.com/watch?v=5TN_9xCrWFA",
+  "license": "Non-commercial use only. Fan-made interpretation of Chhota Bheem, a character and trademark of Green Gold Animation Pvt. Ltd. This submission is not affiliated with, endorsed by, or sponsored by the rights holder, and redistributes no official show assets.",
+  "description": "A cheerful, brave young hero inspired by Chhota Bheem, reimagined as a pixel desktop companion.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

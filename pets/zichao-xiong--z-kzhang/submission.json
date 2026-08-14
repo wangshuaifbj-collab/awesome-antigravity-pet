@@ -1,0 +1,24 @@
+{
+  "slug": "zichao-xiong--z-kzhang",
+  "pet_slug": "zichao-xiong",
+  "author_slug": "z-kzhang",
+  "name": "自嘲熊",
+  "author": "z.kzhang",
+  "author_handle": "z-kzhang",
+  "primary_category": "Animals",
+  "tags": ["bear", "plush", "cute", "white", "animated", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "Original AI-generated Codex pet based on a user-provided plush-bear reference. This is not an official Nagano/Jikochu Kuma asset and does not include copied logos, text, or original copyrighted artwork. Permission granted by the creator/uploader for inclusion in the awesome-codex-pet gallery.",
+  "preview_image": "../../assets/previews/zichao-xiong--z-kzhang/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/zichao-xiong--z-kzhang/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/zichao-xiong--z-kzhang/gifs"
+  },
+  "spritesheet_sha256": "ef9857c936501632e79dc7a7d647968a628bbd3c871b3e8ff5f468d75e4709d8"
+}

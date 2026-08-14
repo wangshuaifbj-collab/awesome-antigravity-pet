@@ -1,0 +1,26 @@
+{
+  "slug": "navia--lingxiaotian",
+  "pet_slug": "navia",
+  "author_slug": "lingxiaotian",
+  "name": "Navia",
+  "localized_names": { "en": "Navia", "zh": "娜维娅" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "navia", "gold", "elegant"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Navia-inspired fan-art Codex pet with a black-and-gold outfit, ornate hat, and bright aristocratic chibi identity.",
+  "preview_image": "../../assets/previews/navia--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/navia--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/navia--lingxiaotian/gifs"
+  }
+}

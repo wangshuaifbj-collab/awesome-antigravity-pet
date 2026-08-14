@@ -1,0 +1,24 @@
+{
+  "slug": "hana2--initiatione",
+  "pet_slug": "hana2",
+  "author_slug": "initiatione",
+  "name": "Hana2",
+  "author": "initiatione",
+  "author_handle": "initiatione",
+  "author_url": "https://github.com/initiatione",
+  "primary_category": "Original Characters",
+  "tags": ["hana", "kimono", "pixel-art", "gentle", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/initiatione/hana2-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/hana2--initiatione/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/hana2--initiatione/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/hana2--initiatione/gifs"
+  },
+  "spritesheet_sha256": "ddbc017778f7824709cc0b9d2774022c18486b4449f47073891e406b2e5712af"
+}

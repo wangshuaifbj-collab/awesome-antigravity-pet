@@ -1,0 +1,24 @@
+{
+  "slug": "mika--rotl24",
+  "pet_slug": "mika",
+  "author_slug": "rotl24",
+  "name": "Mika",
+  "author": "ROTl24",
+  "author_handle": "ROTl24",
+  "author_url": "https://github.com/ROTl24",
+  "primary_category": "Original Characters",
+  "tags": ["mika", "chibi", "headphones", "winter", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/ROTl24/pet-github",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/mika--rotl24/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/mika--rotl24/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/mika--rotl24/gifs"
+  },
+  "spritesheet_sha256": "5b0f19306e0a4d12393875004bf700dd5cf35d59a1d3c14bc31cc4a8062e2f9c"
+}

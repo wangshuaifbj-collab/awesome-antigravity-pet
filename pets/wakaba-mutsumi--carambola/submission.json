@@ -1,0 +1,35 @@
+{
+  "slug": "wakaba-mutsumi--carambola",
+  "pet_slug": "wakaba-mutsumi",
+  "author_slug": "carambola",
+  "name": "Wakaba Mutsumi",
+  "localized_names": {
+    "en": "Wakaba Mutsumi",
+    "zh": "若叶睦"
+  },
+  "author": "Carambola",
+  "author_handle": "Carambola",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "fictional/bang-dream/wakaba-mutsumi",
+  "tags": [
+    "anime",
+    "bang-dream",
+    "ave-mujica",
+    "wakaba-mutsumi",
+    "fan-art",
+    "chibi",
+    "cucumber"
+  ],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "Non-commercial only. AI-assisted fan-art Codex pet submission by Carambola; no official affiliation or commercial use permitted.",
+  "source_notes": "AI-assisted fan-art pet created for Codex by Carambola, inspired by Wakaba Mutsumi / 若叶睦; this submission intentionally replaces the jumping row with a cucumber-eating animation while keeping the other standard rows intact. Not an official asset and no commercial use is permitted.",
+  "description": "A chibi fan-art Codex pet inspired by Wakaba Mutsumi, with pale mint hair, sleepy gold eyes, gothic stage styling, and a cucumber-eating jumping animation.",
+  "preview_image": "../../assets/previews/wakaba-mutsumi--carambola/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "cf6e6fe0561d93e15d278fb0e1f443025f50e38635e3160c51bf97fa34230bb0"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "katana-cheems--thankyou-cheems",
+  "pet_slug": "katana-cheems",
+  "author_slug": "thankyou-cheems",
+  "name": "Katana Cheems",
+  "author": "Thankyou-Cheems",
+  "author_handle": "Thankyou-Cheems",
+  "author_url": "https://github.com/Thankyou-Cheems",
+  "primary_category": "Memes",
+  "tags": [
+    "cheems",
+    "dog",
+    "shiba",
+    "katana",
+    "straw-hat",
+    "pixel-art",
+    "meme",
+    "codex"
+  ],
+  "source_type": "codex-generated",
+  "source_url": "https://github.com/Thankyou-Cheems",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/katana-cheems--thankyou-cheems/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/katana-cheems--thankyou-cheems/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/katana-cheems--thankyou-cheems/gifs"
+  },
+  "spritesheet_sha256": "c1b3301244f8956fc83b4165fefec3da9eaf7fd0e38d666e9795aa68a2c1f0ea"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "black-swan--lingxiaotian",
+  "pet_slug": "black-swan",
+  "author_slug": "lingxiaotian",
+  "name": "Black Swan",
+  "localized_names": { "en": "Black Swan", "zh": "黑天鹅" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "black-swan", "mystic", "veil"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Black Swan-inspired fan-art Codex pet with a dark veil, lavender hair, and a mysterious diviner-like chibi identity.",
+  "preview_image": "../../assets/previews/black-swan--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/black-swan--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/black-swan--lingxiaotian/gifs"
+  }
+}

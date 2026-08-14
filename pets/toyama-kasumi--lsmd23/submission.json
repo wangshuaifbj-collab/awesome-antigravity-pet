@@ -1,0 +1,43 @@
+{
+  "slug": "toyama-kasumi--lsmd23",
+  "pet_slug": "toyama-kasumi",
+  "author_slug": "lsmd23",
+  "name": "Toyama Kasumi",
+  "localized_names": {
+    "en": "Toyama Kasumi",
+    "zh": "户山香澄"
+  },
+  "author": "lsmd23",
+  "author_handle": "lsmd23",
+  "author_url": "https://github.com/lsmd23",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "fictional/bang-dream/toyama-kasumi",
+  "variant_note": "An independently produced v2 pixel interpretation with an original palette, nine animation states, and sixteen look directions.",
+  "tags": [
+    "anime",
+    "bang-dream",
+    "girls-band-party",
+    "toyama-kasumi",
+    "fan-art",
+    "chibi",
+    "pixel-art"
+  ],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/lsmd23/Pet-ksm",
+  "license": "Unofficial fan art. Subject to third-party rights, contributor lsmd23 authorizes non-commercial repository copying and redistribution of the independently produced spritesheet and metadata with attribution. No official affiliation or endorsement; no rights in third-party characters, names, or trademarks are granted.",
+  "source_notes": "The source URL is lsmd23's contributor-controlled public project repository. lsmd23 created the submitted spritesheet through an AI-assisted workflow using Toyama Kasumi references only for visual calibration and authorizes the non-commercial repository redistribution described here. No reference images, official pixels, audio, models, or animation frames are included; this authorization covers only contributor-controlled pixel artwork, animation arrangement, and metadata, not underlying third-party character IP.",
+  "redistribution_permission": {
+    "status": "granted-by-contributor",
+    "granted_by": "lsmd23",
+    "scope": "non-commercial repository copying and redistribution with attribution",
+    "asset_scope": "contributor-controlled spritesheet and metadata only; excludes third-party character IP"
+  },
+  "description": "An independently redrawn chibi pixel-art Codex pet inspired by Toyama Kasumi, with original animations and sixteen look directions.",
+  "preview_image": "../../assets/previews/toyama-kasumi--lsmd23/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "42750d76222a5b408e6e9624814941bc5e542e0d8cb58f8c263c1227e85ef7af"
+}

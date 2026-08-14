@@ -1,0 +1,27 @@
+{
+  "slug": "jiji--yena",
+  "pet_slug": "jiji",
+  "author_slug": "yena",
+  "name": "Jiji",
+  "author": "Yena",
+  "author_handle": "yena",
+  "primary_category": "Animals",
+  "tags": ["animated", "minimal", "codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/jiji",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "Jiji is an original cute minimalist black-cat Codex pet with oversized ears, bright oval eyes, a tiny cream nose, slim whiskers, a compact chibi body, and a long expressive tail.",
+  "platform_owner_id": "39c9cbb0-604d-4422-a7f7-9cf038d346c2",
+  "platform_owner_handle": "yena",
+  "platform_uploaded_at": "2026-05-09T06:57:11.837Z",
+  "platform_view_count": 374,
+  "platform_like_count": 10,
+  "platform_tags": ["animated", "minimal"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1778309831837/jiji/spritesheet.webp",
+  "spritesheet_sha256": "fdc5db49e9a204dc0b64898856a778fd56834e211b4982405b8857e2acc10c48",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

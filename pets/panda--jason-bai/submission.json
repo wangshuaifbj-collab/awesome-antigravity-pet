@@ -1,0 +1,25 @@
+{
+  "slug": "panda--jason-bai",
+  "pet_slug": "panda",
+  "author_slug": "jason-bai",
+  "name": "Panda",
+  "author": "Jason Bai",
+  "author_handle": "Jason-Bai",
+  "author_url": "https://github.com/Jason-Bai",
+  "primary_category": "Animals",
+  "tags": ["panda", "soft", "healing", "cute", "gentle", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/Jason-Bai/pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/panda--jason-bai/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/panda--jason-bai/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/panda--jason-bai/gifs"
+  },
+  "spritesheet_sha256": "da31a2681819d038f8e5e46398cd9a313a42e095914ff6ddd3c5d3579f5cbf79"
+}

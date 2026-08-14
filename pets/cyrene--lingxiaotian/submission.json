@@ -1,0 +1,26 @@
+{
+  "slug": "cyrene--lingxiaotian",
+  "pet_slug": "cyrene",
+  "author_slug": "lingxiaotian",
+  "name": "Cyrene",
+  "localized_names": { "en": "Cyrene", "zh": "昔涟" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "cyrene", "pink", "dreamy"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Cyrene-inspired fan-art Codex pet with long pink-and-white hair, a white-pink-cyan dress, feather-like head ornaments, and a soft dreamy chibi identity.",
+  "preview_image": "../../assets/previews/cyrene--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/cyrene--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/cyrene--lingxiaotian/gifs"
+  }
+}

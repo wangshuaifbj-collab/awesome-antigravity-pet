@@ -1,0 +1,23 @@
+node_modules
+.npm-cache
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+*.log
+dist
+coverage
+output/
+.playwright-cli/
+pets/*/qa/
+assets/previews/
+.pytest_cache
+__pycache__
+*.pyc
+
+# Editor
+.vscode/
+
+# Cloudflare Worker local state
+worker/.wrangler
+worker/.dev.vars

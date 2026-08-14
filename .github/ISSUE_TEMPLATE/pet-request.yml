@@ -1,0 +1,49 @@
+name: Request a pet for free
+description: Tell the community which character or concept you want
+title: "[Request]: "
+labels:
+  - "type: request"
+  - "status: triage"
+  - "version: v2"
+  - "category: other"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- pet-flow: request -->
+        The character or concept and one public reference image are required. New requests use **V2** automatically. A community contributor may volunteer to make the pet for free, but completion is not guaranteed.
+  - type: input
+    id: character
+    attributes:
+      label: Character or concept
+      description: A character, mascot, animal, object, or original idea.
+      placeholder: Misaka Mikoto
+    validations:
+      required: true
+  - type: input
+    id: franchise
+    attributes:
+      label: Original work or franchise
+      description: Optional. Leave blank for an original concept.
+      placeholder: A Certain Scientific Railgun
+  - type: textarea
+    id: references
+    attributes:
+      label: Public reference image
+      description: Required. Add a public image URL or drag an image attachment here so contributors can identify the character.
+      placeholder: Paste an image URL or drag an image here
+    validations:
+      required: true
+  - type: textarea
+    id: visual_direction
+    attributes:
+      label: Important preferences
+      description: Optional. Mention any style, prop, expression, or animation that matters.
+      placeholder: Compact chibi proportions, electric effects...
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand that this free community request does not guarantee completion.
+          required: true

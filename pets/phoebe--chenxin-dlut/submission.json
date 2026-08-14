@@ -1,0 +1,31 @@
+{
+  "slug": "phoebe--chenxin-dlut",
+  "pet_slug": "phoebe",
+  "author_slug": "chenxin-dlut",
+  "name": "Phoebe",
+  "localized_names": {
+    "en": "Phoebe",
+    "zh": "菲比"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "canonical_key": "wuthering-waves/phoebe",
+  "tags": ["wuthering-waves", "pixel-art", "chibi"],
+  "collections": ["wuthering-waves"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/phoebe",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/phoebe/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/phoebe--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/phoebe--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/phoebe--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "380ae6e3907e3c91a92a6152be18eed3882564afc0d78d44ea0c5659aa2fd818"
+}

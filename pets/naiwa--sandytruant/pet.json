@@ -1,0 +1,8 @@
+{
+  "id": "naiwa--sandytruant",
+  "displayName": "奶蛙",
+  "description": "A yellow pear-shaped pixel companion that laughs when hovered.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "creature"
+}

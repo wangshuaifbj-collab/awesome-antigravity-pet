@@ -1,0 +1,35 @@
+{
+  "slug": "iris--yau-427",
+  "pet_slug": "iris",
+  "author_slug": "yau-427",
+  "name": "Iris",
+  "author": "Yau-427",
+  "author_handle": "Yau-427",
+  "author_url": "https://github.com/Yau-427",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/yau-427/iris",
+  "tags": [
+    "anime",
+    "manga-pop",
+    "cyberpunk",
+    "neon",
+    "coding",
+    "terminal",
+    "coffee",
+    "v2"
+  ],
+  "source_type": "original-character",
+  "source_url": "https://github.com/Yau-427/iris-codex-pet",
+  "license": "MIT License; original AI-assisted artwork submitted by Yau-427 with redistribution permission.",
+  "description": "An original AI-assisted manga-pop Codex companion with neon hair, spiral blue eyes, a chunky terminal frame, a laptop, and expressive work, waiting, greeting, review, and error animations.",
+  "spritesheet_sha256": "9549db84e558ecc3477853c95b81a84f50447ccd32566ff5cf22520f2785b9da",
+  "preview_image": "../../assets/previews/iris--yau-427/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/iris--yau-427/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/iris--yau-427/gifs"
+  }
+}

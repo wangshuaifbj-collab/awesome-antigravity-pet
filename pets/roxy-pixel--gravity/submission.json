@@ -1,0 +1,26 @@
+{
+  "slug": "roxy-pixel--gravity",
+  "pet_slug": "roxy-pixel",
+  "author_slug": "gravity",
+  "name": "Roxy Pixel",
+  "author": "gravity",
+  "author_handle": "gravity",
+  "primary_category": "Anime Characters",
+  "tags": ["cute", "anime", "pixel", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/roxy-pixel",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "Pixel Roxy mage pet with ornate long staff.",
+  "platform_owner_id": "d460646b-a872-4518-bfd9-510f51283ffa",
+  "platform_owner_handle": "gravity",
+  "platform_uploaded_at": "2026-05-02T19:06:40.738495+00:00",
+  "platform_view_count": 533,
+  "platform_like_count": 19,
+  "platform_tags": ["cute", "anime", "pixel"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777748800738/roxy-pixel/spritesheet.webp",
+  "spritesheet_sha256": "6e82df8fe114f150a6033705792694c89c3d8c0cb37ac0c42dd78910289f7c18",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

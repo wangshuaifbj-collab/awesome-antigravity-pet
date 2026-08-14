@@ -1,0 +1,7 @@
+{
+  "id": "chibi-rei-pet--bendy",
+  "displayName": "Rei Ayanami",
+  "description": "A chibi pixel-art desktop companion inspired by Ayanami Rei in a school uniform, with calm expression and nine Codex pet animation states.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "character"
+}

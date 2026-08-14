@@ -1,0 +1,24 @@
+{
+  "slug": "wally--wally025",
+  "pet_slug": "wally",
+  "author_slug": "wally025",
+  "name": "Wally",
+  "author": "Wally Pet Contributors",
+  "author_handle": "wally025",
+  "author_url": "https://github.com/wally025",
+  "primary_category": "Mascots",
+  "tags": ["wally", "mascot", "white", "guide", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/wally025/wally-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/wally--wally025/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/wally--wally025/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/wally--wally025/gifs"
+  },
+  "spritesheet_sha256": "7e43c94e6d9880c34b448bfb17d5e898999d0f3cc1472fc83a1c3c89f72e1ce4"
+}

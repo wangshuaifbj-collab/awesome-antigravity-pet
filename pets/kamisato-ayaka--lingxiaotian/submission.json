@@ -1,0 +1,26 @@
+{
+  "slug": "kamisato-ayaka--lingxiaotian",
+  "pet_slug": "kamisato-ayaka",
+  "author_slug": "lingxiaotian",
+  "name": "Kamisato Ayaka",
+  "localized_names": { "en": "Kamisato Ayaka", "zh": "神里绫华" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "kamisato-ayaka", "cryo", "blue"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Kamisato Ayaka-inspired fan-art Codex pet with a blue-and-white palette, hime-cut silhouette, and a calm elegant chibi identity.",
+  "preview_image": "../../assets/previews/kamisato-ayaka--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/kamisato-ayaka--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/kamisato-ayaka--lingxiaotian/gifs"
+  }
+}

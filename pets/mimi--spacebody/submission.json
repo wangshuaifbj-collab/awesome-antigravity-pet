@@ -1,0 +1,25 @@
+{
+  "slug": "mimi--spacebody",
+  "pet_slug": "mimi",
+  "author_slug": "spacebody",
+  "name": "Mimi",
+  "author": "Jerry",
+  "author_handle": "Spacebody",
+  "author_url": "https://github.com/Spacebody",
+  "primary_category": "Animals",
+  "tags": ["cat", "kitten", "tabby", "cute", "pixel-art", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/Spacebody/mimi-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/mimi--spacebody/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/mimi--spacebody/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/mimi--spacebody/gifs"
+  },
+  "spritesheet_sha256": "b50827b50a8b91cf0079054c20e4788d21c1d4b2ad4285f63fcf3b55ebd4767f"
+}

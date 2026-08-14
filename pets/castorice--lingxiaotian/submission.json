@@ -1,0 +1,26 @@
+{
+  "slug": "castorice--lingxiaotian",
+  "pet_slug": "castorice",
+  "author_slug": "lingxiaotian",
+  "name": "Castorice",
+  "localized_names": { "en": "Castorice", "zh": "遐蝶" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "castorice", "butterfly", "purple"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Castorice-inspired fan-art Codex pet with a purple-black palette, butterfly motifs, long flowing hair, and a gentle mysterious mood.",
+  "preview_image": "../../assets/previews/castorice--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/castorice--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/castorice--lingxiaotian/gifs"
+  }
+}

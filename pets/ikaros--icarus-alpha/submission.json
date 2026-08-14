@@ -1,0 +1,81 @@
+{
+  "slug": "ikaros--icarus-alpha",
+  "pet_slug": "ikaros",
+  "author_slug": "icarus-alpha",
+  "name": "Ikaros",
+  "localized_names": {
+    "en": "Ikaros",
+    "zh": "伊卡洛斯"
+  },
+  "author": "Icarus_Alpha",
+  "author_handle": "icarus-alpha",
+  "author_url": "https://codex-pets.net/users/icarus-alpha",
+  "primary_category": "Anime Characters",
+  "canonical_key": "heavens-lost-property/ikaros",
+  "tags": [
+    "anime",
+    "heavens-lost-property",
+    "ikaros",
+    "angeloid",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["heavens-lost-property"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/ikaros",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A chibi Ikaros desktop pet inspired by Heaven's Lost Property, with pink hair, teal eyes, small wings, white mechanical outfit, chain collar, clear four-finger chibi hands, and a complete round watermelon prop.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "1ae0677a-f659-4630-bb6d-427018d7712c",
+  "platform_owner_handle": "icarus-alpha",
+  "platform_uploaded_at": "2026-06-11T01:47:42.844Z",
+  "platform_view_count": 137,
+  "platform_like_count": 9,
+  "platform_download_count": 0,
+  "platform_tags": [
+    "animated",
+    "anime",
+    "mascot",
+    "cute",
+    "robot",
+    "celeb",
+    "pixel"
+  ],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1781143916220/ikaros/spritesheet.webp",
+  "platform_validation_report": {
+    "manifestId": "ikaros",
+    "atlasSize": "1536x1872",
+    "cellSize": "192x208",
+    "statesDetected": 9,
+    "manifestBytes": 340,
+    "spritesheetBytes": 2303318
+  },
+  "spritesheet_sha256": "49060938824c5466a6fe7a098d3e58ce09ec9ac420fb42abab5c0c45c03a6016",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": false,
+    "input_sha256": "49060938824c5466a6fe7a098d3e58ce09ec9ac420fb42abab5c0c45c03a6016",
+    "output_sha256": "49060938824c5466a6fe7a098d3e58ce09ec9ac420fb42abab5c0c45c03a6016",
+    "visible_edge_pixels_changed": 0,
+    "transparent_rgb_pixels_cleared": 0,
+    "cells_with_visible_changes": 0,
+    "representative_cell": "r0c0"
+  }
+}

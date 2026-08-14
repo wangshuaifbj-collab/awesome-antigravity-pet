@@ -1,0 +1,8 @@
+{
+  "id": "chispa--giiilberto-nm",
+  "displayName": "Chispa",
+  "description": "A tiny rusty helper robot pet with binocular eyes, tank treads, and clamp arms.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "robot"
+}

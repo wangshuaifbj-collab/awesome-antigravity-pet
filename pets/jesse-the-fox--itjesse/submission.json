@@ -1,0 +1,39 @@
+{
+  "slug": "jesse-the-fox--itjesse",
+  "pet_slug": "jesse-the-fox",
+  "author_slug": "itjesse",
+  "name": "JesseTheFox",
+  "localized_names": {
+    "en": "JesseTheFox",
+    "zh": "阿博"
+  },
+  "author": "Jesse Zhu",
+  "author_handle": "ITJesse",
+  "author_url": "https://github.com/ITJesse",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/itjesse/jesse-the-fox",
+  "tags": [
+    "original-character",
+    "fox",
+    "anthropomorphic",
+    "pixel-art",
+    "led-collar"
+  ],
+  "collections": ["animal-companions"],
+  "source_type": "original-ai-generated",
+  "source_url": "",
+  "license": "Non-commercial use only. Original character design and the independently AI-generated final pet asset are credited to Jesse Zhu; reference sheets were used only as private production references.",
+  "description": "An original anthropomorphic fox Codex pet with a PETS OK LED collar, layered blue-gray shorts, expressive actions, and 16 look directions.",
+  "asset_note": "The final runtime spritesheet was independently AI-generated with AI assistance and iteratively directed and adapted by Jesse Zhu from his own original character design. No pixels from the private reference sheets are included directly.",
+  "reference_note": "Private character color and turnaround sheets by Jesse Zhu were used only as production references and are not included in the submission package.",
+  "preview_image": "../../assets/previews/jesse-the-fox--itjesse/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/jesse-the-fox--itjesse/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/jesse-the-fox--itjesse/gifs"
+  },
+  "spritesheet_sha256": "e61db90a40cf7c7dca50eaaf08a9094e850d6d0e379160f5a320b921e0f67522"
+}

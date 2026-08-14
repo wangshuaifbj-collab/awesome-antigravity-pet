@@ -1,0 +1,25 @@
+{
+  "slug": "diandian--lllucasxu",
+  "pet_slug": "diandian",
+  "author_slug": "lllucasxu",
+  "name": "Diandian",
+  "author": "LLLucasXU",
+  "author_handle": "LLLucasXU",
+  "author_url": "https://github.com/LLLucasXU",
+  "primary_category": "Animals",
+  "tags": ["cat", "tabby", "sleepy", "calm", "cute", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/LLLucasXU/diandian-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/diandian--lllucasxu/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/diandian--lllucasxu/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/diandian--lllucasxu/gifs"
+  },
+  "spritesheet_sha256": "276cd3263e708dd43ca03919305dd75827b99d0d9012e70a8cf5b4be502714d4"
+}

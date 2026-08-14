@@ -1,0 +1,8 @@
+{
+  "id": "little-black-mage--libertis",
+  "displayName": "Little Black Mage",
+  "description": "A tiny original black-mage-inspired Codex companion with glowing eyes, an oversized floppy hat, a short coat, and small boots.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "creature"
+}

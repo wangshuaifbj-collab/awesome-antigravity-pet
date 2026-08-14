@@ -1,0 +1,26 @@
+{
+  "slug": "hu-tao--lingxiaotian",
+  "pet_slug": "hu-tao",
+  "author_slug": "lingxiaotian",
+  "name": "Hu Tao",
+  "localized_names": { "en": "Hu Tao", "zh": "胡桃" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "hu-tao", "black-red", "playful"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Hu Tao-inspired fan-art Codex pet with a funeral parlor hat, plum-blossom eyes, a black-red palette, and a playful chibi sprite identity.",
+  "preview_image": "../../assets/previews/hu-tao--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/hu-tao--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/hu-tao--lingxiaotian/gifs"
+  }
+}

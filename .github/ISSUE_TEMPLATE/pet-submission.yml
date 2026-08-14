@@ -1,0 +1,183 @@
+name: Submit your pet
+description: Ask maintainers to review a pet you created with AI or supplied as existing files
+title: "[Submission]: "
+labels:
+  - "type: submission"
+  - "status: triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- pet-flow: submission -->
+        Use this form only when a nearly finished, non-commercial pet still cannot become a pull request after visual repair and GitHub authorization retry. The preferred path is **Submit a pet with Codex** on [codexpet.top](https://codexpet.top), which aims to open a focused pull request. This issue does not automatically upload local files or create a pull request.
+  - type: textarea
+    id: blocker
+    attributes:
+      label: Single remaining blocker
+      description: State the one decision or missing item that prevents a pull request, what has already been tried, and the exact action requested from maintainers.
+      placeholder: "Blocker: ... Tried: ... Maintainer decision or next step needed: ..."
+    validations:
+      required: true
+  - type: input
+    id: folder_slug
+    attributes:
+      label: Suggested folder slug
+      description: Use pet-slug--author-slug so same-character variants can coexist.
+      placeholder: mikoto--lingxiaotian
+    validations:
+      required: true
+  - type: input
+    id: pet_name
+    attributes:
+      label: Default pet name
+      description: Choose the canonical fallback name shown when no matching localized name is available.
+      placeholder: Mikoto
+    validations:
+      required: true
+  - type: dropdown
+    id: bilingual_names
+    attributes:
+      label: Name language support
+      description: Choose whether this pet uses only the default name or supplies both English and Chinese names.
+      options:
+        - Single-language default name
+        - Bilingual English and Chinese names
+    validations:
+      required: true
+  - type: input
+    id: pet_name_en
+    attributes:
+      label: English name
+      description: Required only when bilingual naming is selected.
+      placeholder: Mikoto
+  - type: input
+    id: pet_name_zh
+    attributes:
+      label: Chinese name
+      description: Required only when bilingual naming is selected.
+      placeholder: 御坂美琴
+  - type: dropdown
+    id: primary_category
+    attributes:
+      label: Primary category
+      options:
+        - Game Characters
+        - Anime Characters
+        - Original Characters
+        - Mascots
+        - Animals
+        - Fantasy Creatures
+        - Robots
+        - Human Avatars
+        - Memes
+        - Objects & Props
+        - Others
+    validations:
+      required: true
+  - type: dropdown
+    id: pet_version
+    attributes:
+      label: Pet runtime version
+      description: v1 uses a 1536x1872 8x9 atlas. v2 uses a 1536x2288 8x11 atlas and requires spriteVersionNumber 2.
+      options:
+        - v2 - standard animations plus 16 look directions
+        - v1 - legacy standard animations
+    validations:
+      required: true
+  - type: input
+    id: collections
+    attributes:
+      label: Collection slugs
+      description: Optional comma-separated franchise or theme slugs from collections.json, such as genshin-impact or animal-companions.
+      placeholder: genshin-impact
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - original
+        - ai-generated
+        - commissioned
+        - fan-art
+        - adapted-existing-asset
+        - private-source
+        - github-or-project-source
+        - existing-pet-package
+        - mascot
+        - meme
+        - avatar
+        - object
+        - other
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author or handle
+      placeholder: your-name
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Optional for original, AI-generated, commissioned, or private-source work. Provide a public source when one exists.
+      placeholder: https://example.com/original-post, or leave blank when no public URL exists
+  - type: textarea
+    id: final_asset_provenance
+    attributes:
+      label: How the final pixels were made
+      description: Explain whether the final spritesheet was drawn, independently generated, commissioned, or adapted. Disclose any direct crop, trace, cleanup, or pixel reuse from an existing image.
+      placeholder: Independently generated from reference-only character material; no reference image pixels are included in the final spritesheet.
+    validations:
+      required: true
+  - type: input
+    id: canonical_key
+    attributes:
+      label: Canonical character or concept key
+      description: Use a stable grouping key such as genshin-impact/nahida; for an original use original/author/name. Independent versions of one character use the same key.
+      placeholder: original/your-handle/your-character
+    validations:
+      required: true
+  - type: textarea
+    id: variant_note
+    attributes:
+      label: Variant or uniqueness note
+      description: Required when this canonical key already exists. Explain the independent author, visual, animation, or runtime distinction.
+      placeholder: Independently produced by this author with a distinct v2 directional atlas; no existing spritesheet was reused.
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      placeholder: A chibi electric schoolgirl Codex pet inspired by Misaka Mikoto.
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: Asset license or non-commercial use statement
+      description: A formal license is optional. If none applies, state clearly that the final pet asset is for non-commercial use only.
+      placeholder: "CC BY-NC 4.0, or: Non-commercial use only."
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Reviewable assets and attachment links
+      description: Drag in a contact sheet plus the final spritesheet or compact three-file ZIP, or provide public download links. Filenames and local paths alone are not accessible to maintainers. Never attach Hatch Pet run directories, prompts, or unrelated references.
+      placeholder: Contact sheet attachment, spritesheet.webp or compact ZIP attachment, and any public links
+    validations:
+      required: true
+  - type: checkboxes
+    id: quality_confirmation
+    attributes:
+      label: Visual quality and usage confirmation
+      options:
+        - label: I reviewed every frame and confirmed that character identity, scale, baseline, and props remain consistent.
+          required: true
+        - label: I confirmed right/left running directions, alternating gait, distinct action meanings, and all v2 look directions when applicable.
+          required: true
+        - label: I checked transparent edges on checkerboard, dark, and light backgrounds for green, purple, cyan, magenta, or other residue.
+          required: true
+        - label: I understand that assets collected by this repository are for non-commercial use only unless a stricter stated license applies.
+          required: true

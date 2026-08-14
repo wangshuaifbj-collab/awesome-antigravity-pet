@@ -1,0 +1,29 @@
+{
+  "slug": "makisekurisu--m1gr4ine",
+  "pet_slug": "makisekurisu",
+  "author_slug": "m1gr4ine",
+  "name": "Makise Kurisu",
+  "localized_names": {
+    "en": "Makise Kurisu",
+    "zh": "牧濑红莉栖"
+  },
+  "author": "m1gr4ine",
+  "author_handle": "m1gr4ine",
+  "primary_category": "Anime Characters",
+  "tags": ["steins-gate", "pixel-art", "chibi"],
+  "collections": ["steins-gate"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/makisekurisu",
+  "source_pet_json": "https://assets.petdex.dev/pets/makisekurisu-d846c5fd8aa7/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/makisekurisu--m1gr4ine/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/makisekurisu--m1gr4ine/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/makisekurisu--m1gr4ine/gifs"
+  },
+  "spritesheet_sha256": "a93b2847932a74fdb99448371f5cb4724b81ebd8949d4c7a9e740c23a0e1851b"
+}

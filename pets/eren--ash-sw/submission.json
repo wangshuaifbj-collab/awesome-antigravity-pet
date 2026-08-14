@@ -1,0 +1,73 @@
+{
+  "slug": "eren--ash-sw",
+  "pet_slug": "eren",
+  "author_slug": "ash-sw",
+  "name": "Eren",
+  "localized_names": {
+    "en": "Eren",
+    "zh": "艾伦"
+  },
+  "author": "Ash-Sw",
+  "author_handle": "ash-sw",
+  "author_url": "https://codex-pets.net/users/ash-sw",
+  "primary_category": "Anime Characters",
+  "canonical_key": "attack-on-titan/eren-yeager",
+  "tags": [
+    "anime",
+    "attack-on-titan",
+    "eren-yeager",
+    "scout",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["attack-on-titan"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/eren",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A stern anime-scout-inspired Codex pet with a green cloak and determined expression.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "3f8eca95-5c83-4e18-9917-96aee2e5095b",
+  "platform_owner_handle": "ash-sw",
+  "platform_uploaded_at": "2026-05-05T18:14:16.677634+00:00",
+  "platform_view_count": 246,
+  "platform_like_count": 10,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "anime", "cute"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1778004856677/eren/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "eren",
+    "manifestBytes": 210,
+    "statesDetected": 9,
+    "spritesheetBytes": 1839708
+  },
+  "spritesheet_sha256": "1a0aa1e7423502f382a51cb912eaa0bbebb089c99b6b7c7c9c19e9221e6fe5c5",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "4f6cdc0d5508045e7494d433d5e36f72433f5c0ea0a67a0a3db34702aea98e0f",
+    "output_sha256": "1a0aa1e7423502f382a51cb912eaa0bbebb089c99b6b7c7c9c19e9221e6fe5c5",
+    "visible_edge_pixels_changed": 59854,
+    "transparent_rgb_pixels_cleared": 865761,
+    "cells_with_visible_changes": 28,
+    "representative_cell": "r1c7"
+  }
+}

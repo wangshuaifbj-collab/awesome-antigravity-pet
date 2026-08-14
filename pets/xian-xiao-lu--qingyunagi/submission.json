@@ -1,0 +1,24 @@
+{
+  "slug": "xian-xiao-lu--qingyunagi",
+  "pet_slug": "xian-xiao-lu",
+  "author_slug": "qingyunagi",
+  "name": "Xian Xiao Lu",
+  "author": "qingyunAGI",
+  "author_handle": "qingyunAGI",
+  "author_url": "https://github.com/qingyunAGI",
+  "primary_category": "Fantasy Creatures",
+  "tags": ["deer", "xianxia", "cloud", "peaceful", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/qingyunAGI/xian-xiao-lu-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/xian-xiao-lu--qingyunagi/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/xian-xiao-lu--qingyunagi/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/xian-xiao-lu--qingyunagi/gifs"
+  },
+  "spritesheet_sha256": "b0f3aee2e9c18236af37c02027c6fc78ea0b3901fcef486b212f3ebd2e090aad"
+}

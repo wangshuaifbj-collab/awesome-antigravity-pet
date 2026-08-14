@@ -1,0 +1,4 @@
+interface:
+  display_name: "Submit Codex Pet"
+  short_description: "Finish reviewable pet submissions without a full clone"
+  default_prompt: "Use $submit-codex-pet to request a pet or complete my non-commercial submission as a visually approved pull request. Prioritize frame-by-frame pet quality before using a blocked issue fallback."

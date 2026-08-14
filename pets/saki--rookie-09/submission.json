@@ -1,0 +1,24 @@
+{
+  "slug": "saki--rookie-09",
+  "pet_slug": "saki",
+  "author_slug": "rookie-09",
+  "name": "Saki",
+  "author": "rookie-09",
+  "author_handle": "rookie-09",
+  "author_url": "https://github.com/rookie-09",
+  "primary_category": "Mascots",
+  "tags": ["saki", "cyan", "pixel-art", "mascot", "wings", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/rookie-09/saki-codex-pet-overlay",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/saki--rookie-09/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/saki--rookie-09/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/saki--rookie-09/gifs"
+  },
+  "spritesheet_sha256": "61ea42dffd8aaaaa3136450085d122efcdf860fa495a17105ba1559ee17a2148"
+}

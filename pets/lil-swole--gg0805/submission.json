@@ -1,0 +1,37 @@
+{
+  "slug": "lil-swole--gg0805",
+  "pet_slug": "lil-swole",
+  "author_slug": "gg0805",
+  "name": "Lil Swole",
+  "author": "gg0805",
+  "author_handle": "gg0805",
+  "author_url": "https://github.com/gg0805",
+  "primary_category": "Animals",
+  "canonical_key": "original/gg0805/lil-swole",
+  "tags": [
+    "rat",
+    "gym",
+    "streetwear",
+    "parrot",
+    "sticker",
+    "original",
+    "codex-generated",
+    "v2"
+  ],
+  "collections": ["animal-companions"],
+  "source_type": "codex-generated",
+  "source_url": "",
+  "source_note": "Original AI-generated Codex pet created from the submitter's concept without third-party source artwork.",
+  "license": "CC BY-NC 4.0. Original AI-generated artwork created for and submitted by gg0805; no third-party source assets were used.",
+  "description": "A cultured, gloriously brainrotted gym-rat icon who curls a computer mouse while his parrot wingman launches dumbbells.",
+  "preview_image": "../../assets/previews/lil-swole--gg0805/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lil-swole--gg0805/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lil-swole--gg0805/gifs"
+  },
+  "spritesheet_sha256": "3ef92b0f66ab097c75b2e9f5bb03c299c4140e20fe0802228f2c5f3fd2bcf810"
+}

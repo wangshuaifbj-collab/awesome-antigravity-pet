@@ -1,0 +1,29 @@
+{
+  "slug": "makimamini--1sh1ro",
+  "pet_slug": "makimamini",
+  "author_slug": "1sh1ro",
+  "name": "MakimaMini",
+  "localized_names": {
+    "en": "Makima",
+    "zh": "玛奇玛"
+  },
+  "author": "1sh1ro",
+  "author_handle": "1sh1ro",
+  "primary_category": "Anime Characters",
+  "tags": ["chainsaw-man", "pixel-art", "chibi"],
+  "collections": ["chainsaw-man"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/makimamini",
+  "source_pet_json": "https://assets.petdex.dev/pets/makimamini-39abfe4ef2b7/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/makimamini--1sh1ro/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/makimamini--1sh1ro/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/makimamini--1sh1ro/gifs"
+  },
+  "spritesheet_sha256": "48077074b1d8e80cd1563de57c1f6eacfc99ca4b4ca35f797267f8d282b2938d"
+}

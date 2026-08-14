@@ -1,0 +1,49 @@
+{
+  "slug": "moomew-coder-cat--ping",
+  "pet_slug": "moomew-coder-cat",
+  "author_slug": "ping",
+  "name": "MooMew Coder",
+  "author": "ping",
+  "author_handle": "ping",
+  "author_url": "",
+  "primary_category": "Animals",
+  "tags": ["animated", "anime", "codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/moomew-coder-cat",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A chibi tuxedo cat coding companion with laptop, yarn, review, jump, and error animations.",
+  "platform_owner_id": "166b723c-79ac-4564-8845-edc6fe88fc8d",
+  "platform_owner_handle": "ping",
+  "platform_uploaded_at": "2026-05-03T03:14:37.736732+00:00",
+  "platform_view_count": 367,
+  "platform_like_count": 6,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777778077736/moomew-coder-cat/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "moomew-coder-cat",
+    "manifestBytes": 236,
+    "statesDetected": 9,
+    "spritesheetBytes": 1001506
+  },
+  "spritesheet_sha256": "77891f3d53edaa0a3d8b84ef273ab640cef35513eb8d5e44cba78397e8f19238",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "per-cell exterior-connected neutral matte removal with one boundary refinement; manually reviewed per frame",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "0d808848a7adb68497580cc72ec8a4e6d5ac79f9d6a249523a9e12be466fb992",
+    "output_sha256": "77891f3d53edaa0a3d8b84ef273ab640cef35513eb8d5e44cba78397e8f19238",
+    "visible_matte_pixels_removed": 187387,
+    "cells_with_visible_changes": 57,
+    "manual_qa": "All 57 used frames reviewed on white, gray, and black backgrounds; white fur, paws, props, highlights, and detached state effects were preserved."
+  }
+}

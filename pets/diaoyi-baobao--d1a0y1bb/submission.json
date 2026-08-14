@@ -1,0 +1,24 @@
+{
+  "slug": "diaoyi-baobao--d1a0y1bb",
+  "pet_slug": "diaoyi-baobao",
+  "author_slug": "d1a0y1bb",
+  "name": "Diaoyi Baobao",
+  "author": "D1a0y1bb",
+  "author_handle": "D1a0y1bb",
+  "author_url": "https://github.com/D1a0y1bb",
+  "primary_category": "Mascots",
+  "tags": ["clover", "green", "mascot", "cute", "round", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/D1a0y1bb/Diaoyi-Baobao-Codex-Pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/diaoyi-baobao--d1a0y1bb/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/diaoyi-baobao--d1a0y1bb/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/diaoyi-baobao--d1a0y1bb/gifs"
+  },
+  "spritesheet_sha256": "bf2663229501d4a15d52221409f4fb6344d857b6262ca064d66d7d7973679981"
+}

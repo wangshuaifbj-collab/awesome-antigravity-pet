@@ -1,0 +1,8 @@
+{
+  "id": "moomew-coder-cat--ping",
+  "displayName": "MooMew Coder",
+  "description": "A chibi tuxedo cat coding companion with laptop, yarn, review, jump, and error animations.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

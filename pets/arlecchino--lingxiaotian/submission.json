@@ -1,0 +1,26 @@
+{
+  "slug": "arlecchino--lingxiaotian",
+  "pet_slug": "arlecchino",
+  "author_slug": "lingxiaotian",
+  "name": "Arlecchino",
+  "localized_names": { "en": "Arlecchino", "zh": "阿蕾奇诺" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "arlecchino", "black-white-red", "stern"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "An Arlecchino-inspired fan-art Codex pet with white-and-black hair, a black-white-red palette, a short cloak silhouette, and a sharp chibi sprite identity.",
+  "preview_image": "../../assets/previews/arlecchino--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/arlecchino--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/arlecchino--lingxiaotian/gifs"
+  }
+}

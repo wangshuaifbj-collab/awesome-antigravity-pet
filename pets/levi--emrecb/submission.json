@@ -1,0 +1,73 @@
+{
+  "slug": "levi--emrecb",
+  "pet_slug": "levi",
+  "author_slug": "emrecb",
+  "name": "Levi",
+  "localized_names": {
+    "en": "Levi",
+    "zh": "利威尔"
+  },
+  "author": "emrecb",
+  "author_handle": "emrecb",
+  "author_url": "https://codex-pets.net/users/emrecb",
+  "primary_category": "Anime Characters",
+  "canonical_key": "attack-on-titan/levi-ackerman",
+  "tags": [
+    "anime",
+    "attack-on-titan",
+    "levi-ackerman",
+    "scout",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["attack-on-titan"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/levi",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny airborne sword fighter who jumps, spins, and swings twin blades.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "e1d9aaba-2487-48b5-9735-861ed8a38bf1",
+  "platform_owner_handle": "emrecb",
+  "platform_uploaded_at": "2026-05-03T12:36:03.511929+00:00",
+  "platform_view_count": 703,
+  "platform_like_count": 22,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "anime", "celeb"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777811763511/levi/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "levi",
+    "manifestBytes": 197,
+    "statesDetected": 9,
+    "spritesheetBytes": 1939230
+  },
+  "spritesheet_sha256": "8b2f85a667a48cda77a6ad2219a4dd2bb2c014457d06956f7ff2e6eec9fe02a3",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "db10cadd7db1e21c53f2fe826f79b552afe233b2c4ab54518e00f49e156b2694",
+    "output_sha256": "8b2f85a667a48cda77a6ad2219a4dd2bb2c014457d06956f7ff2e6eec9fe02a3",
+    "visible_edge_pixels_changed": 104900,
+    "transparent_rgb_pixels_cleared": 1023643,
+    "cells_with_visible_changes": 38,
+    "representative_cell": "r6c3"
+  }
+}

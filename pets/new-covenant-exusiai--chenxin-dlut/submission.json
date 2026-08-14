@@ -1,0 +1,30 @@
+{
+  "slug": "new-covenant-exusiai--chenxin-dlut",
+  "pet_slug": "new-covenant-exusiai",
+  "author_slug": "chenxin-dlut",
+  "name": "新约能天使",
+  "localized_names": {
+    "en": "Exusiai the New Covenant",
+    "zh": "新约能天使"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["arknights", "pixel-art", "chibi"],
+  "collections": ["arknights"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/new-covenant-exusiai",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/new-covenant-exusiai/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/new-covenant-exusiai--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/new-covenant-exusiai--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/new-covenant-exusiai--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "86d4e324f7407d41e84d3229383a8bd5d7bc858d3aea5ab00e657f6594a565b9"
+}

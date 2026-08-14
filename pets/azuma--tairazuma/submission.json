@@ -1,0 +1,35 @@
+{
+  "slug": "azuma--tairazuma",
+  "pet_slug": "azuma",
+  "author_slug": "tairazuma",
+  "name": "Azuma",
+  "author": "tairazuma",
+  "author_handle": "tairazuma",
+  "primary_category": "Human Avatars",
+  "tags": [
+    "animated",
+    "anime",
+    "celeb",
+    "cute",
+    "mascot",
+    "soft",
+    "codex-pets",
+    "v1"
+  ],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/azuma",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A compact Codex digital pet inspired by Azuma, a gentle gyaru schoolgirl with long ash-blonde wavy hair, sleepy blue-gray eyes, a calm sweet expression, and a sailor school uniform with a lime neckerchief; simplify her into a chibi mascot while preserving her soft elegance.",
+  "platform_owner_id": "b6b4a7f6-7fd4-4b17-b82d-1a69b9ddeba9",
+  "platform_owner_handle": "tairazuma",
+  "platform_uploaded_at": "2026-05-05T07:10:16.491962+00:00",
+  "platform_view_count": 404,
+  "platform_like_count": 18,
+  "platform_tags": ["animated", "anime", "celeb", "cute", "mascot", "soft"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777965016491/azuma/spritesheet.webp",
+  "spritesheet_sha256": "12a98bbecf15c2331121efeb0b43a66c7c9116b68d866c599b4f2d2bf1a2fe77",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

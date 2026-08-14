@@ -1,0 +1,73 @@
+{
+  "slug": "nimbus--soraberu",
+  "pet_slug": "nimbus",
+  "author_slug": "soraberu",
+  "name": "Nimbus",
+  "localized_names": {
+    "en": "Nimbus",
+    "zh": "筋斗云悟空"
+  },
+  "author": "soraberu",
+  "author_handle": "soraberu",
+  "author_url": "https://codex-pets.net/users/soraberu",
+  "primary_category": "Anime Characters",
+  "canonical_key": "dragon-ball/son-goku-flying-nimbus",
+  "tags": [
+    "anime",
+    "dragon-ball",
+    "son-goku",
+    "flying-nimbus",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["dragon-ball"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/nimbus",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny chibi martial-arts kid riding a golden cloud companion.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "141109ab-3d4c-445b-bb5a-36a051d5ca58",
+  "platform_owner_handle": "soraberu",
+  "platform_uploaded_at": "2026-05-02T17:48:56.335909+00:00",
+  "platform_view_count": 1117,
+  "platform_like_count": 20,
+  "platform_download_count": 0,
+  "platform_tags": ["cute", "anime", "pixel"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777744136335/nimbus/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "nimbus",
+    "manifestBytes": 172,
+    "statesDetected": 9,
+    "spritesheetBytes": 2243488
+  },
+  "spritesheet_sha256": "f96077027a261c2f626d1f6b3334b5eb3d1b2c0f8432dcad59a13eefbd3091db",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "224a0b869f364a0b9dba0094947f69160d13c492ea84d830e8528e8097458723",
+    "output_sha256": "f96077027a261c2f626d1f6b3334b5eb3d1b2c0f8432dcad59a13eefbd3091db",
+    "visible_edge_pixels_changed": 47890,
+    "transparent_rgb_pixels_cleared": 423961,
+    "cells_with_visible_changes": 17,
+    "representative_cell": "r5c5"
+  }
+}

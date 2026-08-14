@@ -1,0 +1,66 @@
+{
+  "slug": "elaina--nyakku-shigure",
+  "pet_slug": "elaina",
+  "author_slug": "nyakku-shigure",
+  "name": "Elaina",
+  "localized_names": {
+    "en": "Elaina",
+    "zh": "伊蕾娜"
+  },
+  "author": "Nyakku Shigure",
+  "author_handle": "nyakku-shigure",
+  "author_url": "https://codex-pets.net/users/nyakku-shigure",
+  "primary_category": "Anime Characters",
+  "canonical_key": "wandering-witch/elaina",
+  "tags": ["anime", "wandering-witch", "elaina", "witch", "v1", "codex-pets"],
+  "collections": ["wandering-witch"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/elaina",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny Ashen Witch digital pet inspired by Elaina, the cute self-confident traveling witch who rides her broom.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "8c1e1275-64fd-4632-b805-3c1aa90b9376",
+  "platform_owner_handle": "nyakku-shigure",
+  "platform_uploaded_at": "2026-05-02T15:36:27.462359+00:00",
+  "platform_view_count": 297,
+  "platform_like_count": 11,
+  "platform_download_count": 0,
+  "platform_tags": ["cute", "animated", "anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777736187462/elaina/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "elaina",
+    "manifestBytes": 221,
+    "statesDetected": 9,
+    "spritesheetBytes": 2368004
+  },
+  "spritesheet_sha256": "3c61793d8b88aec692f2f88eaf9dfc628b0e08dd0244ec4ae3958eb2ca6ee3c2",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "eba7420b2c15bdb899eccab2ae2624a1607e01c8326e37e46a80e3e4d0663eec",
+    "output_sha256": "3c61793d8b88aec692f2f88eaf9dfc628b0e08dd0244ec4ae3958eb2ca6ee3c2",
+    "visible_edge_pixels_changed": 17534,
+    "transparent_rgb_pixels_cleared": 344892,
+    "cells_with_visible_changes": 8,
+    "representative_cell": "r1c5"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "hamo--haipengzzz",
+  "pet_slug": "hamo",
+  "author_slug": "haipengzzz",
+  "name": "Hamo",
+  "author": "haipengzzz",
+  "author_handle": "haipengzzz",
+  "author_url": "https://github.com/haipengzzz",
+  "primary_category": "Original Characters",
+  "tags": ["hamo", "armored-dragon", "silver", "red"],
+  "collections": [],
+  "canonical_key": "original/hamo",
+  "source_type": "direct-pixel-reuse-private-source",
+  "source_url": "",
+  "source_note": "The final spritesheet directly crops and reuses pixels from a private source image. The source is not publicly available.",
+  "license": "Non-commercial use only.",
+  "description": "A silver-and-red armored dragon companion named Hamo.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

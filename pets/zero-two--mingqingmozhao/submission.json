@@ -1,0 +1,29 @@
+{
+  "slug": "zero-two--mingqingmozhao",
+  "pet_slug": "zero-two",
+  "author_slug": "mingqingmozhao",
+  "name": "02",
+  "localized_names": {
+    "en": "Zero Two",
+    "zh": "02"
+  },
+  "author": "mingqingmozhao",
+  "author_handle": "mingqingmozhao",
+  "primary_category": "Anime Characters",
+  "tags": ["darling-in-the-franxx", "pixel-art", "chibi"],
+  "collections": ["darling-in-the-franxx"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/zero-two-2",
+  "source_pet_json": "https://assets.petdex.dev/pets/zero-two-37836b8d3b67/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/zero-two--mingqingmozhao/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/zero-two--mingqingmozhao/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/zero-two--mingqingmozhao/gifs"
+  },
+  "spritesheet_sha256": "35e0f6a3414f0b3843b368e8d184b23490dd7d67a2b9c727afe114ab752dab10"
+}

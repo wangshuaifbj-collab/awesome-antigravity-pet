@@ -1,0 +1,40 @@
+{
+  "slug": "yae-miko--legeling",
+  "pet_slug": "yae-miko",
+  "author_slug": "legeling",
+  "name": "八重神子",
+  "localized_names": {
+    "en": "Yae Miko",
+    "zh": "八重神子"
+  },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": [
+    "genshin-impact",
+    "yae-miko",
+    "kitsune",
+    "shrine-maiden",
+    "pink-hair",
+    "pixel-art",
+    "chibi",
+    "v2"
+  ],
+  "collections": ["genshin-impact"],
+  "canonical_key": "genshin-impact/yae-miko",
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "An original non-commercial chibi pixel-art interpretation inspired by Yae Miko. The public character reference was used only to preserve recognizable traits; the source artwork, logos, and text were not reproduced.",
+  "preview_image": "../../assets/previews/yae-miko--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/yae-miko--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/yae-miko--legeling/gifs"
+  },
+  "spritesheet_sha256": "5b211fae44ff5bd4541dcce1c01d378af30ed3c670b205b67d5a3c4c3323b884"
+}

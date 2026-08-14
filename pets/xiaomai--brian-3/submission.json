@@ -1,0 +1,40 @@
+{
+  "slug": "xiaomai--brian-3",
+  "pet_slug": "xiaomai",
+  "author_slug": "brian-3",
+  "name": "小麦 XiaoMai",
+  "author": "Brian",
+  "author_handle": "brian-3",
+  "primary_category": "Animals",
+  "tags": ["animated", "codex-pets", "v2"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/xiaomai",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "小麦（XiaoMai），一只绿眼睛、粉鼻子、狸花纹、白脸白胸和白袜子的家猫；不工作时会蜷着睡觉。",
+  "platform_owner_id": "79beb0e0-48c1-4aee-b855-aca5239ddbdc",
+  "platform_owner_handle": "brian-3",
+  "platform_uploaded_at": "2026-07-10T09:10:33.973Z",
+  "platform_view_count": 184,
+  "platform_like_count": 3,
+  "platform_tags": ["animated"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1783674633973/xiaomai/spritesheet.webp",
+  "spritesheet_sha256": "70cf259437c5643dd6023b29435e78d2035f9b8e550df0683e85c1f899fc4d5d",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual removal of three detached crop fragments in running-left frames 7 and 8",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "6acd92f0153fd283a1a1557a4201d5071d276042d2387edec2b2f35da7e75367",
+    "output_sha256": "70cf259437c5643dd6023b29435e78d2035f9b8e550df0683e85c1f899fc4d5d",
+    "visible_pixels_changed": 2130,
+    "artifact_pixels_removed": 2130,
+    "cells_with_visible_changes": 2,
+    "manual_qa": "All 11 rows reviewed on white, gray, and black backgrounds; only the detached duplicate cat and paw fragments were removed, with the tabby coat, white face, chest, paws, whiskers, and all 16 look-direction frames preserved."
+  }
+}

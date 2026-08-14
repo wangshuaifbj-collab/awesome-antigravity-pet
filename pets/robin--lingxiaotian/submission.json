@@ -1,0 +1,26 @@
+{
+  "slug": "robin--lingxiaotian",
+  "pet_slug": "robin",
+  "author_slug": "lingxiaotian",
+  "name": "Robin",
+  "localized_names": { "en": "Robin", "zh": "知更鸟" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "robin", "angelic", "blue"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Robin-inspired fan-art Codex pet with a pale blue-and-white stage costume, split golden halo, wing ornaments, and a calm singer-like chibi identity.",
+  "preview_image": "../../assets/previews/robin--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/robin--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/robin--lingxiaotian/gifs"
+  }
+}

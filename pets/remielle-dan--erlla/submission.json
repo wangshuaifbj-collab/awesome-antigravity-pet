@@ -1,0 +1,36 @@
+{
+  "slug": "remielle-dan--erlla",
+  "pet_slug": "remielle-dan",
+  "author_slug": "erlla",
+  "name": "Remielle-Dan / Leimi",
+  "localized_names": {
+    "en": "Remielle-Dan / Leimi",
+    "zh": "蕾米埃尔·丹 / 蕾米"
+  },
+  "author": "Erlla",
+  "author_handle": "Erlla",
+  "author_url": "https://github.com/Erlla",
+  "primary_category": "Game Characters",
+  "canonical_key": "zenless-zone-zero/remielle-dan",
+  "tags": [
+    "game",
+    "anime",
+    "zenless-zone-zero",
+    "remielle-dan",
+    "leimi",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": ["zenless-zone-zero"],
+  "source_type": "independently-ai-generated-fan-art",
+  "source_url": "",
+  "source_notes": "The final pet spritesheet was independently AI-generated and adapted by Erlla. Official Zenless Zone Zero event artwork was used only as a character reference, while rendered animation sequences a, b, c, d, and e were used only as motion references; none of those references are included in the submission. No reference-image pixels were directly cropped, traced, upscaled, or reused. The original character and related intellectual property belong to miHoYo/HoYoverse. Reference: https://act.mihoyo.com/zzz/event/e20260717reserve-pvy5cf/index.html",
+  "license": "Personal non-commercial use only. The original character and related intellectual property belong to miHoYo/HoYoverse.",
+  "description": "《绝区零》中的蕾米埃尔·丹，初代虚狩之一。",
+  "preview_image": "../../assets/previews/remielle-dan--erlla/gifs/idle.gif",
+  "spritesheet_sha256": "a408c5879e243f6cd1356f89f536c1919494a91d75bb63799e933e580f1dea2f",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

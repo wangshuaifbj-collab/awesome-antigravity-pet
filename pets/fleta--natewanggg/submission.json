@@ -1,0 +1,38 @@
+{
+  "slug": "fleta--natewanggg",
+  "pet_slug": "fleta",
+  "author_slug": "natewanggg",
+  "name": "Fleta",
+  "author": "NateWanggg",
+  "author_handle": "NateWanggg",
+  "author_url": "https://github.com/NateWanggg",
+  "primary_category": "Animals",
+  "tags": ["cat", "silver-white", "fleta", "original-pet", "soft"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/fleta--natewanggg/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/fleta--natewanggg/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/fleta--natewanggg/gifs"
+  },
+  "spritesheet_sha256": "e50eaf9d33e425fee880de1a7715606a729f478ca926def0ead5f3e8240e3a2d",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual removal of one detached neighboring-frame crop fragment in row 5 frame 3",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "60c4abac1f6f493a29a5259347920628032e9dee275d842f8d68c7a40ba26fda",
+    "output_sha256": "e50eaf9d33e425fee880de1a7715606a729f478ca926def0ead5f3e8240e3a2d",
+    "visible_pixels_changed": 120,
+    "artifact_pixels_removed": 120,
+    "cells_with_visible_changes": 1,
+    "manual_qa": "All 9 rows reviewed on white, gray, and black backgrounds; only one detached neighboring-frame fragment was removed, with Fleta's silver-white fur, gray stripes, butterfly, whiskers, bubbles, and all action silhouettes preserved."
+  }
+}

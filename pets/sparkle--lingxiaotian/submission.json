@@ -1,0 +1,26 @@
+{
+  "slug": "sparkle--lingxiaotian",
+  "pet_slug": "sparkle",
+  "author_slug": "lingxiaotian",
+  "name": "Sparkle",
+  "localized_names": { "en": "Sparkle", "zh": "花火" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "sparkle", "mask", "twin-tails"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Sparkle-inspired fan-art Codex pet with a playful red-black palette, twin tails, and a theatrical mask.",
+  "preview_image": "../../assets/previews/sparkle--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/sparkle--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/sparkle--lingxiaotian/gifs"
+  }
+}

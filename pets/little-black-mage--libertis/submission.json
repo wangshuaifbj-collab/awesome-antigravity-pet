@@ -1,0 +1,26 @@
+{
+  "slug": "little-black-mage--libertis",
+  "pet_slug": "little-black-mage",
+  "author_slug": "libertis",
+  "name": "Little Black Mage",
+  "author": "LIBERTIS",
+  "author_handle": "libertis",
+  "primary_category": "Game Characters",
+  "tags": ["codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/little-black-mage",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny original black-mage-inspired Codex companion with glowing eyes, an oversized floppy hat, a short coat, and small boots.",
+  "platform_owner_id": "60927fad-bda5-4907-8081-db916b10b62d",
+  "platform_owner_handle": "libertis",
+  "platform_uploaded_at": "2026-05-02T10:38:13.694896+00:00",
+  "platform_view_count": 237,
+  "platform_like_count": 15,
+  "platform_tags": [],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777718293694/little-black-mage/spritesheet.webp",
+  "spritesheet_sha256": "1fac5db476a424f3921d91300dc7cf6679717df91530c38b6bf4f4565bcb8e29",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

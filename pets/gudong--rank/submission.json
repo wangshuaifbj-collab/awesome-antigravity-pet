@@ -1,0 +1,45 @@
+{
+  "slug": "gudong--rank",
+  "pet_slug": "gudong",
+  "author_slug": "rank",
+  "name": "咕咚",
+  "author": "Rank",
+  "author_handle": "Rank",
+  "primary_category": "Original Characters",
+  "tags": [
+    "original-character",
+    "rabbit",
+    "king",
+    "crown",
+    "cape",
+    "cartoon",
+    "v2"
+  ],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY 4.0",
+  "description": "An original crown-wearing rabbit king with a leafy forelock, burgundy cape, and playful oversized eyes.",
+  "preview_image": "../../assets/previews/gudong--rank/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/gudong--rank/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/gudong--rank/gifs"
+  },
+  "spritesheet_sha256": "9a2cf19c6b2a24ac5e5950576d65ae957890938a416b5e177f0f93e48555c0f3",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual per-frame removal of eight detached white crop slivers in row 6",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "b644b78fd6b35ed71c5dd9291b145733738f9eb835649f0aa483da5a0409839d",
+    "output_sha256": "9a2cf19c6b2a24ac5e5950576d65ae957890938a416b5e177f0f93e48555c0f3",
+    "visible_pixels_changed": 355,
+    "artifact_pixels_removed": 355,
+    "cells_with_visible_changes": 5,
+    "manual_qa": "All 11 rows reviewed on white, gray, and black backgrounds; only eight detached crop slivers were removed, with the white ears, crown highlights, green leaf, cape, and all 16 look-direction frames preserved."
+  }
+}

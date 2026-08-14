@@ -1,0 +1,25 @@
+{
+  "slug": "hajimi--zeyuwang1999",
+  "pet_slug": "hajimi",
+  "author_slug": "zeyuwang1999",
+  "name": "Hajimi",
+  "author": "zeyu.wang",
+  "author_handle": "zeyuwang1999",
+  "author_url": "https://github.com/zeyuwang1999",
+  "primary_category": "Original Characters",
+  "tags": ["hajimi", "cat-ears", "purple", "cute", "pixel-art", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/zeyuwang1999/hajimi-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/hajimi--zeyuwang1999/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/hajimi--zeyuwang1999/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/hajimi--zeyuwang1999/gifs"
+  },
+  "asset_note": "Source spritesheet was MIT-licensed PNG and was converted losslessly to WebP to match this gallery package format.",
+  "spritesheet_sha256": "1b3a39914651ec22e458c8afdf572798584600d5fbbaa17a0added9daabe25a6"
+}

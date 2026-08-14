@@ -1,0 +1,8 @@
+{
+  "id": "goblin--rkwap",
+  "displayName": "Goblin",
+  "description": "A cute compact Codex digital pet goblin with tiny ears and a mischievous friendly face.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "creature"
+}

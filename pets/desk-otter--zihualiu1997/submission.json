@@ -1,0 +1,26 @@
+{
+  "slug": "desk-otter--zihualiu1997",
+  "pet_slug": "desk-otter",
+  "author_slug": "zihualiu1997",
+  "name": "Desk Otter",
+  "author": "zihualiu1997",
+  "author_handle": "zihualiu1997",
+  "author_url": "https://github.com/zihualiu1997",
+  "primary_category": "Animals",
+  "tags": ["otter", "desk-worker", "glasses", "pixel-art", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/zihualiu1997/dustin-otter-codex-pet",
+  "license": "MIT License",
+  "description": "A bespectacled desk-worker otter mascot in a blue shirt, animated for Codex task states.",
+  "preview_image": "../../assets/previews/desk-otter--zihualiu1997/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/desk-otter--zihualiu1997/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/desk-otter--zihualiu1997/gifs"
+  },
+  "spritesheet_sha256": "e48f36365aab834bcd8f6fd21a21727eced21fb1ff2940bf5e5980bebe85e18e"
+}

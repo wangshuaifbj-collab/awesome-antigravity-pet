@@ -1,0 +1,24 @@
+{
+  "slug": "aemeath-mini--cunuo",
+  "pet_slug": "aemeath-mini",
+  "author_slug": "cunuo",
+  "name": "Aemeath Mini",
+  "author": "cuNuo",
+  "author_handle": "cuNuo",
+  "author_url": "https://github.com/cuNuo",
+  "primary_category": "Mascots",
+  "tags": ["aemeath", "pixel-art", "q-style", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/cuNuo/aemeath-mini-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/aemeath-mini--cunuo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/aemeath-mini--cunuo/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/aemeath-mini--cunuo/gifs"
+  },
+  "spritesheet_sha256": "f6b2677b8e16bf1b73b0425e60bb6439bac803e108e073ef9b9dc128a762a1dc"
+}

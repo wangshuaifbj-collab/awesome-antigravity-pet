@@ -1,0 +1,26 @@
+{
+  "slug": "frankie--aygunvarol",
+  "pet_slug": "frankie",
+  "author_slug": "aygunvarol",
+  "name": "Frankie",
+  "author": "Aygun Varol",
+  "author_handle": "AygunVarol",
+  "author_url": "https://github.com/AygunVarol",
+  "primary_category": "Animals",
+  "tags": ["dachshund", "dog", "sausage-dog", "cute", "brown", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/AygunVarol/Codex-Pet-Frankie",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/frankie--aygunvarol/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/frankie--aygunvarol/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/frankie--aygunvarol/gifs"
+  },
+  "asset_note": "Source repository ships the validated spritesheet and an install manifest in the README; this gallery package records the equivalent pet manifest in standalone JSON format.",
+  "spritesheet_sha256": "be96eae6fd3ff34a67770d52ba1aca9ab60cd2ad89a072bc03768a8ebf211533"
+}

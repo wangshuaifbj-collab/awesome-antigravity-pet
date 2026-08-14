@@ -1,0 +1,72 @@
+{
+  "slug": "miu-meo--lemon-z",
+  "pet_slug": "miu-meo",
+  "author_slug": "lemon-z",
+  "name": "SalaryCat",
+  "localized_names": {
+    "en": "SalaryCat",
+    "zh": "月薪喵"
+  },
+  "author": "LemonZ",
+  "author_handle": "lemon-z",
+  "author_url": "",
+  "primary_category": "Animals",
+  "canonical_key": "open-source/einswen/salarycat",
+  "variant_note": "LemonZ's independently published codex-pets.net edition, preserved with its original upload attribution and distinct spritesheet.",
+  "tags": [
+    "animated",
+    "utility",
+    "cute",
+    "codex-pets",
+    "salarycat",
+    "yuexin-miao",
+    "v2"
+  ],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/miu-meo",
+  "source_notes": "Originally published on codex-pets.net as Miu Meu. The repository display name is normalized to SalaryCat / 月薪喵 while preserving the original upload URL and author attribution.",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "Chú mèo kem mít ướt với bụng trắng lớn, nước mắt xanh và dáng lắc lư đáng yêu.",
+  "platform_owner_id": "ccf816b6-9076-4ba4-b494-7c2d64506af6",
+  "platform_owner_handle": "lemon-z",
+  "platform_uploaded_at": "2026-07-13T13:53:52.862Z",
+  "platform_view_count": 216,
+  "platform_like_count": 0,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "utility", "cute"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1783950936115/miu-meo/spritesheet.webp",
+  "platform_validation_report": {
+    "manifestId": "miu-meo",
+    "atlasSize": "1536x2288",
+    "cellSize": "192x208",
+    "statesDetected": 11,
+    "manifestBytes": 267,
+    "spritesheetBytes": 2240486,
+    "spriteVersionNumber": 2
+  },
+  "spritesheet_sha256": "a22cb5be02a3f8903dd3b78313f32509729a05bd2e5509a80da683b097eb5399",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-14T12:00:33.482Z",
+    "algorithm": "edge-local-chroma-spill-suppression (one deterministic pass per 192x208 cell; key inferred from transparent RGB mode)",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "alpha_preserved": true,
+    "output_replaced": true,
+    "input_sha256": "3d112d21494b69e67342c2ff0882f6beee8ccdc969114eb257f252412b7253f7",
+    "output_sha256": "a22cb5be02a3f8903dd3b78313f32509729a05bd2e5509a80da683b097eb5399",
+    "visible_edge_pixels_changed": 26143,
+    "transparent_rgb_pixels_cleared": 0,
+    "spill_suppressed_pixels": 26143,
+    "cells_with_visible_changes": 72,
+    "representative_cell": "r1c0"
+  }
+}

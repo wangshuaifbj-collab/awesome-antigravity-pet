@@ -1,0 +1,29 @@
+{
+  "slug": "chibi-rei-pet--bendy",
+  "pet_slug": "chibi-rei-pet",
+  "author_slug": "bendy",
+  "name": "Chibi Rei Pet",
+  "localized_names": {
+    "en": "Rei Ayanami",
+    "zh": "绫波丽"
+  },
+  "author": "Bendy",
+  "author_handle": "Bendy",
+  "primary_category": "Anime Characters",
+  "tags": ["evangelion", "pixel-art", "chibi"],
+  "collections": ["evangelion"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/chibi-rei-pet",
+  "source_pet_json": "https://assets.petdex.dev/pets/chibi-rei-pet-9b744cc092b8/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/chibi-rei-pet--bendy/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/chibi-rei-pet--bendy/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/chibi-rei-pet--bendy/gifs"
+  },
+  "spritesheet_sha256": "0f07d9c51fb9670aa32fb49aa5b58afbdbe8f4ae39bf6cb2947873b26892b26e"
+}

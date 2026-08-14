@@ -1,0 +1,21 @@
+{
+  "slug": "rinami--siiverash",
+  "pet_slug": "rinami",
+  "author_slug": "siiverash",
+  "name": "Rinami Himesaki",
+  "description": "A Rinami Himesaki-inspired fan-art Codex pet with long wavy light-brown hair, crown-braid styling, a navy-and-gold school-uniform palette, and a compact chibi pixel sprite identity.",
+  "author": "SiIverAsh",
+  "author_handle": "SiIverAsh",
+  "author_url": "https://github.com/SiIverAsh",
+  "primary_category": "Anime Characters",
+  "tags": ["gakuen-idolmaster", "rinami-himesaki", "pixel-art", "hatch-pet"],
+  "collections": ["gakuen-idolmaster"],
+  "source_type": "fan-art",
+  "source_url": "https://gakuen.idolmaster-official.jp/idol/rinami/",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/rinami--siiverash/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

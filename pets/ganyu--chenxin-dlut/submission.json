@@ -1,0 +1,30 @@
+{
+  "slug": "ganyu--chenxin-dlut",
+  "pet_slug": "ganyu",
+  "author_slug": "chenxin-dlut",
+  "name": "Ganyu",
+  "localized_names": {
+    "en": "Ganyu",
+    "zh": "甘雨"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["genshin-impact", "pixel-art", "chibi", "genshin-impact"],
+  "collections": ["genshin-impact"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/ganyu",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/ganyu/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/ganyu--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/ganyu--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/ganyu--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "622fbfa7fcaf451afda844955a27443ce572a67eb1ae5f791a1c42f9fa4bb08c"
+}

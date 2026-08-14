@@ -1,0 +1,20 @@
+{
+  "slug": "mihari--hyoni1129",
+  "pet_slug": "mihari",
+  "author_slug": "hyoni1129",
+  "author_handle": "Hyoni1129",
+  "author_url": "https://github.com/Hyoni1129",
+  "name": "Mihari",
+  "author": "Jeonghan Lee (@Hyoni1129)",
+  "primary_category": "Anime Characters",
+  "tags": ["anime", "onimai", "mihari", "scientist", "lab-coat", "fan-art"],
+  "collections": ["onimai"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/Hyoni1129/mihari-codex-pet",
+  "license": "CC BY-NC 4.0; unofficial fan-made non-commercial pet; no official ONIMAI artwork, screenshots, logos, or source assets are included; underlying character rights belong to their respective rights holders.",
+  "preview_image": "../../assets/previews/mihari--hyoni1129/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

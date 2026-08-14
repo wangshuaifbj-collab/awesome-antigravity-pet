@@ -1,0 +1,26 @@
+{
+  "slug": "ruan-mei--lingxiaotian",
+  "pet_slug": "ruan-mei",
+  "author_slug": "lingxiaotian",
+  "name": "Ruan Mei",
+  "localized_names": { "en": "Ruan Mei", "zh": "阮·梅" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "ruan-mei", "teal", "elegant"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Ruan Mei-inspired fan-art Codex pet with a teal palette, floral hair ornament, and a calm, elegant chibi sprite identity.",
+  "preview_image": "../../assets/previews/ruan-mei--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/ruan-mei--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/ruan-mei--lingxiaotian/gifs"
+  }
+}

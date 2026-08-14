@@ -1,0 +1,30 @@
+{
+  "slug": "lappland--chenxin-dlut",
+  "pet_slug": "lappland",
+  "author_slug": "chenxin-dlut",
+  "name": "Lappland",
+  "localized_names": {
+    "en": "Lappland",
+    "zh": "拉普兰德"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["arknights", "pixel-art", "chibi"],
+  "collections": ["arknights"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/lappland",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/lappland/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/lappland--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lappland--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lappland--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "1ab3a5c704a699eee4578d0307fbfc0a0228eb4e8df32834b1b871365bcf9eed"
+}

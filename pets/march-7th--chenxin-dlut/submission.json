@@ -1,0 +1,30 @@
+{
+  "slug": "march-7th--chenxin-dlut",
+  "pet_slug": "march-7th",
+  "author_slug": "chenxin-dlut",
+  "name": "March 7th",
+  "localized_names": {
+    "en": "March 7th",
+    "zh": "三月七"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["honkai-star-rail", "pixel-art", "chibi", "honkai-star-rail"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/march-7th",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/march-7th/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/march-7th--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/march-7th--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/march-7th--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "7f3cb9363256c5062fb3fe958a95a8c255ebcbca0517fa6ce6996ef4a70214bf"
+}

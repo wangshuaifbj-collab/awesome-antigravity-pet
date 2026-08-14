@@ -1,0 +1,35 @@
+{
+  "slug": "hyacine--kurisu",
+  "pet_slug": "hyacine",
+  "author_slug": "kurisu",
+  "name": "Hyacine",
+  "localized_names": {
+    "en": "Hyacine",
+    "zh": "风堇"
+  },
+  "author": "Kurisu",
+  "author_handle": "kurisu994",
+  "author_url": "https://github.com/kurisu994",
+  "primary_category": "Game Characters",
+  "canonical_key": "honkai-star-rail/hyacine",
+  "tags": [
+    "anime",
+    "honkai-star-rail",
+    "hyacine",
+    "ai-generated",
+    "fan-art",
+    "chibi",
+    "pink-hair",
+    "unicorn"
+  ],
+  "collections": ["honkai-star-rail"],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "license": "仅限个人非商业使用。AI 辅助制作的非官方同人作品，不代表或暗示已获得米哈游/HoYoverse 授权；《崩坏：星穹铁道》角色及商标权利归其权利人所有。",
+  "description": "Kurisu 使用 Lovart 与 OpenAI 图像生成工具制作并编排的《崩坏：星穹铁道》风堇非官方同人 Codex 宠物。",
+  "preview_image": "../../assets/previews/hyacine--kurisu/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "feixiao--lingxiaotian",
+  "pet_slug": "feixiao",
+  "author_slug": "lingxiaotian",
+  "name": "Feixiao",
+  "localized_names": { "en": "Feixiao", "zh": "飞霄" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "honkai-star-rail/feixiao",
+  "tags": ["anime", "honkai-star-rail", "feixiao", "teal", "general"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Feixiao-inspired fan-art Codex pet with white fox-like hair, teal military styling, gold trim, and a crisp athletic silhouette.",
+  "preview_image": "../../assets/previews/feixiao--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/feixiao--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/feixiao--lingxiaotian/gifs"
+  }
+}

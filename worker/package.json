@@ -1,0 +1,21 @@
+{
+  "name": "awesome-codex-pet-stats",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "db:sync": "node scripts/sync-catalog.mjs",
+    "db:export": "node scripts/export-stats.mjs",
+    "turnstile:ensure": "node scripts/ensure-turnstile.mjs",
+    "requests:sync": "node scripts/sync-manual-requests.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
+  }
+}

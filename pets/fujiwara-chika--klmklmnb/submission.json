@@ -1,0 +1,37 @@
+{
+  "slug": "fujiwara-chika--klmklmnb",
+  "pet_slug": "fujiwara-chika",
+  "author_slug": "klmklmnb",
+  "name": "藤原千花",
+  "localized_names": {
+    "en": "Chika Fujiwara",
+    "zh": "藤原千花"
+  },
+  "author": "klmklmnb",
+  "author_handle": "klmklmnb",
+  "author_url": "https://github.com/klmklmnb",
+  "primary_category": "Anime Characters",
+  "canonical_key": "kaguya-sama-love-is-war/fujiwara-chika",
+  "tags": [
+    "anime",
+    "kaguya-sama-love-is-war",
+    "fujiwara-chika",
+    "schoolgirl",
+    "chibi",
+    "sticker-art",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "independently-ai-generated-fan-art",
+  "source_url": "",
+  "source_notes": "The final spritesheet was independently generated with Codex Hatch Pet from a text-only character description; no official or third-party artwork pixels were copied or included in the package.",
+  "license": "Non-commercial use only. Unofficial independently AI-generated fan art submitted by klmklmnb for non-commercial repository redistribution; no official affiliation or endorsement. The original character and related intellectual property belong to their respective rights holders.",
+  "description": "A polished chibi sticker-style Chika Fujiwara pet with pink hair, her signature black bow, the Shuchiin school uniform, nine animation states, and 16 look directions.",
+  "preview_image": "../../assets/previews/fujiwara-chika--klmklmnb/gifs/idle.gif",
+  "spritesheet_sha256": "030e73c1262af37b0a059a6fc7f95169903c285428387a1d95f8aca7a899a3e9",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

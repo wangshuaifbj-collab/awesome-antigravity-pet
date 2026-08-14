@@ -1,0 +1,30 @@
+{
+  "slug": "zani--chenxin-dlut",
+  "pet_slug": "zani",
+  "author_slug": "chenxin-dlut",
+  "name": "Zani",
+  "localized_names": {
+    "en": "Zani",
+    "zh": "赞妮"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["wuthering-waves", "pixel-art", "chibi"],
+  "collections": ["wuthering-waves"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/zani",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/zani/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/zani--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/zani--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/zani--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "e951f7b81e2060e72490c2bc73adce3e27a5e4948b808a5519c7972c737e520f"
+}

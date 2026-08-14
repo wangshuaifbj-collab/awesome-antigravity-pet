@@ -1,0 +1,36 @@
+{
+  "slug": "takamatsu-tomori--a1wace-dev",
+  "pet_slug": "takamatsu-tomori",
+  "author_slug": "a1wace-dev",
+  "name": "Takamatsu Tomori",
+  "localized_names": {
+    "en": "Takamatsu Tomori",
+    "zh": "高松灯"
+  },
+  "author": "A1w",
+  "author_handle": "A1wace-dev",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "fictional/bang-dream/takamatsu-tomori",
+  "variant_note": "Independent soft-pixel v2 adaptation by A1w, based on Tomori's blue-gray layered stage outfit, restrained body language, and a screen-left-facing jump loop.",
+  "tags": [
+    "anime",
+    "bang-dream",
+    "mygo",
+    "takamatsu-tomori",
+    "fan-art",
+    "chibi",
+    "soft-pixel"
+  ],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "Non-commercial use only. AI-assisted fan-art Codex pet adaptation by A1w; no official affiliation or commercial use permitted.",
+  "source_notes": "A1w independently generated and adapted this soft-pixel pet with AI from supplied Takamatsu Tomori character references. The references are not included in the package, and their pixels were not directly cropped or traced into the final atlas. Five animation rows were regenerated to fix scale drift and make jumping, failure, waiting, active work, and review readable at runtime size; the approved jumping row was then mirrored frame by frame to face screen-left without reversing its timing.",
+  "description": "A soft-pixel chibi pet inspired by Takamatsu Tomori, with her charcoal bob, crossed hairpins, blue-gray layered outfit, and quiet but readable task reactions.",
+  "preview_image": "../../assets/previews/takamatsu-tomori--a1wace-dev/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "257c0f01293d936fe1b4e303924034a704bddd533396b852b78bc2ef1ec79c0e"
+}

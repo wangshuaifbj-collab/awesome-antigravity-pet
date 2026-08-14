@@ -1,0 +1,29 @@
+{
+  "slug": "shinobu-kocho--wangfan002",
+  "pet_slug": "shinobu-kocho",
+  "author_slug": "wangfan002",
+  "name": "蝴蝶忍 Q版 华丽动作",
+  "localized_names": {
+    "en": "Shinobu Kocho",
+    "zh": "蝴蝶忍"
+  },
+  "author": "wangfan002",
+  "author_handle": "wangfan002",
+  "primary_category": "Anime Characters",
+  "tags": ["demon-slayer", "pixel-art", "chibi"],
+  "collections": ["demon-slayer"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/shinobu-kocho",
+  "source_pet_json": "https://assets.petdex.dev/pets/shinobu-kocho-a51c96cbd498/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/shinobu-kocho--wangfan002/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/shinobu-kocho--wangfan002/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/shinobu-kocho--wangfan002/gifs"
+  },
+  "spritesheet_sha256": "4e8a87b5846791ce96cc028c41c52bad3eed75e89ddee70e2f30e43f5bbaa471"
+}

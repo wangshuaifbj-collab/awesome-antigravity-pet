@@ -1,0 +1,50 @@
+{
+  "slug": "yume-boundary--andy-meow",
+  "pet_slug": "yume-boundary",
+  "author_slug": "andy-meow",
+  "name": "Yume",
+  "author": "AndyMeow",
+  "author_handle": "andy-meow",
+  "author_url": "",
+  "primary_category": "Original Characters",
+  "tags": ["animated", "anime", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/yume-boundary",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "An elegant, curious boundary-exploring research companion with calm confidence.",
+  "platform_owner_id": "ade657ca-9587-46c1-8338-d4a304b1df87",
+  "platform_owner_handle": "andy-meow",
+  "platform_uploaded_at": "2026-05-17T08:52:36.628Z",
+  "platform_view_count": 363,
+  "platform_like_count": 1,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1779007956628/yume-boundary/spritesheet.webp",
+  "platform_validation_report": {
+    "manifestId": "yume-boundary",
+    "atlasSize": "1536x1872",
+    "cellSize": "192x208",
+    "statesDetected": 9,
+    "manifestBytes": 214,
+    "spritesheetBytes": 1577530
+  },
+  "spritesheet_sha256": "7b82855864c09acade49121a8dbceb5b118819c40bf9e7bf4019bc3ab0b53f33",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "per-cell exterior neutral matte removal; detached artifact removal in running-left and review; manually confirmed green spill recolored from adjacent hair pixels",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "86b902704fb8599b32a8e38801d9c6567d23f766554c081cad08594e810d6d45",
+    "output_sha256": "7b82855864c09acade49121a8dbceb5b118819c40bf9e7bf4019bc3ab0b53f33",
+    "visible_pixels_changed": 120348,
+    "matte_or_artifact_pixels_removed": 118990,
+    "green_spill_pixels_recolored": 1358,
+    "cells_with_visible_changes": 57,
+    "manual_qa": "All 57 used frames reviewed on white, gray, and black backgrounds; black-purple hair and legitimate magenta highlights were preserved, with no green-family pixels remaining."
+  }
+}

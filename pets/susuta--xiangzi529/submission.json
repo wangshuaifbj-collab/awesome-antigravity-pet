@@ -1,0 +1,35 @@
+{
+  "slug": "susuta--xiangzi529",
+  "pet_slug": "susuta",
+  "author_slug": "xiangzi529",
+  "name": "Susuta",
+  "localized_names": {
+    "en": "Susuta",
+    "zh": "羞羞獭"
+  },
+  "author": "Xiangzi529",
+  "author_handle": "Xiangzi529",
+  "author_url": "https://github.com/Xiangzi529",
+  "primary_category": "Game Characters",
+  "canonical_key": "aniimo/susuta",
+  "tags": [
+    "aniimo",
+    "susuta",
+    "otter",
+    "water",
+    "ai-generated",
+    "fan-art",
+    "pixel-art",
+    "shell-shovel"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://wiki.aniimo.com/item/10002848",
+  "license": "仅限个人非商业使用。AI 辅助制作的非官方《Aniimo》羞羞獭同人作品，不代表或暗示已获得 Pawprint Studio 授权；角色与相关权利归原权利人所有。",
+  "description": "Xiangzi529 使用 OpenAI 图像生成工具制作并逐动作编排的《Aniimo》羞羞獭非官方同人 v2 Codex 宠物，保留白色绒毛、蓝色腹部和标志性贝壳铲。",
+  "preview_image": "../../assets/previews/susuta--xiangzi529/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

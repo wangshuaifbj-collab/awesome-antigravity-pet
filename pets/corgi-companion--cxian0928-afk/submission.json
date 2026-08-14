@@ -1,0 +1,25 @@
+{
+  "slug": "corgi-companion--cxian0928-afk",
+  "pet_slug": "corgi-companion",
+  "author_slug": "cxian0928-afk",
+  "name": "Corgi Companion",
+  "author": "cxian0928-afk",
+  "author_handle": "cxian0928-afk",
+  "author_url": "https://github.com/cxian0928-afk",
+  "primary_category": "Animals",
+  "tags": ["corgi", "dog", "orange", "cute", "laptop", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/cxian0928-afk/corgi-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/corgi-companion--cxian0928-afk/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/corgi-companion--cxian0928-afk/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/corgi-companion--cxian0928-afk/gifs"
+  },
+  "spritesheet_sha256": "bde2c9fa6e6bdc74c795d5dcc39a96586a5d8432db414b18ad0c88172e3f331e"
+}

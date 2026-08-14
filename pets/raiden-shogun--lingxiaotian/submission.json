@@ -1,0 +1,26 @@
+{
+  "slug": "raiden-shogun--lingxiaotian",
+  "pet_slug": "raiden-shogun",
+  "author_slug": "lingxiaotian",
+  "name": "Raiden Shogun",
+  "localized_names": { "en": "Raiden Shogun", "zh": "雷电将军" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "genshin-impact", "raiden-shogun", "electro", "purple"],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Raiden Shogun-inspired fan-art Codex pet with long purple hair, electro violet accents, a kimono-like silhouette, and a dignified archon mood.",
+  "preview_image": "../../assets/previews/raiden-shogun--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/raiden-shogun--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/raiden-shogun--lingxiaotian/gifs"
+  }
+}

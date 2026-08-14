@@ -1,0 +1,30 @@
+{
+  "slug": "shinchan--chenxin-dlut",
+  "pet_slug": "shinchan",
+  "author_slug": "chenxin-dlut",
+  "name": "Shinchan",
+  "localized_names": {
+    "en": "Shin-chan",
+    "zh": "野原新之助"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Anime Characters",
+  "tags": ["crayon-shinchan", "pixel-art", "chibi"],
+  "collections": ["crayon-shinchan"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/shinchan",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/shinchan/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/shinchan--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/shinchan--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/shinchan--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "7ab137c52b22e14108109e3b30d02b4644a74c68224ea40fb56050e9109ceec2"
+}

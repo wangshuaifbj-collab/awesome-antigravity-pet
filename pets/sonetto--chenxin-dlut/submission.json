@@ -1,0 +1,30 @@
+{
+  "slug": "sonetto--chenxin-dlut",
+  "pet_slug": "sonetto",
+  "author_slug": "chenxin-dlut",
+  "name": "Sonetto",
+  "localized_names": {
+    "en": "Sonetto",
+    "zh": "十四行诗"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["reverse-1999", "pixel-art", "chibi"],
+  "collections": ["reverse-1999"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/sonetto",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/sonetto/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/sonetto--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/sonetto--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/sonetto--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "117d4b0923b5e6a642e8c92f08fff28e0119f15c7fca4ae063f43eaf8f8b8c7a"
+}

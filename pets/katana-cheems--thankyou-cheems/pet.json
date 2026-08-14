@@ -1,0 +1,7 @@
+{
+  "id": "katana-cheems--thankyou-cheems",
+  "displayName": "Katana Cheems",
+  "description": "A pixel-art Cheems pet wearing a straw hat, carrying a tiny katana, and crying a blue meme tear when a Codex task fails.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "character"
+}

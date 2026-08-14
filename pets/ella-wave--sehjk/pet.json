@@ -1,0 +1,8 @@
+{
+  "id": "ella-wave--sehjk",
+  "displayName": "Ella Wave",
+  "description": "A tiny Codex digital pet inspired by Ella, a curious black-and-white cat with chartreuse eyes, a pink nose, mask-like face patches, white chest, and a warm orange flank patch. Hover variant: uses the waving animation when Codex triggers hover jump.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

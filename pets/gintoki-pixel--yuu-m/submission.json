@@ -1,0 +1,42 @@
+{
+  "slug": "gintoki-pixel--yuu-m",
+  "pet_slug": "gintoki-pixel",
+  "author_slug": "yuu-m",
+  "name": "Sakata Gintoki",
+  "localized_names": {
+    "en": "Sakata Gintoki",
+    "zh": "坂田银时"
+  },
+  "author": "Yuu M.",
+  "author_handle": "Yuu M.",
+  "primary_category": "Anime Characters",
+  "tags": ["gintama", "pixel-art", "chibi"],
+  "collections": ["gintama"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/gintoki-pixel",
+  "source_pet_json": "https://assets.petdex.dev/pets/gintoki-pixel-1aa533ffd207/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/gintoki-pixel--yuu-m/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/gintoki-pixel--yuu-m/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/gintoki-pixel--yuu-m/gifs"
+  },
+  "spritesheet_sha256": "edd11d310137afd5a9018135f446c34e207b543704737e05c4dd7fb5a005f9d3",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual single-frame removal of a detached duplicate hair fragment in running-left frame 7",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "6ff3603714326c2198e36265ba1a8479103a846a8a9aa0d5d1d9f6a1c80496b5",
+    "output_sha256": "edd11d310137afd5a9018135f446c34e207b543704737e05c4dd7fb5a005f9d3",
+    "visible_pixels_changed": 364,
+    "artifact_pixels_removed": 364,
+    "cells_with_visible_changes": 1,
+    "manual_qa": "All 9 rows reviewed on white, gray, and black backgrounds; only the detached duplicate hair fragment was removed, with the silver-blue hair and dark-purple outline preserved."
+  }
+}

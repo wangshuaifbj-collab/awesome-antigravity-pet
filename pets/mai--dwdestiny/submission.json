@@ -1,0 +1,25 @@
+{
+  "slug": "mai--dwdestiny",
+  "pet_slug": "mai",
+  "author_slug": "dwdestiny",
+  "name": "Mai",
+  "author": "DwDestiny",
+  "author_handle": "DwDestiny",
+  "author_url": "https://github.com/DwDestiny",
+  "primary_category": "Animals",
+  "tags": ["dog", "bichon", "puppy", "sunglasses", "cute", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/DwDestiny/mai-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/mai--dwdestiny/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/mai--dwdestiny/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/mai--dwdestiny/gifs"
+  },
+  "spritesheet_sha256": "2b486712e3a7266f95cd4890a920b63d7dc9ab17804aad8dd6b306f56b6269cd"
+}

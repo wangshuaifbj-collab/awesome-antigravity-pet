@@ -1,0 +1,26 @@
+{
+  "slug": "doudizhu-laonongmin--chenyijing131-art",
+  "pet_slug": "doudizhu-laonongmin",
+  "author_slug": "chenyijing131-art",
+  "canonical_key": "doudizhu/laonongmin",
+  "name": "斗地主老农民",
+  "author": "chenyijing131-art",
+  "author_handle": "chenyijing131-art",
+  "author_url": "https://github.com/chenyijing131-art",
+  "primary_category": "Game Characters",
+  "collections": [],
+  "tags": ["doudizhu", "farmer", "chibi", "community-request", "v2"],
+  "source_type": "codex-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/89",
+  "license": "Independent AI-generated asset; non-commercial use only.",
+  "description": "An original community reinterpretation of the requested 斗地主老农民 character, generated and assembled for Awesome Codex Pet from the public issue references. Non-commercial use only.",
+  "preview_image": "../../assets/previews/doudizhu-laonongmin--chenyijing131-art/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/doudizhu-laonongmin--chenyijing131-art/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/doudizhu-laonongmin--chenyijing131-art/gifs"
+  }
+}

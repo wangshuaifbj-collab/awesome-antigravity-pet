@@ -1,0 +1,24 @@
+{
+  "slug": "codenono--dq02",
+  "pet_slug": "codenono",
+  "author_slug": "dq02",
+  "name": "CodeNoNo",
+  "author": "Dqd02",
+  "author_handle": "Dqd02",
+  "author_url": "https://github.com/Dqd02",
+  "primary_category": "Robots",
+  "tags": ["robot", "ai", "coding", "assistant", "mascot", "codex"],
+  "source_type": "mascot",
+  "source_url": "https://github.com/Dqd02/CodeX_Pet_NoNo",
+  "license": "Original submission; permission granted for inclusion in the awesome-codex-pet gallery via issue #9",
+  "preview_image": "../../assets/previews/codenono--dq02/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/codenono--dq02/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/codenono--dq02/gifs"
+  },
+  "spritesheet_sha256": "82697165ed23a82021cdf0872da0de5aa72b80d2eea202d10adf34e708a0e4d5"
+}

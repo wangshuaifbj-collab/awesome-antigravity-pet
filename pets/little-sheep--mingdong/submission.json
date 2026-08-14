@@ -1,0 +1,25 @@
+{
+  "slug": "little-sheep--mingdong",
+  "pet_slug": "little-sheep",
+  "author_slug": "mingdong",
+  "name": "Little Sheep",
+  "author": "MingDong",
+  "author_handle": "MingDong",
+  "author_url": "",
+  "primary_category": "Animals",
+  "tags": ["sheep", "animal", "fluffy", "wine-red-horns", "cozy"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0. Original AI-assisted asset created by MingDong for Codex pet submission; no third-party source asset.",
+  "preview_image": "../../assets/previews/little-sheep--mingdong/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/little-sheep--mingdong/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/little-sheep--mingdong/gifs"
+  },
+  "spritesheet_sha256": "af80e8c26246720152ce425c44b3e10606df56351477e916044103832a0248b3"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "rook--klubbyte",
+  "pet_slug": "rook",
+  "author_slug": "klubbyte",
+  "name": "Rook",
+  "author": "KlubByte",
+  "author_handle": "klubbyte",
+  "primary_category": "Animals",
+  "tags": ["animated", "animal", "chaotic", "codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/rook",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny survivalist raccoon companion with a calm ready-for-anything attitude.",
+  "platform_owner_id": "4ea2b587-7f28-4642-9e32-021202c837c8",
+  "platform_owner_handle": "klubbyte",
+  "platform_uploaded_at": "2026-05-02T10:27:35.324747+00:00",
+  "platform_view_count": 102,
+  "platform_like_count": 10,
+  "platform_tags": ["animated", "animal", "chaotic"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777717655324/rook/spritesheet.webp",
+  "spritesheet_sha256": "ee594a4f69c6994ca875415cd9c9428ae29f47c8dcaf84744c93501cd24322f0",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

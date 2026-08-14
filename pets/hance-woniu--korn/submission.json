@@ -1,0 +1,33 @@
+{
+  "slug": "hance-woniu--korn",
+  "pet_slug": "hance-woniu",
+  "author_slug": "korn",
+  "name": "旱厕蜗牛",
+  "author": "korn",
+  "primary_category": "Memes",
+  "canonical_key": "meme/douyin/hance-woniu",
+  "tags": [
+    "meme",
+    "douyin",
+    "white-mascot",
+    "drool",
+    "hand-drawn",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "codex-generated",
+  "source_url": "https://www.iesdouyin.com/share/video/7659707531794664740",
+  "source_notes": "The contributor supplied the linked Douyin post as the meme reference; the share link may be unavailable outside Douyin. The stated license covers only korn's original three-view artwork and this Codex pet adaptation, not the underlying third-party meme material.",
+  "license": "CC BY-NC 4.0 (korn's original three-view artwork and this Codex pet adaptation only; no claim over third-party meme materials)",
+  "description": "一个憨憨微笑、嘴角挂着蓝色口水的白色圆头网络梗宠物。",
+  "preview_image": "../../assets/previews/hance-woniu--korn/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/hance-woniu--korn/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/hance-woniu--korn/gifs"
+  },
+  "spritesheet_sha256": "8ba2e9a2964c88f93b533e35fc69148da6d314e74711c86fd4231e09a4305255"
+}

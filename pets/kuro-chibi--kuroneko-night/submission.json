@@ -1,0 +1,35 @@
+{
+  "slug": "kuro-chibi--kuroneko-night",
+  "pet_slug": "kuro-chibi",
+  "author_slug": "kuroneko-night",
+  "name": "Kuro Chibi",
+  "localized_names": { "en": "Kuro Chibi", "zh": "Kuro Q\u7248" },
+  "author": "KuroNeko-night",
+  "author_handle": "KuroNeko-night",
+  "author_url": "https://github.com/KuroNeko-night",
+  "primary_category": "Game Characters",
+  "collections": [],
+  "tags": [
+    "catgirl",
+    "chibi",
+    "pastel",
+    "cute",
+    "game-character",
+    "codex",
+    "v2"
+  ],
+  "source_type": "independent-ai-generation",
+  "source_url": "https://store.steampowered.com/app/2899760/as_the_Nights_Reincarnation/",
+  "license": "Independent AI-generated asset; non-commercial use only.",
+  "description": "An independently AI-generated chibi Kuro catgirl pet. The final spritesheet was generated and assembled for Codex from the approved Kuro character design; supplied character art and expression stickers were used only as visual references and are not included in this package.",
+  "preview_image": "../../assets/previews/kuro-chibi--kuroneko-night/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/kuro-chibi--kuroneko-night/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/kuro-chibi--kuroneko-night/gifs"
+  },
+  "spritesheet_sha256": "5a84c3bfe12fc6a6c6ca1a46b887358a6d754a8368147c6b879ea4ff8ab67db7"
+}

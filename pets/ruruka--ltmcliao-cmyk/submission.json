@@ -1,0 +1,81 @@
+{
+  "slug": "ruruka--ltmcliao-cmyk",
+  "pet_slug": "ruruka",
+  "author_slug": "ltmcliao-cmyk",
+  "name": "RuRuKa",
+  "author": "ltmcliao-cmyk",
+  "author_handle": "ltmcliao-cmyk",
+  "author_url": "https://github.com/ltmcliao-cmyk",
+  "primary_category": "Original Characters",
+  "tags": ["ruruka", "3d", "glasses", "animated", "codex", "workflow"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/ruruka--ltmcliao-cmyk/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/ruruka--ltmcliao-cmyk/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/ruruka--ltmcliao-cmyk/gifs"
+  },
+  "action_map": [
+    {
+      "row": 1,
+      "state": "idle",
+      "frames": 6,
+      "meaning": "Autonomous idle/sleep animation."
+    },
+    {
+      "row": 2,
+      "state": "running-right",
+      "frames": 8,
+      "meaning": "Movement to the right."
+    },
+    {
+      "row": 3,
+      "state": "running-left",
+      "frames": 8,
+      "meaning": "Movement to the left."
+    },
+    {
+      "row": 4,
+      "state": "waving",
+      "frames": 4,
+      "meaning": "Greeting wave."
+    },
+    {
+      "row": 5,
+      "state": "jumping",
+      "frames": 5,
+      "meaning": "Hover interaction animation."
+    },
+    {
+      "row": 6,
+      "state": "failed",
+      "frames": 8,
+      "meaning": "Failure/error animation."
+    },
+    {
+      "row": 7,
+      "state": "waiting",
+      "frames": 6,
+      "meaning": "Waiting for Codex progress."
+    },
+    {
+      "row": 8,
+      "state": "running",
+      "frames": 6,
+      "meaning": "Work-in-progress running animation."
+    },
+    {
+      "row": 9,
+      "state": "review",
+      "frames": 6,
+      "meaning": "Review/checking animation."
+    }
+  ],
+  "asset_note": "First public RuRuKa sprite atlas. The sheet is 8 columns by 9 rows, 192x208 pixels per frame, with 57 active frames.",
+  "spritesheet_sha256": "9bec1eb0abf2ba4c28d397782f64b08ff7cb6aeb4b533338e7989cec6215c55c"
+}

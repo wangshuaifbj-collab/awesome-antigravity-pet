@@ -1,0 +1,24 @@
+{
+  "slug": "shian-helper--mistyshen",
+  "pet_slug": "shian-helper",
+  "author_slug": "mistyshen",
+  "name": "Shian",
+  "author": "mistyShen",
+  "author_handle": "mistyShen",
+  "author_url": "https://github.com/mistyShen",
+  "primary_category": "Original Characters",
+  "tags": ["shian", "blonde", "chibi", "bows", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/mistyShen/shian-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/shian-helper--mistyshen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/shian-helper--mistyshen/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/shian-helper--mistyshen/gifs"
+  },
+  "spritesheet_sha256": "4ddbd7d55353ce292e34afbd570efceeb4cb476c397034ddec98319b99c82d8d"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "starcorn--alterhq",
+  "pet_slug": "starcorn",
+  "author_slug": "alterhq",
+  "name": "Starcorn",
+  "author": "Alter",
+  "author_handle": "alterhq",
+  "author_url": "https://github.com/alterhq",
+  "primary_category": "Fantasy Creatures",
+  "tags": ["unicorn", "fantasy", "creature", "pixel-art", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/alterhq/OpenPetsKit",
+  "license": "MIT License",
+  "description": "A white chibi unicorn with a multicolor horn and a yellow star marking.",
+  "preview_image": "../../assets/previews/starcorn--alterhq/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/starcorn--alterhq/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/starcorn--alterhq/gifs"
+  },
+  "spritesheet_sha256": "d2d91b5339bc46662feddbab643e4fb92278de18281859fb37fcf77cc2a65d66"
+}

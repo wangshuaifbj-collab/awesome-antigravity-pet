@@ -1,0 +1,7 @@
+{
+  "id": "panda--jason-bai",
+  "displayName": "Panda",
+  "description": "A soft, healing panda companion with round eyes, tiny paws, and gentle calming poses.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

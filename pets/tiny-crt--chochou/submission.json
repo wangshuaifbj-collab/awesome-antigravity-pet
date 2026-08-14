@@ -1,0 +1,46 @@
+{
+  "slug": "tiny-crt--chochou",
+  "pet_slug": "tiny-crt",
+  "author_slug": "chochou",
+  "name": "Tiny CRT",
+  "author": "chochou",
+  "author_handle": "chochou",
+  "primary_category": "Objects & Props",
+  "tags": [
+    "animated",
+    "anime",
+    "cute",
+    "mascot",
+    "minimal",
+    "pixel",
+    "retro",
+    "robot",
+    "codex-pets",
+    "v1"
+  ],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/tiny-crt",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny beige retro CRT terminal monitor with a green phosphor face for Codex, with no arms or legs.",
+  "platform_owner_id": "cbd1d99f-9dd9-49a4-b6e0-478f4758895a",
+  "platform_owner_handle": "chochou",
+  "platform_uploaded_at": "2026-05-09T12:50:15.525Z",
+  "platform_view_count": 274,
+  "platform_like_count": 9,
+  "platform_tags": [
+    "animated",
+    "anime",
+    "cute",
+    "mascot",
+    "minimal",
+    "pixel",
+    "retro",
+    "robot"
+  ],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1778331015525/tiny-crt/spritesheet.webp",
+  "spritesheet_sha256": "888c6e69d3e64801db71a42bea3a05af99bb60ba5e8835ccbc5473a0c4510693",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

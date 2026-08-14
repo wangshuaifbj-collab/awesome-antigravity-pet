@@ -1,0 +1,30 @@
+{
+  "slug": "regulus-star-antimony--chenxin-dlut",
+  "pet_slug": "regulus-star-antimony",
+  "author_slug": "chenxin-dlut",
+  "name": "星锑",
+  "localized_names": {
+    "en": "Regulus",
+    "zh": "星锑"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["reverse-1999", "pixel-art", "chibi"],
+  "collections": ["reverse-1999"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/regulus-star-antimony",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/regulus-star-antimony/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/regulus-star-antimony--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/regulus-star-antimony--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/regulus-star-antimony--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "64d3b6edac7bc01316f075dc129a5cdbcd5fea6936ab3176dbbafcc7ef173086"
+}

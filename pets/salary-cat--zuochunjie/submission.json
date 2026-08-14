@@ -1,0 +1,29 @@
+{
+  "slug": "salary-cat--zuochunjie",
+  "pet_slug": "salary-cat",
+  "author_slug": "zuochunjie",
+  "name": "SalaryCat",
+  "localized_names": {
+    "en": "SalaryCat",
+    "zh": "月薪喵"
+  },
+  "author": "Zuochunjie",
+  "author_handle": "Zuochunjie",
+  "author_url": "https://github.com/Zuochunjie",
+  "primary_category": "Animals",
+  "canonical_key": "open-source/einswen/salarycat",
+  "variant_note": "Zuochunjie's independent v2 adaptation adds a separately produced animation atlas and sixteen look directions; it does not reuse LemonZ's spritesheet.",
+  "tags": ["animal", "cat", "open-source", "salarycat", "v2", "yuexin-miao"],
+  "collections": ["animal-companions"],
+  "source_type": "ai-assisted derivative adaptation",
+  "source_url": "https://github.com/Einswen/SalaryCat",
+  "license": "CC BY-NC 4.0 for this adapted pet artwork; derived from Einswen/SalaryCat under Apache-2.0. Non-commercial repository use only.",
+  "description": "An AI-assisted Codex pet adaptation of Einswen's SalaryCat, extended with nine standard animations and sixteen clockwise look directions.",
+  "source_notes": "The original SalaryCat character and source artwork are credited to Einswen. This Codex adaptation was generated and assembled from the original visual reference, then manually reviewed and substantially extended for the Codex v2 animation contract.",
+  "modifications": "Added a complete Codex animation set, sixteen v2 look directions, transparent atlas assembly, chroma cleanup, deterministic validation, and final visual QA.",
+  "spritesheet_sha256": "6d6006c31784ba1488ae2e74ea218697d0697d0e42e9e4ea6b2358a7db4304d9",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

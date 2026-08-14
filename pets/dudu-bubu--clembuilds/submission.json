@@ -1,0 +1,27 @@
+{
+  "slug": "dudu-bubu--clembuilds",
+  "pet_slug": "dudu-bubu",
+  "author_slug": "clembuilds",
+  "name": "Dudu & Bubu",
+  "author": "clembuilds",
+  "author_handle": "clembuilds",
+  "primary_category": "Animals",
+  "tags": ["codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/dudu-bubu",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny couple pet: Dudu the warm brown bear and Bubu the white panda-bear doing sweet little paired actions together.",
+  "platform_owner_id": "299af1c9-192d-48a9-8835-42936ce5af58",
+  "platform_owner_handle": "clembuilds",
+  "platform_uploaded_at": "2026-05-02T17:45:58.792938+00:00",
+  "platform_view_count": 336,
+  "platform_like_count": 10,
+  "platform_tags": [],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777743958792/dudu-bubu/spritesheet.webp",
+  "spritesheet_sha256": "c4349f6a3db523d7e5e6199d25e90af2564f4ccdb6770afca78790f230978ccb",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

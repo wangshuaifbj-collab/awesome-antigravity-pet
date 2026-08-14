@@ -1,0 +1,24 @@
+{
+  "slug": "yuzubou--keseras34938976",
+  "pet_slug": "yuzubou",
+  "author_slug": "keseras34938976",
+  "name": "Yuzubou",
+  "author": "Keseras34938976",
+  "author_handle": "Keseras34938976",
+  "author_url": "https://github.com/Keseras34938976",
+  "primary_category": "Original Characters",
+  "tags": ["yuzu", "monk", "straw-hat", "leaf", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/Keseras34938976/yuzubou-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/yuzubou--keseras34938976/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/yuzubou--keseras34938976/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/yuzubou--keseras34938976/gifs"
+  },
+  "spritesheet_sha256": "8e1bd8a6e5b0d5a644933bb8cc40615a8877e573d49fe436492d4c586c576fad"
+}

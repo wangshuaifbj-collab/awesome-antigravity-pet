@@ -1,0 +1,26 @@
+{
+  "slug": "spellbook--seymour",
+  "pet_slug": "spellbook",
+  "author_slug": "seymour",
+  "name": "Spellbook",
+  "author": "seymour",
+  "author_handle": "seymour",
+  "primary_category": "Objects & Props",
+  "tags": ["codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/spellbook",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "An open magical book that talks without eyes, carrying quiet wisdom with small attached magic around its pages.",
+  "platform_owner_id": "b4f524c8-e2f1-49c9-a976-06bedd82b989",
+  "platform_owner_handle": "seymour",
+  "platform_uploaded_at": "2026-05-02T09:55:28.71362+00:00",
+  "platform_view_count": 177,
+  "platform_like_count": 9,
+  "platform_tags": [],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777715728713/spellbook/spritesheet.webp",
+  "spritesheet_sha256": "52748b64d8b4bda122de28566ff4d3f68467ac6f0d7f8fdd2d449ea0295eac2b",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

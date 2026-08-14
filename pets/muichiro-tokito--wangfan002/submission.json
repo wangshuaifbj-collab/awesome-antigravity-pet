@@ -1,0 +1,29 @@
+{
+  "slug": "muichiro-tokito--wangfan002",
+  "pet_slug": "muichiro-tokito",
+  "author_slug": "wangfan002",
+  "name": "时透无一郎 Q版 空灵动作",
+  "localized_names": {
+    "en": "Muichiro Tokito",
+    "zh": "时透无一郎"
+  },
+  "author": "wangfan002",
+  "author_handle": "wangfan002",
+  "primary_category": "Anime Characters",
+  "tags": ["demon-slayer", "pixel-art", "chibi"],
+  "collections": ["demon-slayer"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/muichiro-tokito",
+  "source_pet_json": "https://assets.petdex.dev/pets/muichiro-tokito-f4076fb172e6/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/muichiro-tokito--wangfan002/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/muichiro-tokito--wangfan002/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/muichiro-tokito--wangfan002/gifs"
+  },
+  "spritesheet_sha256": "2899dd900ed455ee649169a65e77e94dd75aae01a14b75f09a2a18a81c1f699e"
+}

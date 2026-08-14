@@ -1,0 +1,73 @@
+{
+  "slug": "luffy-gear-5--jordsshmords1",
+  "pet_slug": "luffy-gear-5",
+  "author_slug": "jordsshmords1",
+  "name": "Luffy Gear 5",
+  "localized_names": {
+    "en": "Luffy Gear 5",
+    "zh": "五档路飞"
+  },
+  "author": "jordsshmords1",
+  "author_handle": "jordsshmords1",
+  "author_url": "https://codex-pets.net/users/jordsshmords1",
+  "primary_category": "Anime Characters",
+  "canonical_key": "one-piece/monkey-d-luffy-gear-5",
+  "tags": [
+    "anime",
+    "one-piece",
+    "monkey-d-luffy",
+    "gear-5",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["one-piece"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/luffy-gear-5",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny chibi Codex pet version of Monkey D. Luffy in Gear 5, simplified into a readable animated sprite mascot.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "8f1af28a-1b94-4842-8f83-9ec7f6200909",
+  "platform_owner_handle": "jordsshmords1",
+  "platform_uploaded_at": "2026-05-02T12:11:32.87333+00:00",
+  "platform_view_count": 648,
+  "platform_like_count": 17,
+  "platform_download_count": 0,
+  "platform_tags": ["cute", "animated", "pixel", "anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777723892873/luffy-gear-5/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "luffy-gear-5",
+    "manifestBytes": 233,
+    "statesDetected": 9,
+    "spritesheetBytes": 2218188
+  },
+  "spritesheet_sha256": "6e7f5b24aab924564a6c64b7ca238d31782537db2fdbccfe131703af1aaaccad",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "a00115ce00273dbf816d671fce8d2cbd70a2dd1d02da60daf40aadad0b39fe32",
+    "output_sha256": "6e7f5b24aab924564a6c64b7ca238d31782537db2fdbccfe131703af1aaaccad",
+    "visible_edge_pixels_changed": 66413,
+    "transparent_rgb_pixels_cleared": 905053,
+    "cells_with_visible_changes": 27,
+    "representative_cell": "r2c2"
+  }
+}

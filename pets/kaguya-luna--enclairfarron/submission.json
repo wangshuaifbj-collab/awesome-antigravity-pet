@@ -1,0 +1,38 @@
+{
+  "slug": "kaguya-luna--enclairfarron",
+  "pet_slug": "kaguya-luna",
+  "author_slug": "enclairfarron",
+  "name": "Kaguya Luna",
+  "localized_names": {
+    "en": "Kaguya Luna",
+    "zh": "辉夜姬"
+  },
+  "author": "法隆",
+  "author_handle": "enclairfarron",
+  "author_url": "https://github.com/enclairfarron",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "virtual-youtuber/kaguya-luna",
+  "tags": [
+    "anime",
+    "virtual-youtuber",
+    "virtual-singer",
+    "kaguya-luna",
+    "fan-art",
+    "ai-generated",
+    "chibi",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://www.sonymusic.co.jp/artist/kaguyaluna/profile/",
+  "license": "Non-commercial use only. AI-assisted fan-art Codex pet by 法隆; no official affiliation or commercial use permitted.",
+  "source_notes": "法隆 independently generated and assembled this polished 2D v2 pet with Codex Hatch Pet from character references. The references are not included in the package, and their pixels were not directly cropped or traced into the final atlas. Biography was checked against the Kaguya Luna Wiki entry; the Chinese display name 辉夜姬 follows the submitter's preferred localization. The linked official Sony Music profile is for character attribution, not the source of the final pixels.",
+  "description": "A high-energy chibi fan-art Codex pet inspired by Kaguya Luna / 辉夜姬, the Japanese virtual YouTuber and singer known as one of the early VTuber Four Heavenly Kings, featuring her long pale-gold hair, ruby eyes, oversized charcoal tunic, coral shorts, and bright blue sneakers.",
+  "preview_image": "../../assets/previews/kaguya-luna--enclairfarron/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "6bd1f1deea672ab8930443d0434c10d9374c014faa0d0d30cadd613c2985a3cf"
+}

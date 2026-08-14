@@ -1,0 +1,8 @@
+{
+  "id": "starcorn--alterhq",
+  "displayName": "Starcorn",
+  "description": "A white chibi unicorn with a multicolor horn and a yellow star marking.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "creature"
+}

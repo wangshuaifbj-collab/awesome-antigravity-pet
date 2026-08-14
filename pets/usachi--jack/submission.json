@@ -1,0 +1,27 @@
+{
+  "slug": "usachi--jack",
+  "pet_slug": "usachi",
+  "author_slug": "jack",
+  "name": "乌萨奇",
+  "author": "jack",
+  "author_handle": "jack",
+  "primary_category": "Animals",
+  "tags": ["cute", "codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/usachi",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "一只可爱、活泼、会发出奇怪叫声的兔子。",
+  "platform_owner_id": "3bb2a6b8-90d3-4ef2-806a-894a8770b9b9",
+  "platform_owner_handle": "jack",
+  "platform_uploaded_at": "2026-06-03T04:36:15.234Z",
+  "platform_view_count": 454,
+  "platform_like_count": 9,
+  "platform_tags": ["cute"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1780461375234/usachi/spritesheet.webp",
+  "spritesheet_sha256": "5cd25a775f0aa986865c475f186109f03effe1f8d9c1fa904238ed7912ab49e1",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

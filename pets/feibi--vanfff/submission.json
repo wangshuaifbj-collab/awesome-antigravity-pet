@@ -1,0 +1,35 @@
+{
+  "slug": "feibi--vanfff",
+  "pet_slug": "feibi",
+  "author_slug": "vanfff",
+  "name": "菲比",
+  "author": "vanfff",
+  "author_handle": "vanfff",
+  "primary_category": "Original Characters",
+  "tags": [
+    "animated",
+    "cute",
+    "game",
+    "anime",
+    "minimal",
+    "soft",
+    "codex-pets",
+    "v1"
+  ],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/feibi",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny blonde chibi companion with a white wide hat, purple eyes, blue hair clip, blue neck ribbon, and a slightly smug sticker-expression personality.",
+  "platform_owner_id": "392691ac-a5fc-4f65-838f-7d73fea7f773",
+  "platform_owner_handle": "vanfff",
+  "platform_uploaded_at": "2026-05-05T15:43:08.780647+00:00",
+  "platform_view_count": 711,
+  "platform_like_count": 19,
+  "platform_tags": ["animated", "cute", "game", "anime", "minimal", "soft"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777995788780/feibi/spritesheet.webp",
+  "spritesheet_sha256": "a9557926850b37c2b877c8777896366435c6b190f77876dff7d0ca296edca04a",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

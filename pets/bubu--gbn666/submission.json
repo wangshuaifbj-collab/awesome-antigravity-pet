@@ -1,0 +1,25 @@
+{
+  "slug": "bubu--gbn666",
+  "pet_slug": "bubu",
+  "author_slug": "gbn666",
+  "name": "Bubu",
+  "author": "Guo Beining",
+  "author_handle": "gbn666",
+  "author_url": "https://github.com/gbn666",
+  "primary_category": "Animals",
+  "tags": ["bear", "chibi", "pixel-art", "sleepy", "cute", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/gbn666/codex-pets-bubuyier",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/bubu--gbn666/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/bubu--gbn666/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/bubu--gbn666/gifs"
+  },
+  "spritesheet_sha256": "6d1e3d81e7a7cdea3adc2b503454d75be1c2f88cf34af5cc1093a338f27ee144"
+}

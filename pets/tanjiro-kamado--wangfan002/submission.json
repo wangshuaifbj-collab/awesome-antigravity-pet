@@ -1,0 +1,29 @@
+{
+  "slug": "tanjiro-kamado--wangfan002",
+  "pet_slug": "tanjiro-kamado",
+  "author_slug": "wangfan002",
+  "name": "炭治郎 Q版 丰富动作",
+  "localized_names": {
+    "en": "Tanjiro Kamado",
+    "zh": "灶门炭治郎"
+  },
+  "author": "wangfan002",
+  "author_handle": "wangfan002",
+  "primary_category": "Anime Characters",
+  "tags": ["demon-slayer", "pixel-art", "chibi"],
+  "collections": ["demon-slayer"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/tanjiro-kamado",
+  "source_pet_json": "https://assets.petdex.dev/pets/tanjiro-kamado-fd4652f4d844/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/tanjiro-kamado--wangfan002/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/tanjiro-kamado--wangfan002/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/tanjiro-kamado--wangfan002/gifs"
+  },
+  "spritesheet_sha256": "feb1fb65fa11aff2e6722529934bf71ecec1265e0232c262ee7c89b5142091ba"
+}

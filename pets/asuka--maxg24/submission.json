@@ -1,0 +1,66 @@
+{
+  "slug": "asuka--maxg24",
+  "pet_slug": "asuka",
+  "author_slug": "maxg24",
+  "name": "Asuka",
+  "localized_names": {
+    "en": "Asuka",
+    "zh": "明日香"
+  },
+  "author": "maxg24",
+  "author_handle": "maxg24",
+  "author_url": "https://codex-pets.net/users/maxg24",
+  "primary_category": "Anime Characters",
+  "canonical_key": "evangelion/asuka",
+  "tags": ["anime", "evangelion", "asuka", "mecha", "v1", "codex-pets"],
+  "collections": ["evangelion"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/asuka",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A fiery chibi mecha pilot digital pet inspired by Asuka from Evangelion.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "97f81df3-adaa-4bac-8ccc-5b77ce56bc05",
+  "platform_owner_handle": "maxg24",
+  "platform_uploaded_at": "2026-05-05T12:37:10.207239+00:00",
+  "platform_view_count": 209,
+  "platform_like_count": 9,
+  "platform_download_count": 0,
+  "platform_tags": ["anime", "celeb", "cute", "mascot"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777984630207/asuka/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "asuka",
+    "manifestBytes": 200,
+    "statesDetected": 9,
+    "spritesheetBytes": 2352450
+  },
+  "spritesheet_sha256": "3c50e9dd09d20ace2b333ac6798f33ea95e0d89509c3921bfb78c117bdb7c39e",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "515e55a2faee73430ad232d6b000cf679bfa8a3220f0109fd4fd7e722678d546",
+    "output_sha256": "3c50e9dd09d20ace2b333ac6798f33ea95e0d89509c3921bfb78c117bdb7c39e",
+    "visible_edge_pixels_changed": 80275,
+    "transparent_rgb_pixels_cleared": 894314,
+    "cells_with_visible_changes": 32,
+    "representative_cell": "r4c2"
+  }
+}

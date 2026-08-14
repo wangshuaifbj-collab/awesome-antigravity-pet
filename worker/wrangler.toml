@@ -1,0 +1,26 @@
+name = "awesome-codex-pet-stats"
+main = "src/index.js"
+compatibility_date = "2026-07-14"
+workers_dev = false
+
+[[routes]]
+pattern = "api.codexpet.top"
+custom_domain = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "awesome-codex-pet-stats-db"
+database_id = "ec2d5eb9-e53a-4e9c-917e-44ea560581b8"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "REFERENCE_IMAGES"
+bucket_name = "awesome-codex-pet-reference-images"
+
+[triggers]
+crons = ["17 3 * * *"]
+
+[vars]
+# Comma separated list of allowed origins for CORS.
+ALLOWED_ORIGINS = "https://codexpet.top,https://www.codexpet.top,http://localhost:3000,http://localhost:3001"
+TURNSTILE_ALLOWED_HOSTNAMES = "codexpet.top,www.codexpet.top"

@@ -1,0 +1,43 @@
+{
+  "slug": "makima-coat--yuyuabc1",
+  "pet_slug": "makima-coat",
+  "author_slug": "yuyuabc1",
+  "name": "Makima (Coat)",
+  "localized_names": {
+    "en": "Makima (Coat)",
+    "zh": "玛奇玛（外套）"
+  },
+  "author": "yuyuabc1",
+  "author_handle": "yuyuabc1",
+  "author_url": "https://github.com/yuyuabc1",
+  "primary_category": "Anime Characters",
+  "canonical_key": "chainsaw-man/makima",
+  "variant_note": "穿黑色外套的 Q 版玛奇玛，保留金色环纹眼、低辫和正式服装，包含完整 v2 环视方向。由 yuyuabc1 独立 AI 生成并适配，未复用现有图片像素。",
+  "tags": [
+    "anime",
+    "chainsaw-man",
+    "makima",
+    "ai-generated",
+    "fan-art",
+    "chibi",
+    "black-coat",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": ["chainsaw-man"],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_notes": "The final pet artwork and animation frames were independently AI-generated and adapted by yuyuabc1. No existing image pixels were cropped, traced, enhanced, or reused. Character references were used only as visual guidance and are not included in this package.",
+  "license": "仅限个人非商业使用。由 yuyuabc1 独立 AI 生成并适配的《电锯人》玛奇玛非官方同人作品；不代表或暗示已获得相关权利方授权，角色及相关权利归其权利人所有。",
+  "description": "A chibi Makima fan-art Codex pet in a black coat, with golden ringed eyes, a low braid, formal office clothes, and the full v2 set of look directions.",
+  "preview_image": "../../assets/previews/makima-coat--yuyuabc1/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/makima-coat--yuyuabc1/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/makima-coat--yuyuabc1/gifs"
+  },
+  "spritesheet_sha256": "56dc6e57bd6c543373a872b1e1195693eaa3f0ce896549abbd12595ed2050af6"
+}

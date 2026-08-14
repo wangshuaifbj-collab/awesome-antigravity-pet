@@ -1,0 +1,30 @@
+{
+  "slug": "chen--chenxin-dlut",
+  "pet_slug": "chen",
+  "author_slug": "chenxin-dlut",
+  "name": "Chen",
+  "localized_names": {
+    "en": "Ch'en",
+    "zh": "陈"
+  },
+  "author": "Xin Chen",
+  "author_handle": "chenxin-dlut",
+  "author_url": "https://github.com/chenxin-dlut",
+  "primary_category": "Game Characters",
+  "tags": ["arknights", "pixel-art", "chibi"],
+  "collections": ["arknights"],
+  "source_type": "github",
+  "source_url": "https://github.com/chenxin-dlut/codex-anime-pets/tree/main/pets/chen",
+  "source_pet_json": "https://raw.githubusercontent.com/chenxin-dlut/codex-anime-pets/main/pets/chen/pet.json",
+  "license": "Personal non-commercial fan use",
+  "preview_image": "../../assets/previews/chen--chenxin-dlut/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/chen--chenxin-dlut/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/chen--chenxin-dlut/gifs"
+  },
+  "spritesheet_sha256": "4bc643bf24f6367c64ce5fcf936e920d55505480a7e1aa38256d5c71dcdeba7d"
+}

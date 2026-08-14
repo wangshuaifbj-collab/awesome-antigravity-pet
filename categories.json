@@ -1,0 +1,201 @@
+[
+  {
+    "slug": "game-characters",
+    "name": "Game Characters",
+    "label": {
+      "en": "Game Characters",
+      "zh": "游戏角色",
+      "ko": "게임 캐릭터",
+      "ja": "ゲームキャラクター",
+      "es": "Personajes de videojuegos"
+    },
+    "description": {
+      "en": "Characters originating from video games and game franchises.",
+      "zh": "来自电子游戏及游戏系列的角色。",
+      "ko": "비디오 게임과 게임 프랜차이즈의 캐릭터입니다.",
+      "ja": "ビデオゲームやゲームシリーズに登場するキャラクターです。",
+      "es": "Personajes procedentes de videojuegos y sus franquicias."
+    }
+  },
+  {
+    "slug": "anime-characters",
+    "name": "Anime Characters",
+    "label": {
+      "en": "Anime Characters",
+      "zh": "动漫角色",
+      "ko": "애니메이션 캐릭터",
+      "ja": "アニメキャラクター",
+      "es": "Personajes de anime"
+    },
+    "description": {
+      "en": "Characters originating from anime, manga, light novels, and animation.",
+      "zh": "来自动漫、漫画、轻小说和动画作品的角色。",
+      "ko": "애니메이션, 만화, 라이트 노벨의 캐릭터입니다.",
+      "ja": "アニメ、漫画、ライトノベル、映像作品のキャラクターです。",
+      "es": "Personajes de anime, manga, novelas ligeras y animación."
+    }
+  },
+  {
+    "slug": "original-characters",
+    "name": "Original Characters",
+    "label": {
+      "en": "Original Characters",
+      "zh": "原创角色",
+      "ko": "오리지널 캐릭터",
+      "ja": "オリジナルキャラクター",
+      "es": "Personajes originales"
+    },
+    "description": {
+      "en": "Creator-owned characters with an original identity and design.",
+      "zh": "由创作者拥有并具备原创身份与设计的角色。",
+      "ko": "제작자가 소유한 독창적인 정체성과 디자인의 캐릭터입니다.",
+      "ja": "作者が所有する独自の設定とデザインを持つキャラクターです。",
+      "es": "Personajes propios de sus autores con identidad y diseño originales."
+    }
+  },
+  {
+    "slug": "mascots",
+    "name": "Mascots",
+    "label": {
+      "en": "Mascots",
+      "zh": "吉祥物",
+      "ko": "마스코트",
+      "ja": "マスコット",
+      "es": "Mascotas"
+    },
+    "description": {
+      "en": "Friendly brand, product, community, and personal mascot companions.",
+      "zh": "品牌、产品、社区或个人使用的吉祥物伙伴。",
+      "ko": "브랜드, 제품, 커뮤니티, 개인을 위한 마스코트입니다.",
+      "ja": "ブランド、製品、コミュニティ、個人のマスコットです。",
+      "es": "Mascotas de marcas, productos, comunidades y personas."
+    }
+  },
+  {
+    "slug": "animals",
+    "name": "Animals",
+    "label": {
+      "en": "Animals",
+      "zh": "动物伙伴",
+      "ko": "동물 친구",
+      "ja": "動物の仲間",
+      "es": "Animales"
+    },
+    "description": {
+      "en": "Pets based primarily on real-world animals and household companions.",
+      "zh": "以现实动物和日常陪伴动物为主体的宠物。",
+      "ko": "현실의 동물과 반려동물을 바탕으로 한 펫입니다.",
+      "ja": "実在する動物や身近なペットを題材にした仲間です。",
+      "es": "Mascotas basadas en animales reales y compañeros domésticos."
+    }
+  },
+  {
+    "slug": "fantasy-creatures",
+    "name": "Fantasy Creatures",
+    "label": {
+      "en": "Fantasy Creatures",
+      "zh": "幻想生物",
+      "ko": "판타지 생물",
+      "ja": "ファンタジー生物",
+      "es": "Criaturas fantásticas"
+    },
+    "description": {
+      "en": "Magical creatures, monsters, hybrids, and supernatural companions.",
+      "zh": "魔法生物、怪物、混合生物和超自然伙伴。",
+      "ko": "마법 생물, 몬스터, 혼합 생물과 초자연적인 동료입니다.",
+      "ja": "魔法生物、モンスター、混合生物、超自然の仲間です。",
+      "es": "Criaturas mágicas, monstruos, híbridos y compañeros sobrenaturales."
+    }
+  },
+  {
+    "slug": "robots",
+    "name": "Robots",
+    "label": {
+      "en": "Robots",
+      "zh": "机器人",
+      "ko": "로봇",
+      "ja": "ロボット",
+      "es": "Robots"
+    },
+    "description": {
+      "en": "Mechanical, robotic, AI, and coding-oriented companions.",
+      "zh": "机械、机器人、AI 和编程主题伙伴。",
+      "ko": "기계, 로봇, AI와 코딩을 주제로 한 동료입니다.",
+      "ja": "機械、ロボット、AI、コーディングを題材にした仲間です。",
+      "es": "Compañeros mecánicos, robóticos, de IA y programación."
+    }
+  },
+  {
+    "slug": "human-avatars",
+    "name": "Human Avatars",
+    "label": {
+      "en": "Human Avatars",
+      "zh": "人物头像",
+      "ko": "인물 아바타",
+      "ja": "人物アバター",
+      "es": "Avatares humanos"
+    },
+    "description": {
+      "en": "Real-person likenesses, creator avatars, and profile companions with a clear permission trail.",
+      "zh": "有清晰授权链的真人形象、创作者头像和人物资料伙伴。",
+      "ko": "명확한 허가를 받은 실존 인물, 제작자 아바타와 프로필 동료입니다.",
+      "ja": "明確な許諾がある実在人物、作者アバター、プロフィール用の仲間です。",
+      "es": "Retratos reales, avatares y perfiles con permisos claramente documentados."
+    }
+  },
+  {
+    "slug": "memes",
+    "name": "Memes",
+    "label": {
+      "en": "Memes",
+      "zh": "网络梗图",
+      "ko": "밈",
+      "ja": "ミーム",
+      "es": "Memes"
+    },
+    "description": {
+      "en": "Internet-native meme characters, reactions, and viral icons.",
+      "zh": "互联网原生的梗角色、反应形象和流行图标。",
+      "ko": "인터넷 밈 캐릭터, 리액션과 유행 아이콘입니다.",
+      "ja": "インターネット発のミームキャラクター、リアクション、流行アイコンです。",
+      "es": "Personajes, reacciones e iconos virales nacidos en internet."
+    }
+  },
+  {
+    "slug": "objects-props",
+    "name": "Objects & Props",
+    "label": {
+      "en": "Objects & Props",
+      "zh": "物件与道具",
+      "ko": "사물과 소품",
+      "ja": "オブジェクトと小道具",
+      "es": "Objetos y accesorios"
+    },
+    "description": {
+      "en": "Animated objects, tools, food, vehicles, and prop-like companions.",
+      "zh": "会活动的物件、工具、食物、载具和道具型伙伴。",
+      "ko": "움직이는 사물, 도구, 음식, 탈것과 소품형 동료입니다.",
+      "ja": "動く物、道具、食べ物、乗り物、小道具型の仲間です。",
+      "es": "Objetos animados, herramientas, comida, vehículos y accesorios."
+    }
+  },
+  {
+    "slug": "others",
+    "name": "Others",
+    "label": {
+      "en": "Others",
+      "zh": "其他",
+      "ko": "기타",
+      "ja": "その他",
+      "es": "Otros"
+    },
+    "description": {
+      "en": "A temporary moderation fallback when no specific category fits.",
+      "zh": "没有具体分类适用时的临时审核兜底。",
+      "ko": "특정 카테고리에 맞지 않을 때 사용하는 임시 검토 분류입니다.",
+      "ja": "他のカテゴリーに当てはまらない場合の一時的な審査用分類です。",
+      "es": "Categoría temporal de moderación cuando no encaja otra opción."
+    },
+    "discoverable": false
+  }
+]

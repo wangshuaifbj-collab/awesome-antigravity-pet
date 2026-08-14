@@ -1,0 +1,68 @@
+name: Sync request catalog
+
+on:
+  issues:
+    types: [opened, edited, labeled, unlabeled, closed, reopened, assigned]
+  issue_comment:
+    types: [created, edited, deleted]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-request-catalog
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+  issues: read
+
+jobs:
+  sync:
+    if: >-
+      github.event_name != 'issue_comment' ||
+      contains(github.event.issue.labels.*.name, 'type: request')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh request catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run requests
+
+      - name: Publish changed snapshot
+        id: publish
+        run: |
+          if git diff --quiet -- requests.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add requests.json
+          git commit -m "chore: sync pet request catalog"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh site and request statistics
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run deploy-web.yml --ref main
+          gh workflow run deploy-stats.yml --ref main

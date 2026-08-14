@@ -1,0 +1,23 @@
+{
+  "slug": "kiko--untko",
+  "pet_slug": "kiko",
+  "author_slug": "untko",
+  "name": "Kiko",
+  "author": "untko",
+  "author_handle": "untko",
+  "author_url": "https://github.com/untko",
+  "primary_category": "Animals",
+  "canonical_key": "original/untko/kiko",
+  "tags": ["gecko", "animal", "3d-toy", "color-changing", "expressive", "v2"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "https://github.com/untko/codex-pet-kiko",
+  "license": "CC BY-NC 4.0. The creator owns or controls the Kiko artwork and authorizes its redistribution and modification under CC BY-NC 4.0, without warranty.",
+  "description": "A cheerful color-changing gecko companion with expressive animations and curious eyes.",
+  "preview_image": "../../assets/previews/kiko--untko/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "dadeab52face9c15e29a9e5e28ae3860b9634ebf4ce7aca42b59c484bd6f3a2f"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "tuantuan--jbbom",
+  "pet_slug": "tuantuan",
+  "author_slug": "jbbom",
+  "name": "团团",
+  "author": "JbBom",
+  "author_handle": "JbBom",
+  "author_url": "https://github.com/JbBom",
+  "primary_category": "Animals",
+  "tags": ["cat", "kitten", "orange-white", "pixel-art", "codex"],
+  "collections": ["animal-companions"],
+  "source_type": "github",
+  "source_url": "https://github.com/JbBom/tuantuan-codex-pet",
+  "license": "MIT License",
+  "description": "A soft, friendly orange-and-white shorthair kitten for Codex.",
+  "preview_image": "../../assets/previews/tuantuan--jbbom/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/tuantuan--jbbom/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/tuantuan--jbbom/gifs"
+  },
+  "spritesheet_sha256": "1b3b74e0688ad5db0b1e242eee4aa6facc746456f66cfe810877813b3ef65b62"
+}

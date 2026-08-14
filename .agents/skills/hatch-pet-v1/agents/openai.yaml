@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hatch Pet v1"
+  short_description: "Maintain legacy 8x9 Codex pets"
+  default_prompt: "Use $hatch-pet-v1 to create or repair a legacy Codex v1 pet with the 8x9, 1536x1872 atlas contract. Infer missing names/descriptions, use $imagegen for the base and grounded row strips, generate running-right before deciding whether running-left can be safely mirrored, then use this skill's deterministic scripts to validate and package the pet."

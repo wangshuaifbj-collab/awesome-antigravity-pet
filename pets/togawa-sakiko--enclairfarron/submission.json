@@ -1,0 +1,38 @@
+{
+  "slug": "togawa-sakiko--enclairfarron",
+  "pet_slug": "togawa-sakiko",
+  "author_slug": "enclairfarron",
+  "name": "Togawa Sakiko",
+  "localized_names": {
+    "en": "Togawa Sakiko",
+    "zh": "丰川祥子"
+  },
+  "author": "法隆",
+  "author_handle": "enclairfarron",
+  "author_url": "https://github.com/enclairfarron",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "fictional/bang-dream/togawa-sakiko",
+  "tags": [
+    "anime",
+    "bang-dream",
+    "ave-mujica",
+    "togawa-sakiko",
+    "fan-art",
+    "ai-generated",
+    "chibi",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://anime.bang-dream.com/avemujica/character/",
+  "license": "Non-commercial use only. AI-assisted fan-art Codex pet by 法隆; no official affiliation or commercial use permitted.",
+  "source_notes": "法隆 independently generated and assembled this polished 2D v2 pet with Codex Hatch Pet from a supplied character reference. The reference is not included in the package, and its pixels were not directly cropped or traced into the final atlas. The source URL is the official BanG Dream! Ave Mujica character page used for attribution, not the source of the final pixels.",
+  "description": "A polished chibi fan-art Codex pet inspired by Togawa Sakiko, with long silver-blue twin-tails, amber eyes, a cream ruffled blouse, a black ribbon, a gray plaid skirt, and poised task reactions.",
+  "preview_image": "../../assets/previews/togawa-sakiko--enclairfarron/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "bfa6860e6a61a84c33128f97d900ead9150cb94fcbbc60773d801e1c5d229bfa"
+}

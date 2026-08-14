@@ -1,0 +1,39 @@
+{
+  "slug": "xingxingren--legeling",
+  "pet_slug": "xingxingren",
+  "author_slug": "legeling",
+  "canonical_key": "original/star-person",
+  "name": "星星人",
+  "localized_names": {
+    "en": "Star Person",
+    "zh": "星星人"
+  },
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "collections": [],
+  "tags": [
+    "star-person",
+    "star",
+    "chibi",
+    "scarf",
+    "community-request",
+    "v2",
+    "ai-generated"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/100",
+  "source_notes": "Independently AI-generated community reinterpretation based on the visual reference attached to Issue #100; no reference pixels were copied. The requester provided no attribution or license terms for the uploaded reference; repository use is non-commercial only.",
+  "license": "Non-commercial use only. Independently AI-generated community fan art based on a community request; no source pixels copied.",
+  "description": "An original AI-generated Star Person community pet with a warm orange face, yellow star cap, red-and-cream scarf, and readable 16-direction look loop. Non-commercial use only.",
+  "preview_image": "../../assets/previews/xingxingren--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/xingxingren--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/xingxingren--legeling/gifs"
+  }
+}

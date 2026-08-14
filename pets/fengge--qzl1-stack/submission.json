@@ -1,0 +1,24 @@
+{
+  "slug": "fengge--qzl1-stack",
+  "pet_slug": "fengge",
+  "author_slug": "qzl1-stack",
+  "name": "峰哥",
+  "author": "qzl1-stack",
+  "author_handle": "qzl1-stack",
+  "author_url": "https://github.com/qzl1-stack",
+  "primary_category": "Human Avatars",
+  "canonical_key": "original/qzl1-stack/fengge",
+  "tags": ["human-avatar", "pixel-art", "pinwheel", "blessing"],
+  "collections": [],
+  "source_type": "independently-ai-generated-from-private-reference-video",
+  "source_url": "",
+  "source_notes": "The final pet pixels were independently AI-generated and adapted by qzl1-stack from a private blessing video supplied as visual and motion reference. The reference video is not included in the submission, and no source-video pixels are directly cropped or reused in the final spritesheet.",
+  "license": "Personal and repository use only; non-commercial use only. Commercial use is prohibited.",
+  "description": "A pixel-art human avatar based on a private blessing video, cheerfully spinning a pink pinwheel through Codex task states.",
+  "preview_image": "../../assets/previews/fengge--qzl1-stack/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "6cc21b0a67c641c68c81e39140fbc63438078fbbfdaa1e79cbb251e06e31d1df"
+}

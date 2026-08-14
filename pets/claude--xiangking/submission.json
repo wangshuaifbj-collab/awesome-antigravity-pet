@@ -1,0 +1,24 @@
+{
+  "slug": "claude--xiangking",
+  "pet_slug": "claude",
+  "author_slug": "xiangking",
+  "name": "Claude",
+  "author": "XiangWang",
+  "author_handle": "xiangking",
+  "author_url": "https://github.com/xiangking",
+  "primary_category": "Mascots",
+  "tags": ["orange", "pixel-art", "blocky", "cute", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/xiangking/Claude-style-Codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/claude--xiangking/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/claude--xiangking/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/claude--xiangking/gifs"
+  },
+  "spritesheet_sha256": "7526ef8cd736c3ac4fcb6ea97bedc98e52ef2b0d06f6749201df119a3f0ae3be"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "saber--petdex-zhenyou-ling",
+  "pet_slug": "saber",
+  "author_slug": "petdex-zhenyou-ling",
+  "name": "Saber",
+  "localized_names": {
+    "en": "Saber",
+    "zh": "阿尔托莉雅"
+  },
+  "author": "真宵 绫.",
+  "author_handle": "真宵 绫.",
+  "primary_category": "Anime Characters",
+  "tags": ["fate", "pixel-art", "chibi"],
+  "collections": ["fate"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/saber",
+  "source_pet_json": "https://assets.petdex.dev/pets/saber-f1d13215f002/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/saber--petdex-zhenyou-ling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/saber--petdex-zhenyou-ling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/saber--petdex-zhenyou-ling/gifs"
+  },
+  "spritesheet_sha256": "6e9da7a6cd1d00ebd9a41e66bf9e8a7f4eb97bb2ea4c8b6097d359b5f58b01e1"
+}

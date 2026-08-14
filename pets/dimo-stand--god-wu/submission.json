@@ -1,0 +1,26 @@
+{
+  "slug": "dimo-stand--god-wu",
+  "pet_slug": "dimo-stand",
+  "author_slug": "god-wu",
+  "name": "Dimo",
+  "author": "god_wu",
+  "author_handle": "god-wu",
+  "primary_category": "Game Characters",
+  "tags": ["animated", "mascot", "game", "cute", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/dimo-stand",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "Dimo is a lively blue-and-white small fantasy sprite, like a kitten-fox crossed with a baby dragon, brave and energetic.",
+  "platform_owner_id": "250b9103-b79a-4fc4-b378-d282f3811587",
+  "platform_owner_handle": "god-wu",
+  "platform_uploaded_at": "2026-05-07T06:07:47.709913+00:00",
+  "platform_view_count": 212,
+  "platform_like_count": 10,
+  "platform_tags": ["animated", "mascot", "game", "cute"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1778134067709/dimo-stand/spritesheet.webp",
+  "spritesheet_sha256": "952a231633d9041e618876efc6d4fb5a754d19bb9c3074e0ba4524c2788d7f73",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

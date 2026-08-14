@@ -1,0 +1,32 @@
+{
+  "slug": "isaac--foggy-whale",
+  "pet_slug": "isaac",
+  "author_slug": "foggy-whale",
+  "name": "Isaac",
+  "author": "Foggywhale",
+  "author_handle": "Foggy-whale",
+  "author_url": "https://github.com/Foggy-whale",
+  "primary_category": "Game Characters",
+  "canonical_key": "the-binding-of-isaac/isaac",
+  "tags": [
+    "the-binding-of-isaac",
+    "isaac",
+    "pixel-art",
+    "game-character",
+    "chibi"
+  ],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/Foggy-whale",
+  "license": "由投稿者本人制作；仅限非商业使用，禁止商用。",
+  "description": "由 Foggywhale 制作，以《The Binding of Isaac》中的 Isaac 为原型的像素风 Codex 宠物。",
+  "preview_image": "../../assets/previews/isaac--foggy-whale/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/isaac--foggy-whale/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/isaac--foggy-whale/gifs"
+  },
+  "spritesheet_sha256": "9f2f4468f067b9fe7b4e09c7b38e585b24c6d09ff2b30be9fbfd3421a37d4b34"
+}

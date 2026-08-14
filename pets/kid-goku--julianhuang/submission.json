@@ -1,0 +1,73 @@
+{
+  "slug": "kid-goku--julianhuang",
+  "pet_slug": "kid-goku",
+  "author_slug": "julianhuang",
+  "name": "Kid Goku",
+  "localized_names": {
+    "en": "Kid Goku",
+    "zh": "小悟空"
+  },
+  "author": "JulianHuang",
+  "author_handle": "julianhuang",
+  "author_url": "https://codex-pets.net/users/julianhuang",
+  "primary_category": "Anime Characters",
+  "canonical_key": "dragon-ball/son-goku-child",
+  "tags": [
+    "anime",
+    "dragon-ball",
+    "son-goku",
+    "martial-arts",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["dragon-ball"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/kid-goku-classic-actions",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny Codex pet based on kid Son Goku with classic Dragon Ball action rows.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "d90d1597-0d76-4ed4-9480-3f8584d5e354",
+  "platform_owner_handle": "julianhuang",
+  "platform_uploaded_at": "2026-05-03T12:39:26.910248+00:00",
+  "platform_view_count": 921,
+  "platform_like_count": 18,
+  "platform_download_count": 0,
+  "platform_tags": ["anime", "pixel"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777811966910/kid-goku-classic-actions/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "kid-goku-classic-actions",
+    "manifestBytes": 242,
+    "statesDetected": 9,
+    "spritesheetBytes": 2132712
+  },
+  "spritesheet_sha256": "16d68306a891f0aa68e68be9ec6000ae9d11fff240ad0f9d525fa9a403c53ac8",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "dde3776f15d5ddf64abcb381e21f28494139648d32617eb0a954ab93368da2ff",
+    "output_sha256": "16d68306a891f0aa68e68be9ec6000ae9d11fff240ad0f9d525fa9a403c53ac8",
+    "visible_edge_pixels_changed": 48334,
+    "transparent_rgb_pixels_cleared": 680869,
+    "cells_with_visible_changes": 16,
+    "representative_cell": "r7c2"
+  }
+}

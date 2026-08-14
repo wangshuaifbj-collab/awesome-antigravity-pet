@@ -1,0 +1,24 @@
+{
+  "slug": "apu--xchangee",
+  "pet_slug": "apu",
+  "author_slug": "xchangee",
+  "name": "Apu",
+  "author": "tal",
+  "author_handle": "xchangee",
+  "author_url": "https://github.com/xchangee",
+  "primary_category": "Mascots",
+  "tags": ["apu", "helper", "round", "cute", "pixel-art", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/xchangee/apu-codex-pet",
+  "license": "MIT License",
+  "preview_image": "../../assets/previews/apu--xchangee/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/apu--xchangee/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/apu--xchangee/gifs"
+  },
+  "spritesheet_sha256": "818ad5152a7a693dbbd76977e18bf75f09f1a57291a03ad27c7d6b20cb117732"
+}

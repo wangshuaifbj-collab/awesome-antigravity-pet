@@ -1,0 +1,8 @@
+{
+  "id": "salary-cat--zuochunjie",
+  "displayName": "月薪喵",
+  "description": "一只会陪你工作的月薪喵，保留原作棕白配色和捂鼻招牌动作。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

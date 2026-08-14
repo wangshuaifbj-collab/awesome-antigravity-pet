@@ -1,0 +1,38 @@
+{
+  "slug": "jolyne-cujoh--d2682787206-sys",
+  "pet_slug": "jolyne-cujoh",
+  "author_slug": "d2682787206-sys",
+  "name": "Jolyne Cujoh",
+  "localized_names": {
+    "en": "Jolyne Cujoh",
+    "zh": "徐伦"
+  },
+  "author": "d2682787206-sys",
+  "author_handle": "d2682787206-sys",
+  "author_url": "https://github.com/d2682787206-sys",
+  "primary_category": "Anime Characters",
+  "canonical_key": "jojos-bizarre-adventure/jolyne-cujoh",
+  "tags": [
+    "anime",
+    "jojos-bizarre-adventure",
+    "jolyne-cujoh",
+    "pixel-art",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/d2682787206-sys/jojo-pet",
+  "source_notes": "AI-generated pixel-art fan-art adaptation based on contributor-supplied reference material.",
+  "license": "Non-commercial use only; I confirm I have the right to submit this AI-generated fan-art Codex pet.",
+  "description": "A pixel-art Jolyne Cujoh Codex pet with green twin buns, a dark blue combat outfit, nine animation states, and 16 look directions.",
+  "preview_image": "../../assets/previews/jolyne-cujoh--d2682787206-sys/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/jolyne-cujoh--d2682787206-sys/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/jolyne-cujoh--d2682787206-sys/gifs"
+  },
+  "spritesheet_sha256": "faf9d285f86f28b8c9a71caeb00fa1771fda0e93a2edb91a2b4621e13ccd2a04"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "isekaijoucho--siiverash",
+  "pet_slug": "isekaijoucho",
+  "author_slug": "siiverash",
+  "name": "Isekaijoucho",
+  "description": "An Isekaijoucho-inspired fan-art Codex pet with long wavy silver hair, a vivid blue flower ornament, a white-and-ice-blue dress palette, and a compact chibi pixel sprite identity.",
+  "author": "SiIverAsh",
+  "author_handle": "SiIverAsh",
+  "author_url": "https://github.com/SiIverAsh",
+  "primary_category": "Anime Characters",
+  "canonical_key": "kamitsubaki/isekaijoucho",
+  "tags": [
+    "kamitsubaki-studio",
+    "isekaijoucho",
+    "virtual-singer",
+    "pixel-art",
+    "hatch-pet"
+  ],
+  "collections": ["kamitsubaki-studio"],
+  "source_type": "fan-art",
+  "source_url": "https://kamitsubaki.jp/artist/isekaijoucho/",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/isekaijoucho--siiverash/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

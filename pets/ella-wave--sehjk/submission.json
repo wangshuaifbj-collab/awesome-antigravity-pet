@@ -1,0 +1,27 @@
+{
+  "slug": "ella-wave--sehjk",
+  "pet_slug": "ella-wave",
+  "author_slug": "sehjk",
+  "name": "Ella Wave",
+  "author": "sehjk",
+  "author_handle": "sehjk",
+  "primary_category": "Animals",
+  "tags": ["codex-pets", "v1"],
+  "collections": ["animal-companions"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/ella-wave",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "A tiny Codex digital pet inspired by Ella, a curious black-and-white cat with chartreuse eyes, a pink nose, mask-like face patches, white chest, and a warm orange flank patch. Hover variant: uses the waving animation when Codex triggers hover jump.",
+  "platform_owner_id": "7c0d5692-863d-4b06-ad22-a03bc880ebfd",
+  "platform_owner_handle": "sehjk",
+  "platform_uploaded_at": "2026-05-02T07:05:45.830096+00:00",
+  "platform_view_count": 452,
+  "platform_like_count": 17,
+  "platform_tags": [],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777705545830/ella-wave/spritesheet.webp",
+  "spritesheet_sha256": "c4653393786da7cd15413fba07628c62de84dbd1994c24dfa6a5b11274824081",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

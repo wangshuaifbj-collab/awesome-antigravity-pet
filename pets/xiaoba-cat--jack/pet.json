@@ -1,0 +1,8 @@
+{
+  "id": "xiaoba-cat--jack",
+  "displayName": "小八猫",
+  "description": "一只有德、有趣又会说话的可爱猫咪。A cute, talkative cat with a kind and virtuous heart.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "animal"
+}

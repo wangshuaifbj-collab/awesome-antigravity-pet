@@ -1,0 +1,66 @@
+{
+  "slug": "doraemon--xueshi",
+  "pet_slug": "doraemon",
+  "author_slug": "xueshi",
+  "name": "Doraemon",
+  "localized_names": {
+    "en": "Doraemon",
+    "zh": "哆啦A梦"
+  },
+  "author": "xueshi",
+  "author_handle": "xueshi",
+  "author_url": "https://codex-pets.net/users/xueshi",
+  "primary_category": "Anime Characters",
+  "canonical_key": "doraemon/doraemon",
+  "tags": ["anime", "doraemon", "robot-cat", "pixel", "v1", "codex-pets"],
+  "collections": ["doraemon"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/doraemon",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A compact blue robot-cat Codex pet inspired by 哆啦A梦, simplified into a pixel-adjacent desktop mascot.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "88bb2009-028a-4e42-a7c3-eb1de7c9d842",
+  "platform_owner_handle": "xueshi",
+  "platform_uploaded_at": "2026-05-02T12:23:07.069991+00:00",
+  "platform_view_count": 508,
+  "platform_like_count": 15,
+  "platform_download_count": 0,
+  "platform_tags": ["animated", "pixel", "anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777724587069/doraemon/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "doraemon",
+    "manifestBytes": 221,
+    "statesDetected": 9,
+    "spritesheetBytes": 1910048
+  },
+  "spritesheet_sha256": "a094dfda4054d63c69470e9ce2e240f0f51ef4798ce484bad08590e52eb5135c",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "1af435fc385dc935522edf13cefbe994c7c078ced46463b66ad6e401f72464c8",
+    "output_sha256": "a094dfda4054d63c69470e9ce2e240f0f51ef4798ce484bad08590e52eb5135c",
+    "visible_edge_pixels_changed": 47849,
+    "transparent_rgb_pixels_cleared": 760432,
+    "cells_with_visible_changes": 25,
+    "representative_cell": "r2c1"
+  }
+}

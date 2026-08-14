@@ -1,0 +1,22 @@
+{
+  "slug": "wucanrou--ch",
+  "pet_slug": "wucanrou",
+  "author_slug": "ch",
+  "name": "金渐层（午餐肉）",
+  "author": "ch",
+  "author_handle": "huanchu0213-ui",
+  "author_url": "https://github.com/huanchu0213-ui",
+  "primary_category": "Animals",
+  "collections": ["animal-companions"],
+  "canonical_key": "original/huanchu0213-ui/wucanrou",
+  "tags": ["cat", "golden-shaded", "animal-companion", "ai-generated"],
+  "source_type": "original-ai-generated",
+  "final_asset_provenance": "Independently AI-generated from private photo references supplied by the author; the final spritesheet does not reuse pixels from the reference photos.",
+  "license": "Non-commercial use only.",
+  "description": "一只圆脸绿眼、粉鼻、金灰渐层短毛、体态敦实且尾尖较深的猫咪 Codex 宠物。",
+  "preview_image": "../../assets/previews/wucanrou--ch/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}

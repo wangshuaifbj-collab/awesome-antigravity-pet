@@ -1,0 +1,73 @@
+{
+  "slug": "violet--lazenca",
+  "pet_slug": "violet",
+  "author_slug": "lazenca",
+  "name": "Violet",
+  "localized_names": {
+    "en": "Violet",
+    "zh": "薇尔莉特"
+  },
+  "author": "Lazenca",
+  "author_handle": "lazenca",
+  "author_url": "https://codex-pets.net/users/lazenca",
+  "primary_category": "Anime Characters",
+  "canonical_key": "violet-evergarden/violet-evergarden",
+  "tags": [
+    "anime",
+    "violet-evergarden",
+    "violet",
+    "auto-memory-doll",
+    "v1",
+    "codex-pets"
+  ],
+  "collections": ["violet-evergarden"],
+  "source_type": "codex-pets-community-upload-authorized",
+  "source_url": "https://codex-pets.net/share/violet",
+  "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
+  "description": "A tiny chibi digital pet inspired by Violet Evergarden with blonde hair, blue eyes, ribboned dress, and delicate mechanical gloves.",
+  "redistribution_permission": {
+    "status": "confirmed-by-maintainer",
+    "confirmed_at": "2026-07-18",
+    "scope": "non-commercial repository redistribution"
+  },
+  "platform_owner_id": "e4c62be3-e87f-412b-b028-9b73b3395022",
+  "platform_owner_handle": "lazenca",
+  "platform_uploaded_at": "2026-05-02T15:29:47.163509+00:00",
+  "platform_view_count": 265,
+  "platform_like_count": 18,
+  "platform_download_count": 0,
+  "platform_tags": ["anime"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777735787163/violet/spritesheet.webp",
+  "platform_validation_report": {
+    "cellSize": "192x208",
+    "atlasSize": "1536x1872",
+    "manifestId": "violet",
+    "manifestBytes": 241,
+    "statesDetected": 9,
+    "spritesheetBytes": 2128156
+  },
+  "spritesheet_sha256": "c172ca845c2732334cae121d0a35c02d406b482219bd62143ccea3c7797beeb7",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-18",
+    "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
+    "chroma_key_strategy": "per-cell mode of fully transparent RGB pixels",
+    "edge_radius": 5,
+    "strength": 1,
+    "spill_tolerance": 0.15,
+    "minimum_saturation": 0.1,
+    "alpha_preserved": true,
+    "visual_review": "passed all 9 action rows",
+    "output_replaced": true,
+    "input_sha256": "80a750a3f3fe76ecdf15aadd0cfd6084c16e5d0ef2b4e5db06e960ef92a13d1d",
+    "output_sha256": "c172ca845c2732334cae121d0a35c02d406b482219bd62143ccea3c7797beeb7",
+    "visible_edge_pixels_changed": 56900,
+    "transparent_rgb_pixels_cleared": 852543,
+    "cells_with_visible_changes": 27,
+    "representative_cell": "r7c5"
+  }
+}

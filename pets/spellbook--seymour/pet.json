@@ -1,0 +1,8 @@
+{
+  "id": "spellbook--seymour",
+  "displayName": "Spellbook",
+  "description": "An open magical book that talks without eyes, carrying quiet wisdom with small attached magic around its pages.",
+  "spriteVersionNumber": 1,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "object"
+}

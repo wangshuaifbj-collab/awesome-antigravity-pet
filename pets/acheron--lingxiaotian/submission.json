@@ -1,0 +1,40 @@
+{
+  "slug": "acheron--lingxiaotian",
+  "pet_slug": "acheron",
+  "author_slug": "lingxiaotian",
+  "name": "Acheron",
+  "localized_names": { "en": "Acheron", "zh": "黄泉" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "acheron", "sword", "purple"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "An Acheron-inspired fan-art Codex pet with long dark-purple hair, a red hair accent, a tiny sword silhouette, and a calm lethal mood.",
+  "preview_image": "../../assets/previews/acheron--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/acheron--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/acheron--lingxiaotian/gifs"
+  },
+  "spritesheet_sha256": "fc34319c614cebcfbd7efabb10b9bcebaef039bc487c243402b791f607c9cfda",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual removal of detached purple crop fragments in row 6 frames 2, 3, 4, and 7",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "4e71876d6658729c1be8cc6644e37f13452a0ed5244025dc251da16f2b49adb6",
+    "output_sha256": "fc34319c614cebcfbd7efabb10b9bcebaef039bc487c243402b791f607c9cfda",
+    "visible_pixels_changed": 4578,
+    "artifact_pixels_removed": 4578,
+    "cells_with_visible_changes": 4,
+    "manual_qa": "All 9 rows reviewed on white, gray, and black backgrounds; only detached crop fragments were removed, with Acheron's purple hair, magenta edge shading, red hair accessory, sword, and clothing preserved."
+  }
+}

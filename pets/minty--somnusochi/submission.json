@@ -1,0 +1,25 @@
+{
+  "slug": "minty--somnusochi",
+  "pet_slug": "minty",
+  "author_slug": "somnusochi",
+  "name": "Minty",
+  "author": "Somnusochi",
+  "author_handle": "Somnusochi",
+  "author_url": "https://github.com/Somnusochi",
+  "primary_category": "Original Characters",
+  "tags": ["mint", "anime", "look-directions", "pixel-art", "codex-v2"],
+  "source_type": "github",
+  "source_url": "https://github.com/Somnusochi/minty-codex-pet",
+  "license": "MIT License",
+  "description": "A mint-haired animated companion with nine activity animations and sixteen v2 look directions.",
+  "preview_image": "../../assets/previews/minty--somnusochi/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/minty--somnusochi/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/minty--somnusochi/gifs"
+  },
+  "spritesheet_sha256": "f50fa768ae82a9874a9429174d0dc69f35ff0937f827a1f5805317ca3a6f4d89"
+}

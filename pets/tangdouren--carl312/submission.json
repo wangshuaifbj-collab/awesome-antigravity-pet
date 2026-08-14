@@ -1,0 +1,25 @@
+{
+  "slug": "tangdouren--carl312",
+  "pet_slug": "tangdouren",
+  "author_slug": "carl312",
+  "name": "Tangdouren",
+  "author": "Carl-312",
+  "author_handle": "Carl-312",
+  "author_url": "https://github.com/Carl-312",
+  "primary_category": "Human Avatars",
+  "tags": ["chibi", "person", "brown-hair", "pixel-art", "codex"],
+  "source_type": "github",
+  "source_url": "https://github.com/Carl-312/codex-pet-tangdouren",
+  "license": "MIT License",
+  "description": "A chibi big-headed girl pet with side-parted brown bob hair and glossy eyes.",
+  "preview_image": "../../assets/previews/tangdouren--carl312/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/tangdouren--carl312/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/tangdouren--carl312/gifs"
+  },
+  "spritesheet_sha256": "216b994b833f54fef6f719c6c42e116e666fa7d7d2b40f31f5d2acb872a8411a"
+}

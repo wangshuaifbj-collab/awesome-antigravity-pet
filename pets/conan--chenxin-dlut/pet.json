@@ -1,0 +1,7 @@
+{
+  "id": "conan--chenxin-dlut",
+  "displayName": "Conan Edogawa",
+  "description": "A tiny human boy detective pet based on Conan's own recognizable look, not transformed into an animal.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "character"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "tingyun--lingxiaotian",
+  "pet_slug": "tingyun",
+  "author_slug": "lingxiaotian",
+  "name": "Tingyun",
+  "localized_names": { "en": "Tingyun", "zh": "停云" },
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "tags": ["anime", "honkai-star-rail", "tingyun", "fox-ears", "gold-brown"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A Tingyun-inspired fan-art Codex pet with fox ears, a plush tail, green eyes, and a warm gold-brown palette in a compact chibi sprite style.",
+  "preview_image": "../../assets/previews/tingyun--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/tingyun--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/tingyun--lingxiaotian/gifs"
+  },
+  "spritesheet_sha256": "18c19bc5f493c11f37b83f0d2a2bb861525ab1adf3b05eaba407c1fd9210796a",
+  "edge_cleanup": {
+    "status": "completed",
+    "processed_at": "2026-07-19",
+    "algorithm": "manual removal of detached adjacent-frame tail and purple crop fragments in row 2 frames 2 through 7",
+    "alpha_preserved": false,
+    "output_replaced": true,
+    "input_sha256": "f5d4892b2cd6bf7b3f77fea1d6c6d13a66a72130dba40fe771661b96d7d0993d",
+    "output_sha256": "18c19bc5f493c11f37b83f0d2a2bb861525ab1adf3b05eaba407c1fd9210796a",
+    "visible_pixels_changed": 2024,
+    "artifact_pixels_removed": 2024,
+    "cells_with_visible_changes": 6,
+    "manual_qa": "All 9 rows reviewed on white, gray, and black backgrounds; only detached crop fragments were removed, with Tingyun's brown hair, fox ears, tail, gold-red clothing, purple edge shading, and running poses preserved."
+  }
+}

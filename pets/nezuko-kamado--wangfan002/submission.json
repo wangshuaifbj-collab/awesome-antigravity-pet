@@ -1,0 +1,29 @@
+{
+  "slug": "nezuko-kamado--wangfan002",
+  "pet_slug": "nezuko-kamado",
+  "author_slug": "wangfan002",
+  "name": "祢豆子 Q版 丰富动作",
+  "localized_names": {
+    "en": "Nezuko Kamado",
+    "zh": "灶门祢豆子"
+  },
+  "author": "wangfan002",
+  "author_handle": "wangfan002",
+  "primary_category": "Anime Characters",
+  "tags": ["demon-slayer", "pixel-art", "chibi"],
+  "collections": ["demon-slayer"],
+  "source_type": "petdex",
+  "source_url": "https://petdex.dev/pets/nezuko-kamado",
+  "source_pet_json": "https://assets.petdex.dev/pets/nezuko-kamado-88555432bbcf/petjson.json",
+  "license": "Source author terms; personal non-commercial use only",
+  "preview_image": "../../assets/previews/nezuko-kamado--wangfan002/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/nezuko-kamado--wangfan002/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/nezuko-kamado--wangfan002/gifs"
+  },
+  "spritesheet_sha256": "8d9c3ca244516d03028973e5262f5160494c341bd7c4fd3c900ef413b6197f83"
+}

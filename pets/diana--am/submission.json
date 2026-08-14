@@ -1,0 +1,26 @@
+{
+  "slug": "diana--am",
+  "pet_slug": "diana",
+  "author_slug": "am",
+  "name": "Diana",
+  "author": "AM",
+  "author_handle": "am",
+  "primary_category": "Original Characters",
+  "tags": ["cute", "robot", "anime", "game", "codex-pets", "v1"],
+  "source_type": "codex-pets-community-upload",
+  "source_url": "https://codex-pets.net/share/diana",
+  "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
+  "description": "Happy pale doll-like sci-fi child pet in a futuristic cobalt survival coat.",
+  "platform_owner_id": "d923051e-ed10-4e7d-9697-e57f1db6e12c",
+  "platform_owner_handle": "am",
+  "platform_uploaded_at": "2026-05-02T12:26:22.095328+00:00",
+  "platform_view_count": 543,
+  "platform_like_count": 10,
+  "platform_tags": ["cute", "robot", "anime", "game"],
+  "platform_spritesheet_url": "https://codex-pets.net/assets/pets/v/1777724782095/diana/spritesheet.webp",
+  "spritesheet_sha256": "b7686974b2e1b857ce9f3b7f0322dbda15ee0988781cee890958a3f5543f95c1",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
