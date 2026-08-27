@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "antigravity-pet"
 version = "2.0.0"
-description = "Antigravity Desktop Pet Runtime - Native animated desktop companions supporting 193+ Codex SpriteSheet characters"
+description = "Antigravity Desktop Pet Runtime - Native animated desktop companions supporting 193+ SpriteSheet characters"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [

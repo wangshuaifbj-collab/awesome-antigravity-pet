@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Pet Catalog and Metadata Scanner.
-Discovers, indexes and categorizes all 193+ Codex SpriteSheet pet packages.
+Discovers, indexes and categorizes all 193+ Antigravity SpriteSheet pet packages.
 """
 
 import json

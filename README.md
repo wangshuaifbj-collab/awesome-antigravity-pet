@@ -2,8 +2,6 @@
 
 # 🚀 Awesome Antigravity Pet
 
-English | [简体中文](./docs/zh-CN/README.md)
-
 <p><strong>✨ The native animated desktop companion for Google Antigravity 2.0 with 193+ high-res characters and real-time reasoning lifecycle sync.</strong></p>
 
 <img src="https://raw.githubusercontent.com/wangshuaifbj-collab/awesome-antigravity-pet/main/assets/cover/awesome-antigravity-pet-cover.png" alt="Awesome Antigravity Pet Hero Cover Banner" width="100%">

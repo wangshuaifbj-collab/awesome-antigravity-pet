@@ -3,7 +3,7 @@ from enum import Enum
 
 
 class PetAction(Enum):
-    """Codex standard action rows mapped to row indexes."""
+    """Standard Antigravity pet action rows mapped to row indexes."""
     IDLE = "idle"                # Row 0: 待机呼吸
     RUNNING_RIGHT = "running-right"  # Row 1: 向右奔跑
     RUNNING_LEFT = "running-left"    # Row 2: 向左奔跑

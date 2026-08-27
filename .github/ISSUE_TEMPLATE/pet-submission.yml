@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         <!-- pet-flow: submission -->
-        Use this form only when a nearly finished, non-commercial pet still cannot become a pull request after visual repair and GitHub authorization retry. The preferred path is **Submit a pet with Codex** on [codexpet.top](https://codexpet.top), which aims to open a focused pull request. This issue does not automatically upload local files or create a pull request.
+        Use this form to submit a finished, non-commercial pet package (`pet.json`, `submission.json`, `spritesheet.webp`) for review and inclusion.
   - type: textarea
     id: blocker
     attributes:
@@ -149,7 +149,7 @@ body:
     id: description
     attributes:
       label: Short description
-      placeholder: A chibi electric schoolgirl Codex pet inspired by Misaka Mikoto.
+      placeholder: A chibi electric schoolgirl animated pet inspired by Misaka Mikoto.
     validations:
       required: true
   - type: textarea
