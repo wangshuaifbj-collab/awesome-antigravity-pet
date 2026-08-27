@@ -1,21 +1,22 @@
 {
-  "hooks": {
+  "antigravity-pet": {
     "PreInvocation": [
       {
+        "type": "command",
         "command": "python -m antigravity_pet.utils.notify think",
         "description": "Notify Antigravity desktop pet when thinking begins"
       }
     ],
     "PreToolUse": [
       {
-        "command": "python -m antigravity_pet.utils.notify code",
-        "description": "Notify Antigravity desktop pet when executing tools"
-      }
-    ],
-    "Stop": [
-      {
-        "command": "python -m antigravity_pet.utils.notify done",
-        "description": "Notify Antigravity desktop pet when agent completes a turn"
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -m antigravity_pet.utils.notify code",
+            "description": "Notify Antigravity desktop pet when executing tools"
+          }
+        ]
       }
     ],
     "PostToolUse": [
@@ -23,10 +24,18 @@
         "matcher": "*",
         "hooks": [
           {
+            "type": "command",
             "command": "python -m antigravity_pet.utils.notify post-tool",
             "description": "Notify Antigravity desktop pet if tool execution failed"
           }
         ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python -m antigravity_pet.utils.notify done",
+        "description": "Notify Antigravity desktop pet when agent completes a turn"
       }
     ]
   }

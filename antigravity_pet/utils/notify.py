@@ -12,7 +12,7 @@ import subprocess
 from pathlib import Path
 
 PORT = 18999
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 ACTION_MAP = {
     "done": {
